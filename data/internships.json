@@ -1,0 +1,939 @@
+{
+  "generated_at": "2026-05-26T02:07:59+00:00",
+  "total": 25,
+  "companies_scraped": 0,
+  "postings": [
+    {
+      "id": "67b2a40b9a596a48",
+      "company": "Anthropic",
+      "tier": "S+",
+      "title": "Research Engineer Intern, Alignment",
+      "position_category": "AI/ML",
+      "employment_type": "Internship",
+      "cities": [
+        "London"
+      ],
+      "country": "United Kingdom",
+      "location_raw": "London, United Kingdom",
+      "remote": false,
+      "posted_at": "2026-05-18",
+      "deadline": "2026-06-30",
+      "start_date": "2026-09-01",
+      "duration_value": 12,
+      "duration_unit": "weeks",
+      "duration_weeks": 12,
+      "keywords": [
+        "AI Alignment",
+        "JAX",
+        "PyTorch",
+        "Python",
+        "RLHF",
+        "Reinforcement Learning",
+        "training-time interventions",
+        "Training",
+        "Steering"
+      ],
+      "description": "Work directly with the alignment team on training-time interventions and steering for production large language models. Strong PyTorch and distributed training background required. We use Python, JAX experimentation, and reinforcement learning from human feedback (RLHF). 12 weeks summer internship.",
+      "url": "https://www.anthropic.com/jobs/openings",
+      "apply_url": "https://www.anthropic.com/jobs/openings",
+      "source_adapter": "demo",
+      "scraped_at": "2026-05-26T02:07:59+00:00",
+      "city_countries": [
+        "United Kingdom"
+      ]
+    },
+    {
+      "id": "8e66c52a7c480fdb",
+      "company": "OpenAI",
+      "tier": "S+",
+      "title": "Software Engineer Intern, Applied",
+      "position_category": "Software",
+      "employment_type": "Internship",
+      "cities": [
+        "Dublin"
+      ],
+      "country": "Ireland",
+      "location_raw": "Dublin, Ireland",
+      "remote": false,
+      "posted_at": "2026-05-12",
+      "deadline": "2026-07-15",
+      "start_date": "2026-10-01",
+      "duration_value": 6,
+      "duration_unit": "months",
+      "duration_weeks": 26,
+      "keywords": [
+        "Inference Optimization",
+        "Next.js",
+        "Python",
+        "React",
+        "TypeScript",
+        "Surface Area",
+        "retrieval-augmented generation",
+        "Preferred",
+        "Pipeline"
+      ],
+      "description": "Build features in the ChatGPT product surface area. Python, TypeScript, large-scale services. 6 months. Experience with React and Next.js preferred. Work on inference optimization and embeddings for our retrieval-augmented generation pipeline.",
+      "url": "https://openai.com/careers/swe-intern",
+      "apply_url": "https://openai.com/careers/swe-intern",
+      "source_adapter": "demo",
+      "scraped_at": "2026-05-26T02:07:59+00:00",
+      "city_countries": [
+        "Ireland"
+      ]
+    },
+    {
+      "id": "b917879e9f0f8381",
+      "company": "NVIDIA",
+      "tier": "S+",
+      "title": "CUDA Compiler Internship",
+      "position_category": "Systems/Infra",
+      "employment_type": "Internship",
+      "cities": [
+        "Munich"
+      ],
+      "country": "Germany",
+      "location_raw": "Munich, Germany",
+      "remote": false,
+      "posted_at": "2026-04-30",
+      "deadline": "2026-06-01",
+      "start_date": "2026-09-15",
+      "duration_value": 6,
+      "duration_unit": "months",
+      "duration_weeks": 26,
+      "keywords": [
+        "CUDA",
+        "Compilers",
+        "GPU Programming",
+        "High Performance",
+        "LLVM",
+        "Low Latency",
+        "Workloads",
+        "Performance Computing",
+        "Kernel Codegen"
+      ],
+      "description": "Optimize CUDA kernel codegen. C++, LLVM internals. Working on GPU programming, low latency systems, and high performance computing for ML workloads. 6 months.",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/cuda-intern",
+      "apply_url": "https://nvidia.wd5.myworkdayjobs.com/cuda-intern",
+      "source_adapter": "demo",
+      "scraped_at": "2026-05-26T02:07:59+00:00",
+      "city_countries": [
+        "Germany"
+      ]
+    },
+    {
+      "id": "4ebe98ea67ac6640",
+      "company": "Jane Street",
+      "tier": "S+",
+      "title": "Quantitative Trader Intern",
+      "position_category": "Fintech/Quant",
+      "employment_type": "Internship",
+      "cities": [
+        "London"
+      ],
+      "country": "United Kingdom",
+      "location_raw": "London, United Kingdom",
+      "remote": false,
+      "posted_at": "2026-06-15",
+      "deadline": "2026-08-01",
+      "start_date": "2027-06-01",
+      "duration_value": 10,
+      "duration_unit": "weeks",
+      "duration_weeks": 10,
+      "keywords": [
+        "Algorithmic Trading",
+        "Market Making",
+        "OCaml",
+        "Quantitative Research",
+        "Required Quantitative",
+        "Probabilistic Reasoning",
+        "Placement",
+        "Helpful But"
+      ],
+      "description": "Probabilistic reasoning, OCaml exposure helpful but not required. Quantitative research, market making, algorithmic trading. 10 weeks summer placement.",
+      "url": "https://www.janestreet.com/careers/qt-intern",
+      "apply_url": "https://www.janestreet.com/careers/qt-intern",
+      "source_adapter": "demo",
+      "scraped_at": "2026-05-26T02:07:59+00:00",
+      "city_countries": [
+        "United Kingdom"
+      ]
+    },
+    {
+      "id": "444b7fe2badde371",
+      "company": "Hudson River Trading",
+      "tier": "S+",
+      "title": "Algorithm Developer Internship",
+      "position_category": "Fintech/Quant",
+      "employment_type": "Internship",
+      "cities": [
+        "London"
+      ],
+      "country": "United Kingdom",
+      "location_raw": "London, United Kingdom",
+      "remote": false,
+      "posted_at": "2026-05-22",
+      "deadline": "2026-07-30",
+      "start_date": "2026-06-15",
+      "duration_value": 12,
+      "duration_unit": "weeks",
+      "duration_weeks": 12,
+      "keywords": [
+        "Concurrency",
+        "GPU Programming",
+        "Linux Kernel",
+        "Low Latency",
+        "Seat Linux",
+        "low-latency c++",
+        "high-frequency trading"
+      ],
+      "description": "Low-latency C++ in a high-frequency trading research seat. Linux kernel, concurrency, GPU programming. 12 weeks.",
+      "url": "https://www.hudsonrivertrading.com/careers/algo-intern",
+      "apply_url": "https://www.hudsonrivertrading.com/careers/algo-intern",
+      "source_adapter": "demo",
+      "scraped_at": "2026-05-26T02:07:59+00:00",
+      "city_countries": [
+        "United Kingdom"
+      ]
+    },
+    {
+      "id": "f5ac5a713e9eb0fe",
+      "company": "Databricks",
+      "tier": "S+",
+      "title": "Software Engineer Intern, Lakehouse Platform",
+      "position_category": "Software",
+      "employment_type": "Internship",
+      "cities": [
+        "Amsterdam"
+      ],
+      "country": "Netherlands",
+      "location_raw": "Amsterdam, Netherlands",
+      "remote": false,
+      "posted_at": "2026-05-01",
+      "deadline": "2026-06-30",
+      "start_date": "2026-06-01",
+      "duration_value": 12,
+      "duration_unit": "weeks",
+      "duration_weeks": 12,
+      "keywords": [
+        "Distributed Systems",
+        "Iceberg",
+        "Java",
+        "Kafka",
+        "SQL",
+        "Scala",
+        "Spark",
+        "Distributed",
+        "Query Optimizer",
+        "Paths"
+      ],
+      "description": "Build new query optimizer paths in our distributed SQL engine. Spark, Kafka, Apache Iceberg. Scala and Java. Distributed systems. 12 weeks.",
+      "url": "https://databricks.com/careers/lakehouse-intern",
+      "apply_url": "https://databricks.com/careers/lakehouse-intern",
+      "source_adapter": "demo",
+      "scraped_at": "2026-05-26T02:07:59+00:00",
+      "city_countries": [
+        "Netherlands"
+      ]
+    },
+    {
+      "id": "42bbaa391c6d46d9",
+      "company": "Palantir",
+      "tier": "S+",
+      "title": "Forward Deployed Engineer Intern",
+      "position_category": "Software",
+      "employment_type": "Internship",
+      "cities": [
+        "London"
+      ],
+      "country": "United Kingdom",
+      "location_raw": "London, United Kingdom",
+      "remote": false,
+      "posted_at": "2026-05-10",
+      "deadline": "2026-06-20",
+      "start_date": "2026-07-01",
+      "duration_value": 12,
+      "duration_unit": "weeks",
+      "duration_weeks": 12,
+      "keywords": [
+        "Distributed Systems",
+        "Postgres",
+        "Python",
+        "TypeScript",
+        "Solve Hard",
+        "Integration Problems",
+        "Embed"
+      ],
+      "description": "Embed with customers to solve hard data integration problems. Python, TypeScript, Postgres. Distributed systems. 12 weeks.",
+      "url": "https://jobs.lever.co/palantir/fde-intern",
+      "apply_url": "https://jobs.lever.co/palantir/fde-intern",
+      "source_adapter": "demo",
+      "scraped_at": "2026-05-26T02:07:59+00:00",
+      "city_countries": [
+        "United Kingdom"
+      ]
+    },
+    {
+      "id": "7d4d631637e43c30",
+      "company": "Stripe",
+      "tier": "S",
+      "title": "Software Engineer Internship",
+      "position_category": "Software",
+      "employment_type": "Internship",
+      "cities": [
+        "Dublin",
+        "London"
+      ],
+      "country": "Ireland",
+      "location_raw": "Dublin, London, Ireland",
+      "remote": false,
+      "posted_at": "2026-04-22",
+      "deadline": "2026-06-15",
+      "start_date": "2026-06-15",
+      "duration_value": 12,
+      "duration_unit": "weeks",
+      "duration_weeks": 12,
+      "keywords": [
+        "Go",
+        "Java",
+        "Ruby",
+        "Payment Apis",
+        "Idempotency Distributed",
+        "Distributed Transactions",
+        "Apis Idempotency"
+      ],
+      "description": "Payment APIs, idempotency, distributed transactions. Ruby, Java, Go. Payments engineering. 12 weeks summer.",
+      "url": "https://stripe.com/jobs/listing/swe-intern",
+      "apply_url": "https://stripe.com/jobs/listing/swe-intern",
+      "source_adapter": "demo",
+      "scraped_at": "2026-05-26T02:07:59+00:00",
+      "city_countries": [
+        "Ireland",
+        "United Kingdom"
+      ]
+    },
+    {
+      "id": "98f4f8946e65889c",
+      "company": "Cloudflare",
+      "tier": "S",
+      "title": "Systems Engineering Intern",
+      "position_category": "Systems/Infra",
+      "employment_type": "Internship",
+      "cities": [
+        "Lisbon"
+      ],
+      "country": "Portugal",
+      "location_raw": "Lisbon, Portugal",
+      "remote": false,
+      "posted_at": "2026-05-05",
+      "deadline": "2026-06-15",
+      "start_date": "2026-07-01",
+      "duration_value": 12,
+      "duration_unit": "weeks",
+      "duration_weeks": 12,
+      "keywords": [
+        "Linux Kernel",
+        "Low Latency",
+        "Rust",
+        "WebAssembly",
+        "Workers Runtime",
+        "V8 Internals",
+        "Runtime Edge",
+        "Plus"
+      ],
+      "description": "Workers Runtime / edge networking. Rust, V8 internals. WebAssembly. Low latency. Linux kernel knowledge a plus. 12 weeks.",
+      "url": "https://www.cloudflare.com/careers/sysint",
+      "apply_url": "https://www.cloudflare.com/careers/sysint",
+      "source_adapter": "demo",
+      "scraped_at": "2026-05-26T02:07:59+00:00",
+      "city_countries": [
+        "Portugal"
+      ]
+    },
+    {
+      "id": "29b9e664b6d1e3aa",
+      "company": "Snowflake",
+      "tier": "S",
+      "title": "Cloud Engineering Internship",
+      "position_category": "Cloud",
+      "employment_type": "Internship",
+      "cities": [
+        "Dublin"
+      ],
+      "country": "Ireland",
+      "location_raw": "Dublin, Ireland",
+      "remote": false,
+      "posted_at": "2026-05-14",
+      "deadline": "2026-07-20",
+      "start_date": "2026-09-15",
+      "duration_value": 6,
+      "duration_unit": "months",
+      "duration_weeks": 26,
+      "keywords": [
+        "AWS",
+        "Azure",
+        "GCP",
+        "Helm",
+        "Kubernetes",
+        "Terraform",
+        "Cloud Automation"
+      ],
+      "description": "Build cloud automation across AWS/Azure/GCP. Kubernetes, Terraform, Helm. 6 months.",
+      "url": "https://careers.snowflake.com/cloud-intern",
+      "apply_url": "https://careers.snowflake.com/cloud-intern",
+      "source_adapter": "demo",
+      "scraped_at": "2026-05-26T02:07:59+00:00",
+      "city_countries": [
+        "Ireland"
+      ]
+    },
+    {
+      "id": "e31dfcf5cf5b76cf",
+      "company": "ASML",
+      "tier": "S",
+      "title": "System Engineering Internship",
+      "position_category": "Systems/Infra",
+      "employment_type": "Internship",
+      "cities": [
+        "Veldhoven"
+      ],
+      "country": "Netherlands",
+      "location_raw": "Veldhoven, Netherlands",
+      "remote": false,
+      "posted_at": "2026-05-20",
+      "deadline": "2026-08-01",
+      "start_date": "2026-09-01",
+      "duration_value": 6,
+      "duration_unit": "months",
+      "duration_weeks": 26,
+      "keywords": [
+        "Embedded",
+        "Python",
+        "RTOS",
+        "real-time constraints",
+        "Lithography Control"
+      ],
+      "description": "Lithography control systems, real-time constraints. RTOS, embedded systems. C++, Python. 6 months.",
+      "url": "https://www.asml.com/en/careers/sysint",
+      "apply_url": "https://www.asml.com/en/careers/sysint",
+      "source_adapter": "demo",
+      "scraped_at": "2026-05-26T02:07:59+00:00",
+      "city_countries": [
+        "Netherlands"
+      ]
+    },
+    {
+      "id": "34d909ed5b2af2ce",
+      "company": "Spotify",
+      "tier": "S",
+      "title": "Backend Engineering Intern",
+      "position_category": "Software",
+      "employment_type": "Internship",
+      "cities": [
+        "Stockholm"
+      ],
+      "country": "Sweden",
+      "location_raw": "Stockholm, Sweden",
+      "remote": false,
+      "posted_at": "2026-05-15",
+      "deadline": "2026-06-30",
+      "start_date": "2026-06-15",
+      "duration_value": 12,
+      "duration_unit": "weeks",
+      "duration_weeks": 12,
+      "keywords": [
+        "Cassandra",
+        "Java",
+        "Kafka",
+        "Scala",
+        "Music",
+        "java/scala backend"
+      ],
+      "description": "Java/Scala backend services for music platform. Kafka, Cassandra. Microservices. 12 weeks.",
+      "url": "https://lifeatspotify.com/jobs/backend-intern",
+      "apply_url": "https://lifeatspotify.com/jobs/backend-intern",
+      "source_adapter": "demo",
+      "scraped_at": "2026-05-26T02:07:59+00:00",
+      "city_countries": [
+        "Sweden"
+      ]
+    },
+    {
+      "id": "23d289c4bc49b00b",
+      "company": "Adyen",
+      "tier": "A+",
+      "title": "Payment Tech Internship",
+      "position_category": "Fintech/Quant",
+      "employment_type": "Internship",
+      "cities": [
+        "Amsterdam"
+      ],
+      "country": "Netherlands",
+      "location_raw": "Amsterdam, Netherlands",
+      "remote": false,
+      "posted_at": "2026-05-19",
+      "deadline": "2026-07-15",
+      "start_date": "2026-09-01",
+      "duration_value": 6,
+      "duration_unit": "months",
+      "duration_weeks": 26,
+      "keywords": [
+        "Distributed Systems",
+        "Go",
+        "Java",
+        "Payments Distributed",
+        "Merchant Scale",
+        "Adyen S"
+      ],
+      "description": "Build at the global merchant scale of Adyen's processing platform. Java, Go. Payments, distributed systems. 6 months.",
+      "url": "https://careers.adyen.com/vacancies/payment-intern",
+      "apply_url": "https://careers.adyen.com/vacancies/payment-intern",
+      "source_adapter": "demo",
+      "scraped_at": "2026-05-26T02:07:59+00:00",
+      "city_countries": [
+        "Netherlands"
+      ]
+    },
+    {
+      "id": "8a69ddb9a34d1039",
+      "company": "Wise",
+      "tier": "A+",
+      "title": "Platform Engineering Intern",
+      "position_category": "Cloud",
+      "employment_type": "Internship",
+      "cities": [
+        "Tallinn"
+      ],
+      "country": "Estonia",
+      "location_raw": "Tallinn, Estonia",
+      "remote": false,
+      "posted_at": "2026-05-08",
+      "deadline": "2026-06-25",
+      "start_date": "2026-06-15",
+      "duration_value": 12,
+      "duration_unit": "weeks",
+      "duration_weeks": 12,
+      "keywords": [
+        "AWS",
+        "Kubernetes",
+        "Observability",
+        "OpenTelemetry",
+        "multi-region",
+        "k8s-native"
+      ],
+      "description": "K8s-native multi-region platform. Kubernetes, AWS, observability, OpenTelemetry. 12 weeks.",
+      "url": "https://wise.jobs/platform-intern",
+      "apply_url": "https://wise.jobs/platform-intern",
+      "source_adapter": "demo",
+      "scraped_at": "2026-05-26T02:07:59+00:00",
+      "city_countries": [
+        "Estonia"
+      ]
+    },
+    {
+      "id": "a4eb4a81052ac6ad",
+      "company": "Klarna",
+      "tier": "A+",
+      "title": "ML Engineering Internship",
+      "position_category": "AI/ML",
+      "employment_type": "Internship",
+      "cities": [
+        "Stockholm"
+      ],
+      "country": "Sweden",
+      "location_raw": "Stockholm, Sweden",
+      "remote": false,
+      "posted_at": "2026-05-11",
+      "deadline": "2026-06-30",
+      "start_date": "2026-06-20",
+      "duration_value": 12,
+      "duration_unit": "weeks",
+      "duration_weeks": 12,
+      "keywords": [
+        "MLflow",
+        "PyTorch",
+        "scikit-learn",
+        "Risk",
+        "Production Ml"
+      ],
+      "description": "Production ML for risk and personalization. PyTorch, MLflow, scikit-learn. Recommender systems. Embeddings. 12 weeks.",
+      "url": "https://www.klarna.com/careers/ml-intern",
+      "apply_url": "https://www.klarna.com/careers/ml-intern",
+      "source_adapter": "demo",
+      "scraped_at": "2026-05-26T02:07:59+00:00",
+      "city_countries": [
+        "Sweden"
+      ]
+    },
+    {
+      "id": "42567d2d94a5cee5",
+      "company": "Booking.com",
+      "tier": "A+",
+      "title": "Software Developer Internship",
+      "position_category": "Software",
+      "employment_type": "Internship",
+      "cities": [
+        "Amsterdam"
+      ],
+      "country": "Netherlands",
+      "location_raw": "Amsterdam, Netherlands",
+      "remote": false,
+      "posted_at": "2026-05-30",
+      "deadline": "2026-07-15",
+      "start_date": "2026-07-01",
+      "duration_value": 6,
+      "duration_unit": "months",
+      "duration_weeks": 26,
+      "keywords": [
+        "A/B Testing",
+        "Java",
+        "Perl",
+        "sites a/b",
+        "S Largest",
+        "Powering One",
+        "perl/java",
+        "largest e-commerce",
+        "e-commerce sites"
+      ],
+      "description": "Perl/Java services powering one of Europe's largest e-commerce sites. A/B testing, experimentation. 6 months.",
+      "url": "https://jobs.booking.com/swe-intern",
+      "apply_url": "https://jobs.booking.com/swe-intern",
+      "source_adapter": "demo",
+      "scraped_at": "2026-05-26T02:07:59+00:00",
+      "city_countries": [
+        "Netherlands"
+      ]
+    },
+    {
+      "id": "0533a789fda29fba",
+      "company": "Helsing",
+      "tier": "A+",
+      "title": "AI Engineering Internship",
+      "position_category": "AI/ML",
+      "employment_type": "Internship",
+      "cities": [
+        "Munich"
+      ],
+      "country": "Germany",
+      "location_raw": "Munich, Germany",
+      "remote": false,
+      "posted_at": "2026-05-16",
+      "deadline": "2026-07-01",
+      "start_date": "2026-06-15",
+      "duration_value": 12,
+      "duration_unit": "weeks",
+      "duration_weeks": 12,
+      "keywords": [
+        "Computer Vision",
+        "Multimodal",
+        "PyTorch",
+        "Sensor Fusion",
+        "Fusion Problems",
+        "defense-related sensor",
+        "Apply Ml"
+      ],
+      "description": "Apply ML to defense-related sensor fusion problems. PyTorch, computer vision, multimodal models. 12 weeks.",
+      "url": "https://helsing.ai/jobs/ai-intern",
+      "apply_url": "https://helsing.ai/jobs/ai-intern",
+      "source_adapter": "demo",
+      "scraped_at": "2026-05-26T02:07:59+00:00",
+      "city_countries": [
+        "Germany"
+      ]
+    },
+    {
+      "id": "e67fcb287548266c",
+      "company": "Mistral AI",
+      "tier": "S+",
+      "title": "Research Engineer Internship",
+      "position_category": "AI/ML",
+      "employment_type": "Internship",
+      "cities": [
+        "Paris"
+      ],
+      "country": "France",
+      "location_raw": "Paris, France",
+      "remote": false,
+      "posted_at": "2026-05-20",
+      "deadline": "2026-07-15",
+      "start_date": "2026-09-01",
+      "duration_value": 6,
+      "duration_unit": "months",
+      "duration_weeks": 26,
+      "keywords": [
+        "Inference Optimization",
+        "JAX",
+        "PyTorch",
+        "Python",
+        "Train",
+        "Foundation",
+        "Evaluate",
+        "Distillation"
+      ],
+      "description": "Train and evaluate foundation models. Python, PyTorch, JAX. Large language models, inference optimization, model distillation. 6 months.",
+      "url": "https://mistral.ai/careers/research-intern",
+      "apply_url": "https://mistral.ai/careers/research-intern",
+      "source_adapter": "demo",
+      "scraped_at": "2026-05-26T02:07:59+00:00",
+      "city_countries": [
+        "France"
+      ]
+    },
+    {
+      "id": "0a2ed234f8624497",
+      "company": "DeepL",
+      "tier": "A+",
+      "title": "Machine Learning Internship",
+      "position_category": "AI/ML",
+      "employment_type": "Internship",
+      "cities": [
+        "Cologne"
+      ],
+      "country": "Germany",
+      "location_raw": "Cologne, Germany",
+      "remote": false,
+      "posted_at": "2026-05-17",
+      "deadline": "2026-07-01",
+      "start_date": "2026-09-15",
+      "duration_value": 6,
+      "duration_unit": "months",
+      "duration_weeks": 26,
+      "keywords": [
+        "Multimodal",
+        "NLP",
+        "PyTorch",
+        "Translation Quality",
+        "Improve Translation"
+      ],
+      "description": "Improve translation quality with new model architectures. PyTorch, NLP, multimodal. 6 months.",
+      "url": "https://www.deepl.com/careers/ml-intern",
+      "apply_url": "https://www.deepl.com/careers/ml-intern",
+      "source_adapter": "demo",
+      "scraped_at": "2026-05-26T02:07:59+00:00",
+      "city_countries": [
+        "Germany"
+      ]
+    },
+    {
+      "id": "4a1f9fbf74408d3c",
+      "company": "Trade Republic",
+      "tier": "A+",
+      "title": "Backend Engineering Internship",
+      "position_category": "Fintech/Quant",
+      "employment_type": "Internship",
+      "cities": [
+        "Berlin"
+      ],
+      "country": "Germany",
+      "location_raw": "Berlin, Germany",
+      "remote": false,
+      "posted_at": "2026-05-15",
+      "deadline": "2026-06-30",
+      "start_date": "2026-07-01",
+      "duration_value": 6,
+      "duration_unit": "months",
+      "duration_weeks": 26,
+      "keywords": [
+        "Kotlin",
+        "Market Making",
+        "Postgres",
+        "Payments Market",
+        "Integrations",
+        "Trading"
+      ],
+      "description": "Build trading platform backend. Kotlin, Spring, Postgres. Payments, market making integrations. 6 months.",
+      "url": "https://traderepublic.com/careers/backend-intern",
+      "apply_url": "https://traderepublic.com/careers/backend-intern",
+      "source_adapter": "demo",
+      "scraped_at": "2026-05-26T02:07:59+00:00",
+      "city_countries": [
+        "Germany"
+      ]
+    },
+    {
+      "id": "3cb3270caee1f90d",
+      "company": "Personio",
+      "tier": "A",
+      "title": "Backend Internship",
+      "position_category": "Software",
+      "employment_type": "Internship",
+      "cities": [
+        "Munich"
+      ],
+      "country": "Germany",
+      "location_raw": "Munich, Germany",
+      "remote": false,
+      "posted_at": "2026-05-12",
+      "deadline": "2026-08-01",
+      "start_date": "2026-09-01",
+      "duration_value": 6,
+      "duration_unit": "months",
+      "duration_weeks": 26,
+      "keywords": [
+        "Kotlin",
+        "Postgres",
+        "gRPC",
+        "Microservices Postgresql"
+      ],
+      "description": "Kotlin services for HR platform. Microservices, PostgreSQL, gRPC. 6 months.",
+      "url": "https://www.personio.com/careers/backend-intern",
+      "apply_url": "https://www.personio.com/careers/backend-intern",
+      "source_adapter": "demo",
+      "scraped_at": "2026-05-26T02:07:59+00:00",
+      "city_countries": [
+        "Germany"
+      ]
+    },
+    {
+      "id": "bf3368e66ae7571d",
+      "company": "N26",
+      "tier": "A",
+      "title": "Cloud Infrastructure Intern",
+      "position_category": "Cloud",
+      "employment_type": "Internship",
+      "cities": [
+        "Berlin"
+      ],
+      "country": "Germany",
+      "location_raw": "Berlin, Germany",
+      "remote": false,
+      "posted_at": "2026-06-01",
+      "deadline": "2026-07-15",
+      "start_date": "2026-07-01",
+      "duration_value": 6,
+      "duration_unit": "months",
+      "duration_weeks": 26,
+      "keywords": [
+        "AWS",
+        "CI/CD",
+        "Kubernetes",
+        "Terraform",
+        "Regulated Banking",
+        "Banking Environment"
+      ],
+      "description": "K8s + AWS for a regulated banking environment. Terraform, GitOps. CI/CD. 6 months.",
+      "url": "https://n26.com/en/careers/cloud-intern",
+      "apply_url": "https://n26.com/en/careers/cloud-intern",
+      "source_adapter": "demo",
+      "scraped_at": "2026-05-26T02:07:59+00:00",
+      "city_countries": [
+        "Germany"
+      ]
+    },
+    {
+      "id": "4e60f8e701335988",
+      "company": "Zalando",
+      "tier": "A",
+      "title": "Distributed Systems Internship",
+      "position_category": "Systems/Infra",
+      "employment_type": "Internship",
+      "cities": [
+        "Berlin"
+      ],
+      "country": "Germany",
+      "location_raw": "Berlin, Germany",
+      "remote": false,
+      "posted_at": "2026-05-25",
+      "deadline": "2026-07-10",
+      "start_date": "2026-06-15",
+      "duration_value": 12,
+      "duration_unit": "weeks",
+      "duration_weeks": 12,
+      "keywords": [
+        "Distributed Systems",
+        "Kafka",
+        "Kubernetes",
+        "Low Latency",
+        "Scala",
+        "Retail Scale",
+        "Order Fulfillment"
+      ],
+      "description": "Order fulfillment at European retail scale. Scala, Kafka, Kubernetes. Distributed systems, low latency. 12 weeks.",
+      "url": "https://jobs.zalando.com/ds-intern",
+      "apply_url": "https://jobs.zalando.com/ds-intern",
+      "source_adapter": "demo",
+      "scraped_at": "2026-05-26T02:07:59+00:00",
+      "city_countries": [
+        "Germany"
+      ]
+    },
+    {
+      "id": "4bf647f13c740236",
+      "company": "Doctolib",
+      "tier": "A",
+      "title": "Backend Engineering Intern",
+      "position_category": "Software",
+      "employment_type": "Internship",
+      "cities": [
+        "Paris"
+      ],
+      "country": "France",
+      "location_raw": "Paris, France",
+      "remote": false,
+      "posted_at": "2026-05-19",
+      "deadline": "2026-07-05",
+      "start_date": "2026-09-01",
+      "duration_value": 6,
+      "duration_unit": "months",
+      "duration_weeks": 26,
+      "keywords": [
+        "Postgres",
+        "Redis",
+        "Ruby",
+        "Rails Healthcare"
+      ],
+      "description": "Ruby on Rails healthcare platform. Postgres, Redis. 6 months.",
+      "url": "https://careers.doctolib.com/be-intern",
+      "apply_url": "https://careers.doctolib.com/be-intern",
+      "source_adapter": "demo",
+      "scraped_at": "2026-05-26T02:07:59+00:00",
+      "city_countries": [
+        "France"
+      ]
+    },
+    {
+      "id": "a0e9dfb5a00ddcbd",
+      "company": "Bolt",
+      "tier": "B",
+      "title": "Backend Engineer Intern",
+      "position_category": "Software",
+      "employment_type": "Internship",
+      "cities": [
+        "Tallinn"
+      ],
+      "country": "Estonia",
+      "location_raw": "Tallinn, Estonia",
+      "remote": false,
+      "posted_at": "2026-05-17",
+      "deadline": "2026-06-30",
+      "start_date": "2026-06-15",
+      "duration_value": 12,
+      "duration_unit": "weeks",
+      "duration_weeks": 12,
+      "keywords": [
+        "Go",
+        "Kafka",
+        "Python",
+        "ride-hailing",
+        "Food Delivery",
+        "Delivery Backend"
+      ],
+      "description": "Ride-hailing and food delivery backend services. Go, Python, Kafka. Microservices. 12 weeks.",
+      "url": "https://bolt.eu/careers/be-intern",
+      "apply_url": "https://bolt.eu/careers/be-intern",
+      "source_adapter": "demo",
+      "scraped_at": "2026-05-26T02:07:59+00:00",
+      "city_countries": [
+        "Estonia"
+      ]
+    }
+  ],
+  "stats": [
+    {
+      "company": "DEMO",
+      "ok": true,
+      "raw": 25,
+      "kept": 25
+    }
+  ],
+  "_note": "Demo data. Run `python -m scraper.run` to replace with real scraped data."
+}

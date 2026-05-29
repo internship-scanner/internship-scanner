@@ -1,0 +1,1150 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Internship Scanner</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,600;0,700;1,700&display=swap" rel="stylesheet">
+
+<link href="https://unpkg.com/tabulator-tables@6.2.5/dist/css/tabulator_midnight.min.css" rel="stylesheet">
+
+<style>
+  :root{
+    /* Palette — single dark theme */
+    --onyx:          #111111;
+    --steel-blue:    #7c99b4;
+
+    /* Surfaces step up in neutral grey for hierarchy. Onyx is the canvas;
+       each step adds a tiny bit of brightness to lift cards/toolbars/headers
+       above it without introducing a competing hue. */
+    --bg:         var(--onyx);            /* #111111 — body canvas */
+    --surface:    #181819;                /* header, footer, table */
+    --surface-2:  #1f1f21;                /* toolbar rows */
+    --line:       #2a2a2d;                /* hairline borders */
+    --line-soft:  #232325;                /* row separators inside the table */
+    --text:       #ececef;                /* primary text — soft white */
+    --text-dim:   #a7adb5;                /* dimmed body text */
+    --text-mute:  #6e747b;                /* very dim, for counts/placeholders */
+    --accent:     var(--steel-blue);      /* #7c99b4 — the only accent color */
+    --accent-tint:#2b3645;                /* dark steel-blue wash for selected rows / S pill bg */
+    --accent-hover:#94adc4;               /* steel-blue lightened on hover */
+    --input-bg:   #141415;                /* slightly darker than surface for sunken inputs */
+    --on-accent:  var(--onyx);            /* text color used on top of --accent fills */
+
+    color-scheme: dark;
+  }
+
+  *{ box-sizing: border-box; }
+  html, body{
+    margin: 0; padding: 0;
+    background: var(--bg); color: var(--text);
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+    font-size: 13.5px; line-height: 1.55;
+    min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-feature-settings: "cv11", "ss01", "ss03";
+  }
+
+  /* ====== Header ====== */
+  header{
+    padding: 32px 32px 22px;
+    border-bottom: 1px solid var(--line);
+    background: var(--surface);
+  }
+  .title{
+    display: flex; align-items: center; gap: 14px; flex-wrap: wrap;
+  }
+  h1{
+    font-family: inherit;
+    font-weight: 700;
+    font-style: italic;
+    font-size: clamp(22px, 2.4vw, 28px);
+    letter-spacing: -0.018em;
+    margin: 0; color: var(--text);
+  }
+  .tagline{
+    color: var(--text-dim);
+    font-size: 12px;
+    font-weight: 400;
+  }
+
+  .meta-bar{
+    display: flex; gap: 24px; flex-wrap: wrap;
+    margin-top: 14px; color: var(--text-dim);
+    font-size: 12px; font-weight: 400;
+  }
+  .meta-bar b{ color: var(--text); font-weight: 600; }
+  .meta-bar .pulse{
+    display: inline-block; width: 6px; height: 6px; border-radius: 50%;
+    background: var(--accent); margin-right: 8px;
+    vertical-align: middle;
+  }
+
+  /* ====== Toolbar / filter rows ====== */
+  .toolbar{
+    position: relative;
+    padding: 14px 32px;
+    display: flex; gap: 10px; flex-wrap: wrap; align-items: stretch;
+    border-bottom: 1px solid var(--line);
+    background: var(--surface);
+  }
+  #toolbar-top{ z-index: 4; background: var(--surface); }
+  #toolbar-multiselect{ z-index: 5; background: var(--surface-2); }
+  #toolbar-ranges{ z-index: 3; background: var(--surface-2); }
+
+  .toolbar input[type=search]{
+    background: var(--input-bg);
+    color: var(--text);
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    padding: 9px 12px; font: inherit;
+    min-width: 280px; flex: 1 1 340px;
+    max-width: 480px; outline: none;
+    transition: border-color .15s, box-shadow .15s;
+  }
+  .toolbar input[type=search]::placeholder{ color: var(--text-mute); }
+  .toolbar input[type=search]:focus{
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px var(--accent-tint);
+  }
+
+  .toolbar button{
+    background: var(--input-bg);
+    color: var(--text);
+    border: 1px solid var(--line);
+    padding: 9px 14px; border-radius: 6px;
+    cursor: pointer; font: inherit; font-weight: 500;
+    transition: color .15s, border-color .15s, background .15s;
+  }
+  .toolbar button:hover{
+    color: var(--accent);
+    border-color: var(--accent);
+  }
+  .toolbar button.primary{
+    color: var(--on-accent);
+    background: var(--accent);
+    border-color: var(--accent);
+    font-weight: 600;
+  }
+  .toolbar button.primary:hover{
+    background: var(--accent-hover);
+    border-color: var(--accent-hover);
+    color: var(--on-accent);
+  }
+
+  .toolbar .spacer{ flex: 1; }
+  .summary{
+    color: var(--text-dim); font-size: 12.5px;
+    display: flex; align-items: center; gap: 16px;
+  }
+  .summary b{ color: var(--text); font-weight: 600; }
+  .summary label{ display:flex; align-items:center; gap:6px; cursor: pointer; }
+  .summary input[type=checkbox]{ accent-color: var(--accent); cursor: pointer; }
+
+  /* ====== Multi-select dropdown ====== */
+  .ms{ position: relative; min-width: 140px; }
+  .ms-toggle{
+    background: var(--input-bg);
+    color: var(--text);
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    padding: 9px 30px 9px 12px; font: inherit;
+    cursor: pointer; width: 100%; text-align: left;
+    display: flex; align-items: center; justify-content: space-between; gap: 8px;
+    transition: border-color .15s, box-shadow .15s;
+  }
+  .ms-toggle:hover{ border-color: var(--accent); }
+  .ms.open .ms-toggle{
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px var(--accent-tint);
+  }
+  .ms-toggle::after{
+    content: ""; position: absolute; right: 12px; top: 50%;
+    width: 7px; height: 7px;
+    border-right: 1.5px solid var(--text-dim);
+    border-bottom: 1.5px solid var(--text-dim);
+    transform: translateY(-70%) rotate(45deg);
+    transition: transform .15s;
+  }
+  .ms.open .ms-toggle::after{ transform: translateY(-30%) rotate(-135deg); }
+  .ms-label{
+    color: var(--text-dim);
+    font-size: 12px; font-weight: 400;
+    margin-right: 6px;
+  }
+  .ms-value{
+    color: var(--text); font-weight: 500;
+    overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+  }
+  .ms-value.dim{ color: var(--text-mute); font-weight: 400; }
+
+  .ms-panel{
+    position: absolute; top: calc(100% + 6px); left: 0;
+    background: var(--input-bg);
+    border: 1px solid var(--line);
+    border-radius: 8px; padding: 8px;
+    box-shadow: 0 8px 24px rgba(52, 37, 47, 0.08), 0 1px 3px rgba(52, 37, 47, 0.04);
+    min-width: 240px; max-width: 320px;
+    z-index: 100; display: none;
+  }
+  .ms.open .ms-panel{ display: block; }
+  .ms-search{
+    width: 100%; background: var(--surface-2);
+    color: var(--text);
+    border: 1px solid var(--line);
+    border-radius: 5px; padding: 7px 10px;
+    font: inherit; margin-bottom: 8px; outline: none;
+  }
+  .ms-search::placeholder{ color: var(--text-mute); }
+  .ms-search:focus{ border-color: var(--accent); background: var(--input-bg); }
+  .ms-list{
+    max-height: 280px; overflow-y: auto; overflow-x: hidden;
+    border-top: 1px solid var(--line-soft); padding-top: 4px;
+  }
+  .ms-list::-webkit-scrollbar{ width: 8px; }
+  .ms-list::-webkit-scrollbar-thumb{ background: var(--line); border-radius: 4px; }
+  .ms-list::-webkit-scrollbar-thumb:hover{ background: var(--text-mute); }
+  .ms-list::-webkit-scrollbar-track{ background: transparent; }
+  .ms-opt{
+    display: flex; align-items: center; gap: 9px;
+    padding: 6px 8px; cursor: pointer; border-radius: 5px;
+    user-select: none;
+    color: var(--text);
+  }
+  .ms-opt:hover{ background: var(--surface-2); }
+  .ms-opt input{ accent-color: var(--accent); cursor: pointer; }
+  .ms-opt.all{
+    border-bottom: 1px solid var(--line-soft);
+    margin-bottom: 4px; padding-bottom: 9px;
+    font-weight: 600; color: var(--accent);
+    font-size: 12px;
+  }
+  .ms-opt-label{
+    flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+  }
+  .ms-opt-count{
+    color: var(--text-mute); font-size: 11.5px;
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* ====== Range filter (date or numeric) ====== */
+  .range{
+    display: flex; align-items: stretch;
+    background: var(--input-bg);
+    border: 1px solid var(--line); border-radius: 6px;
+    padding: 4px 10px; gap: 6px; min-width: 240px;
+    transition: border-color .15s, box-shadow .15s;
+  }
+  .range:focus-within{
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px var(--accent-tint);
+  }
+  .range .rl{
+    color: var(--text-dim); font-size: 12px;
+    font-weight: 400;
+    align-self: center; padding-right: 6px;
+  }
+  .range input{
+    background: transparent; color: var(--text);
+    border: 0; padding: 4px 2px; font: inherit; outline: none;
+    width: 100%; min-width: 0;
+  }
+  .range input::placeholder{ color: var(--text-mute); }
+  /* Native date-picker icon: invert so the dark glyph stays visible on the
+     indigo background; opacity dims it when not interacted with. */
+  .range input[type=date]::-webkit-calendar-picker-indicator{
+    cursor: pointer; opacity: 0.5;
+    filter: invert(0.85);
+  }
+  .range input[type=date]::-webkit-calendar-picker-indicator:hover{ opacity: 1; }
+  .range .sep{ color: var(--text-mute); align-self: center; }
+  .range .num{ max-width: 60px; }
+  .range select{
+    background: transparent; border: 0;
+    color: var(--text-dim); font: inherit; font-size: 12px;
+    outline: none; cursor: pointer;
+    align-self: center; padding: 0 4px;
+  }
+  .range button.clr{
+    background: transparent; border: 0;
+    color: var(--text-mute); cursor: pointer;
+    padding: 0 4px; font-size: 16px; line-height: 1;
+    align-self: center;
+  }
+  .range button.clr:hover{ color: var(--text); }
+
+  /* ====== Tabulator overrides ====== */
+  #table-wrap{ padding: 0 32px 32px; }
+  #table{ margin-top: 18px; }
+
+  .tabulator{
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    font-family: inherit;
+    font-size: 13px;
+    color: var(--text);
+  }
+  .tabulator .tabulator-header,
+  .tabulator .tabulator-header .tabulator-col{
+    background: var(--surface-2) !important;
+    border-bottom: 1px solid var(--line) !important;
+    border-right: 1px solid var(--line-soft) !important;
+  }
+  .tabulator .tabulator-header .tabulator-col-title{
+    color: var(--text-dim);
+    font-weight: 500;
+    font-size: 11.5px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+  }
+  .tabulator-row{
+    background: var(--surface) !important;
+    border-bottom: 1px solid var(--line-soft) !important;
+  }
+  .tabulator-row.tabulator-row-even{ background: var(--surface) !important; }
+  .tabulator-row:hover{ background: var(--surface-2) !important; }
+  .tabulator-row.tabulator-selected{
+    background: var(--accent-tint) !important;
+    box-shadow: inset 2px 0 0 var(--accent);
+  }
+  .tabulator-row .tabulator-cell{
+    border-right: 1px solid var(--line-soft);
+    color: var(--text);
+    padding: 11px 12px;
+  }
+  .tabulator-row .tabulator-cell:last-child{ border-right: 0; }
+
+  /* Tabulator's sort arrows are baked into the simple stylesheet as dark
+     triangles; dim them and let the column color show through so they remain
+     visible on either theme. */
+  .tabulator .tabulator-col .tabulator-col-content .tabulator-col-sorter .tabulator-arrow{
+    opacity: 0.4;
+  }
+  .tabulator .tabulator-col.tabulator-sortable.tabulator-col-sorter-element:hover{
+    background: var(--surface-2) !important;
+  }
+  .tabulator .tabulator-col .tabulator-arrow{
+    border-bottom-color: var(--text-dim) !important;
+    border-top-color: var(--text-dim) !important;
+  }
+  /* Tabulator's built-in checkbox uses image sprites; replace with a CSS-only
+     box that respects the theme. */
+  .tabulator-row .tabulator-cell.tabulator-row-handle,
+  .tabulator-header .tabulator-col[tabulator-field="false"]{ /* selection col */ }
+  /* Placeholder / empty state */
+  .tabulator-placeholder{
+    color: var(--text-dim) !important;
+    background: var(--surface) !important;
+  }
+  .tabulator-placeholder span{
+    color: var(--text-dim) !important;
+  }
+
+  /* ====== Pills & chips ====== */
+  .tier-pill{
+    display: inline-block; padding: 2px 8px;
+    border-radius: 4px; font-weight: 600; font-size: 11px;
+    letter-spacing: 0.02em;
+    background: var(--surface-2);
+    color: var(--text);
+    border: 1px solid var(--line);
+  }
+  /* Tier emphasis: only S+ gets full prominence with the accent fill;
+     S uses a darker steel-blue wash; A+/A/B stay neutral. */
+  .tier-Sp{
+    background: var(--accent);
+    color: var(--on-accent);
+    border-color: var(--accent);
+  }
+  .tier-S{
+    background: var(--accent-tint);
+    color: var(--accent-hover);
+    border-color: var(--accent-tint);
+  }
+  .tier-Ap, .tier-A, .tier-B{
+    /* keep neutral, content-first */
+  }
+
+  .cat-pill{
+    display: inline-block; padding: 2px 8px; border-radius: 999px;
+    font-size: 11px; font-weight: 500;
+    background: var(--surface-2);
+    border: 1px solid var(--line);
+    color: var(--text-dim);
+  }
+
+  .kw{
+    display: inline-block; font-size: 10.5px;
+    background: var(--surface-2);
+    color: var(--text-dim);
+    padding: 2px 7px; border-radius: 3px;
+    margin: 0 4px 2px 0;
+    border: 1px solid var(--line-soft);
+  }
+
+  .url-link{
+    color: var(--accent);
+    text-decoration: none;
+    font-weight: 500;
+    border-bottom: 1px solid transparent;
+    transition: border-color .15s;
+  }
+  .url-link:hover{ border-bottom-color: var(--accent); }
+
+  /* ====== Drawer (selection action bar) ====== */
+  .drawer{
+    position: fixed; right: 24px; bottom: 24px;
+    background: var(--surface-2);
+    color: var(--text);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 10px 16px;
+    display: none; align-items: center; gap: 16px;
+    z-index: 5;
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.5);
+    font-size: 13px;
+  }
+  .drawer.show{ display: flex; }
+  .drawer b{ color: var(--text); font-weight: 700; }
+  .drawer button{
+    background: var(--accent); color: var(--on-accent);
+    border: 0; padding: 7px 13px; border-radius: 5px;
+    font: inherit; font-weight: 600; cursor: pointer;
+    transition: background .15s;
+  }
+  .drawer button:hover{ background: var(--accent-hover); }
+  .drawer button:last-child{
+    background: transparent;
+    color: var(--text-dim);
+    font-weight: 500;
+    opacity: 0.85;
+  }
+  .drawer button:last-child:hover{ opacity: 1; background: transparent; color: var(--text); }
+
+  /* ====== Error banner ====== */
+  #error-banner{
+    background: #3a2a2a; color: #ffc4a8;
+    padding: 12px 18px;
+    border: 1px solid #5a3a32; border-radius: 8px;
+    margin: 18px 32px 0;
+    display: none;
+    font-size: 13px;
+  }
+  #error-banner.show{ display: block; }
+  #error-banner code{
+    background: rgba(255,255,255,0.07); padding: 1px 5px;
+    border-radius: 3px; font-size: 12.5px;
+  }
+
+  /* ====== Footer ====== */
+  footer{
+    color: var(--text-dim); font-size: 12px;
+    padding: 28px 32px;
+    border-top: 1px solid var(--line);
+    background: var(--surface);
+  }
+  footer a{ color: var(--accent); }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="title">
+    <h1>internship-scanner</h1>
+    <span class="tagline">EU · Software · Systems · Cloud · AI · Fintech</span>
+  </div>
+  <div class="meta-bar">
+    <span><span class="pulse"></span>Last update: <b id="updated">—</b></span>
+    <span>Postings: <b id="count">—</b></span>
+    <span>Companies scraped: <b id="companies">—</b></span>
+    <span><a class="url-link" href="data/last_run.md">scrape report ↗</a></span>
+  </div>
+</header>
+
+<div id="error-banner"></div>
+
+<!-- ============== ROW 1: global search & action buttons ============== -->
+<section class="toolbar" id="toolbar-top">
+  <input id="global-search" type="search" placeholder="search across title, company, location, keywords, summary…" />
+  <div class="spacer"></div>
+  <div class="summary">
+    <span>Showing <b id="visible">0</b> of <span id="total">0</span></span>
+  </div>
+  <button id="clear">Clear filters</button>
+  <button id="export" class="primary">Export selected (CSV)</button>
+</section>
+
+<!-- ============== ROW 2: multi-select dropdowns ============== -->
+<section class="toolbar" id="toolbar-multiselect">
+  <div class="ms" data-field="tier" data-label="Tier"></div>
+  <div class="ms" data-field="position_category" data-label="Category"></div>
+  <div class="ms" data-field="company" data-label="Company"></div>
+  <div class="ms" data-field="country" data-label="Country"></div>
+  <div class="ms" data-field="cities" data-label="City"></div>
+  <div class="spacer"></div>
+  <div class="summary">
+    <label><input type="checkbox" id="remote-only"> Remote only</label>
+    <label><input type="checkbox" id="missing-dates"> Hide rows without dates</label>
+  </div>
+</section>
+
+<!-- ============== ROW 3: range filters ============== -->
+<section class="toolbar" id="toolbar-ranges">
+  <div class="range" title="Application deadline range">
+    <span class="rl">Deadline</span>
+    <input type="date" id="deadline-min" aria-label="Deadline min">
+    <span class="sep">→</span>
+    <input type="date" id="deadline-max" aria-label="Deadline max">
+    <button class="clr" data-clear="deadline" title="Clear">×</button>
+  </div>
+
+  <div class="range" title="Start date range">
+    <span class="rl">Start</span>
+    <input type="date" id="start-min" aria-label="Start min">
+    <span class="sep">→</span>
+    <input type="date" id="start-max" aria-label="Start max">
+    <button class="clr" data-clear="start" title="Clear">×</button>
+  </div>
+
+  <div class="range" title="Duration in weeks or months">
+    <span class="rl">Duration</span>
+    <input type="number" min="0" step="1" class="num" id="dur-min" placeholder="min">
+    <span class="sep">→</span>
+    <input type="number" min="0" step="1" class="num" id="dur-max" placeholder="max">
+    <select id="dur-unit" style="background:transparent;border:0;color:var(--text-dim);font:inherit;outline:none;">
+      <option value="weeks">weeks</option>
+      <option value="months">months</option>
+    </select>
+    <button class="clr" data-clear="duration" title="Clear">×</button>
+  </div>
+</section>
+
+<section id="table-wrap">
+  <div id="table"></div>
+</section>
+
+<div class="drawer" id="drawer">
+  <span><b id="selcount">0</b> selected</span>
+  <button id="export-sel-2">Export CSV</button>
+  <button id="open-sel">Open all in new tabs</button>
+  <button id="clear-sel">Clear</button>
+</div>
+
+<footer>
+  Data refreshed weekly by a GitHub Actions cron. Roles outside Europe and non-tech roles are filtered out automatically.
+  Source: <a class="url-link" href="https://github.com/">github.com/.../internship-scanner</a>
+</footer>
+
+<script src="https://unpkg.com/tabulator-tables@6.2.5/dist/js/tabulator.min.js"></script>
+<script>
+/* ========================================================================
+   Internship Scanner — frontend script
+   ====================================================================== */
+(async function(){
+  const $ = (s, root) => (root || document).querySelector(s);
+  const $$ = (s, root) => Array.from((root || document).querySelectorAll(s));
+  const errBanner = $("#error-banner");
+
+  /* ---------- Load data ---------- */
+  let payload;
+  try {
+    const r = await fetch("data/internships.json", { cache: "no-store" });
+    if (!r.ok) throw new Error("HTTP " + r.status);
+    payload = await r.json();
+  } catch (e) {
+    errBanner.classList.add("show");
+    errBanner.innerHTML =
+      "<b>No data yet.</b> Run the scraper once: <code>python -m scraper.run</code>. " +
+      "Once <code>data/internships.json</code> exists, this page will populate. " +
+      "(" + e.message + ")";
+    payload = { postings: [], generated_at: null, total: 0, companies_scraped: 0 };
+  }
+
+  const rows = payload.postings || [];
+  $("#updated").textContent = payload.generated_at
+    ? new Date(payload.generated_at).toLocaleString()
+    : "no data";
+  $("#count").textContent = payload.total ?? rows.length;
+  $("#companies").textContent = payload.companies_scraped ?? "—";
+
+  /* ========================================================================
+     Multi-select dropdown component
+     ====================================================================== */
+  const TIER_ORDER = ["S+", "S", "A+", "A", "B"];
+
+  class MultiSelect {
+    constructor(root, { field, label, valueOptions, valuesCount, onChange, sort = "alpha" }) {
+      this.root = root;
+      this.field = field;
+      this.label = label;
+      this.onChange = onChange;
+      this.selected = new Set();          // empty = "all"
+      this.allValues = valueOptions;
+      this.counts = valuesCount;
+      this.sort = sort;
+      this.render();
+    }
+
+    render(){
+      this.root.classList.add("ms");
+      this.root.innerHTML = `
+        <button type="button" class="ms-toggle" aria-haspopup="listbox" aria-expanded="false">
+          <span><span class="ms-label">${this.label}:</span><span class="ms-value dim">All</span></span>
+        </button>
+        <div class="ms-panel" role="listbox">
+          <input type="text" class="ms-search" placeholder="Search ${this.label.toLowerCase()}…">
+          <div class="ms-list"></div>
+        </div>
+      `;
+      this.toggleBtn = $(".ms-toggle", this.root);
+      this.valueLabel = $(".ms-value", this.root);
+      this.searchInput = $(".ms-search", this.root);
+      this.listEl = $(".ms-list", this.root);
+      this.panel = $(".ms-panel", this.root);
+
+      this.toggleBtn.addEventListener("click", (e) => {
+        e.stopPropagation();
+        const wasOpen = this.root.classList.contains("open");
+        // Close other dropdowns.
+        $$(".ms.open").forEach(el => el !== this.root && el.classList.remove("open"));
+        this.root.classList.toggle("open", !wasOpen);
+        if (!wasOpen) setTimeout(() => this.searchInput.focus(), 0);
+        this.toggleBtn.setAttribute("aria-expanded", String(!wasOpen));
+      });
+      this.searchInput.addEventListener("input", () => this.renderList());
+      // Stop the panel from closing itself on inside clicks.
+      this.panel.addEventListener("click", (e) => e.stopPropagation());
+
+      this.renderList();
+    }
+
+    sortedValues(){
+      if (this.sort === "tier") {
+        return [...this.allValues].sort((a, b) => {
+          const ai = TIER_ORDER.indexOf(a); const bi = TIER_ORDER.indexOf(b);
+          return (ai < 0 ? 9 : ai) - (bi < 0 ? 9 : bi);
+        });
+      }
+      return [...this.allValues].sort((a, b) => a.localeCompare(b));
+    }
+
+    renderList(){
+      const q = (this.searchInput.value || "").toLowerCase().trim();
+      const values = this.sortedValues().filter(v => !q || String(v).toLowerCase().includes(q));
+
+      // States:
+      //   - explicitEmpty: nothing selected, "Select all" unchecked
+      //   - selected.size === 0 (and !explicitEmpty): "all" (no filter)
+      //   - otherwise: explicit subset
+      const everythingSelected = !this._explicitEmpty && this.selected.size === 0;
+      const allVisibleSelected = !everythingSelected && !this._explicitEmpty &&
+        values.length > 0 && values.every(v => this.selected.has(v));
+
+      const frag = document.createDocumentFragment();
+
+      const allRow = document.createElement("label");
+      allRow.className = "ms-opt all";
+      allRow.innerHTML = `
+        <input type="checkbox" ${everythingSelected || allVisibleSelected ? "checked" : ""}>
+        <span class="ms-opt-label">Select all${q ? " (filtered)" : ""}</span>
+      `;
+      const allCb = $("input", allRow);
+      allCb.indeterminate = !everythingSelected && !allVisibleSelected &&
+        !this._explicitEmpty && values.some(v => this.selected.has(v));
+      allCb.addEventListener("change", () => {
+        // Distinguish 4 cases by (was 'all'?, now checked?):
+        //  - was all (selected.size == 0) + checked stays true  → no-op
+        //  - was all + checkbox unchecked    → fully deselect everything visible
+        //  - was partial + checked           → add all visible to selection
+        //  - was partial + checkbox unchecked → remove all visible from selection
+        const wasAll = (this.selected.size === 0);
+        const nowChecked = allCb.checked;
+
+        if (wasAll && !nowChecked) {
+          // Deselect every visible value. If no search term, that means
+          // deselect ALL: we mark as "all values explicitly except visible".
+          // With no search term, `values` is everything → result is empty selection.
+          // We need a non-empty placeholder set to distinguish "nothing chosen"
+          // from "all chosen". Use a marker: copy nothing and we treat empty
+          // selection as "nothing".
+          this.selected = new Set();
+          this._explicitEmpty = true;
+        } else if (wasAll && nowChecked) {
+          // No-op; "all" stays "all".
+          return;
+        } else if (!wasAll && nowChecked) {
+          values.forEach(v => this.selected.add(v));
+          if (this.selected.size === this.allValues.size) {
+            this.selected.clear();
+            this._explicitEmpty = false;
+          }
+        } else {
+          // !wasAll && !nowChecked
+          values.forEach(v => this.selected.delete(v));
+          // If user cleared everything visible AND no search filter, that
+          // also means "nothing".
+          if (this.selected.size === 0) this._explicitEmpty = true;
+        }
+        this.renderList();
+        this.syncToggleLabel();
+        this.onChange && this.onChange();
+      });
+      frag.appendChild(allRow);
+
+      // Value rows.
+      for (const v of values) {
+        const isChecked = (!this._explicitEmpty) &&
+          (this.selected.size === 0 || this.selected.has(v));
+        const row = document.createElement("label");
+        row.className = "ms-opt";
+        const count = this.counts.get(v) ?? 0;
+        row.innerHTML = `
+          <input type="checkbox" ${isChecked ? "checked" : ""}>
+          <span class="ms-opt-label">${escapeHtml(String(v))}</span>
+          <span class="ms-opt-count">${count}</span>
+        `;
+        const cb = $("input", row);
+        cb.addEventListener("change", () => {
+          if (this._explicitEmpty) {
+            // Was in "nothing" mode; clicking adds just this value.
+            this._explicitEmpty = false;
+            if (cb.checked) this.selected.add(v);
+          } else if (this.selected.size === 0) {
+            // Was "all" — switch to explicit selection of everything except this one.
+            this.allValues.forEach(x => { if (x !== v) this.selected.add(x); });
+          } else if (cb.checked) {
+            this.selected.add(v);
+            if (this.selected.size === this.allValues.size) {
+              this.selected.clear();
+              this._explicitEmpty = false;
+            }
+          } else {
+            this.selected.delete(v);
+            if (this.selected.size === 0) this._explicitEmpty = true;
+          }
+          this.syncToggleLabel();
+          this.renderList();   // re-render so "Select all" tri-state updates
+          this.onChange && this.onChange();
+        });
+        frag.appendChild(row);
+      }
+
+      this.listEl.replaceChildren(frag);
+    }
+
+    syncToggleLabel(){
+      const valueLabel = this.valueLabel;
+      if (this._explicitEmpty) {
+        valueLabel.textContent = "None";
+        valueLabel.classList.remove("dim");
+        return;
+      }
+      const n = this.selected.size;
+      const total = this.allValues.size;
+      if (n === 0 || n === total) {
+        valueLabel.textContent = "All";
+        valueLabel.classList.add("dim");
+      } else {
+        valueLabel.classList.remove("dim");
+        valueLabel.textContent = (n === 1) ? [...this.selected][0] : `${n} selected`;
+      }
+    }
+
+    matches(rowValue){
+      if (this._explicitEmpty) return false;     // user explicitly cleared everything
+      if (this.selected.size === 0) return true; // "all"
+      // Arrays match if ANY of their elements is in the selection.
+      if (Array.isArray(rowValue)) {
+        return rowValue.some(v => this.selected.has(v));
+      }
+      return this.selected.has(rowValue);
+    }
+
+    clear(){
+      this.selected.clear();
+      this._explicitEmpty = false;
+      this.renderList();
+      this.syncToggleLabel();
+    }
+  }
+
+  // Close any open dropdown on outside click / Escape.
+  document.addEventListener("click", () => $$(".ms.open").forEach(el => el.classList.remove("open")));
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") $$(".ms.open").forEach(el => el.classList.remove("open"));
+  });
+
+  /* ---------- Build dropdown values & counts from data ---------- */
+  // `field` may resolve to a string (e.g. "company") or an array
+  // (e.g. "cities"). Arrays are flattened so each distinct value counts
+  // as one option, no matter how many other cities share its posting.
+  function valuesFor(field){
+    const set = new Set();
+    const counts = new Map();
+    for (const r of rows) {
+      const v = r[field];
+      const items = Array.isArray(v) ? v : (v == null || v === "" ? [] : [v]);
+      for (const item of items) {
+        if (item == null || item === "") continue;
+        set.add(item);
+        counts.set(item, (counts.get(item) || 0) + 1);
+      }
+    }
+    return { set, counts };
+  }
+
+  const multiSelects = {};
+  const fieldConfigs = [
+    { field: "tier",              label: "Tier",     sort: "tier" },
+    { field: "position_category", label: "Category", sort: "alpha" },
+    { field: "company",           label: "Company",  sort: "alpha" },
+    { field: "country",           label: "Country",  sort: "alpha" },
+    { field: "cities",            label: "City",     sort: "alpha" },
+  ];
+  for (const cfg of fieldConfigs) {
+    const root = $(`.ms[data-field='${cfg.field}']`);
+    if (!root) continue;
+    const { set, counts } = valuesFor(cfg.field);
+    multiSelects[cfg.field] = new MultiSelect(root, {
+      field: cfg.field,
+      label: cfg.label,
+      valueOptions: set,
+      valuesCount: counts,
+      sort: cfg.sort,
+      onChange: () => applyFilters(),
+    });
+  }
+
+  /* ========================================================================
+     Tabulator table
+     ====================================================================== */
+  const tierClass = { "S+": "tier-Sp", "S": "tier-S", "A+": "tier-Ap", "A": "tier-A", "B": "tier-B" };
+
+  const table = new Tabulator("#table", {
+    data: rows,
+    layout: "fitColumns",
+    height: "calc(100vh - 330px)",
+    selectableRows: true,
+    movableColumns: true,
+    persistence: { sort: true, filter: false, columns: false },
+    persistenceID: "internship-scanner-v3",
+    initialSort: [
+      { column: "tier", dir: "asc" },
+      { column: "company", dir: "asc" },
+    ],
+    placeholder: rows.length === 0
+      ? "No postings yet — run the scraper."
+      : "No rows match filters",
+    columns: [
+      {
+        formatter: "rowSelection", titleFormatter: "rowSelection", hozAlign: "center",
+        headerSort: false, width: 36,
+      },
+      {
+        title: "Tier", field: "tier", width: 70,
+        sorter: (a, b) => {
+          const o = { "S+": 0, "S": 1, "A+": 2, "A": 3, "B": 4 };
+          return (o[a] ?? 9) - (o[b] ?? 9);
+        },
+        formatter: c => {
+          const v = c.getValue() || "";
+          const cls = tierClass[v] || "";
+          return `<span class="tier-pill ${cls}">${v}</span>`;
+        },
+      },
+      { title: "Company", field: "company", width: 160 },
+      {
+        title: "Position", field: "title", minWidth: 280,
+        formatter: c => {
+          const r = c.getRow().getData();
+          const url = r.apply_url || r.url;
+          return url
+            ? `<a class="url-link" href="${url}" target="_blank" rel="noopener">${escapeHtml(c.getValue())} ↗</a>`
+            : escapeHtml(c.getValue());
+        },
+      },
+      {
+        title: "Category", field: "position_category", width: 130,
+        formatter: c => {
+          const v = c.getValue() || "";
+          const m = { "AI/ML": "cat-AI", "Fintech/Quant": "cat-Fintech",
+                      "Systems/Infra": "cat-Systems", "Cloud": "cat-Cloud",
+                      "Security": "cat-Security", "Data": "cat-Data" };
+          return v ? `<span class="cat-pill ${m[v] || ''}">${escapeHtml(v)}</span>` : "";
+        },
+      },
+      {
+        title: "City", field: "cities", width: 240,
+        // cities[] and city_countries[] are parallel arrays. Render each
+        // city alongside its country: "Berlin, Germany". Multi-city posts
+        // are joined with " · " (e.g. "Dublin, Ireland · London, UK").
+        // If all cities share the same country, collapse to "A, B (Country)".
+        formatter: c => {
+          const r = c.getRow().getData();
+          const cities = r.cities || [];
+          const ctry = r.city_countries || [];
+          if (!cities.length) {
+            // Country-only fallback (e.g. "Remote, Germany").
+            return r.country
+              ? `<span style="color:var(--text-dim);">${escapeHtml(r.country)}</span>`
+              : `<span style="color:var(--text-mute);">·</span>`;
+          }
+          // Determine whether all cities share one country.
+          const uniq = [...new Set(ctry.filter(Boolean))];
+          if (uniq.length <= 1 && cities.length > 1) {
+            // "Dublin, London (Ireland)" style — compact.
+            const country = uniq[0] || "";
+            return `${cities.map(s => escapeHtml(s)).join(", ")}`
+                 + (country ? ` <span style="color:var(--text-dim);">(${escapeHtml(country)})</span>` : "");
+          }
+          // Per-city country (multi-country posting, or single city).
+          return cities.map((city, i) => {
+            const co = ctry[i] || "";
+            return co
+              ? `${escapeHtml(city)}<span style="color:var(--text-dim);">, ${escapeHtml(co)}</span>`
+              : escapeHtml(city);
+          }).join(" · ");
+        },
+        sorter: (a, b) => {
+          const sa = (a || [])[0] || "";
+          const sb = (b || [])[0] || "";
+          return sa.localeCompare(sb);
+        },
+      },
+      {
+        title: "Remote", field: "remote", width: 80, hozAlign: "center",
+        formatter: c => c.getValue()
+          ? `<span style="color: var(--accent); font-weight:600;">✓</span>`
+          : `<span style="color: var(--text-mute);">·</span>`,
+      },
+      {
+        title: "Posted", field: "posted_at", width: 130,
+        sorter: "string",   // ISO strings sort lexicographically = chronologically
+        formatter: c => formatDate(c.getValue()),
+      },
+      {
+        title: "Deadline", field: "deadline", width: 130,
+        sorter: "string",
+        formatter: c => formatDate(c.getValue()),
+      },
+      {
+        title: "Start", field: "start_date", width: 130,
+        sorter: "string",
+        formatter: c => formatDate(c.getValue()),
+      },
+      {
+        title: "Duration", field: "duration_weeks", width: 120,
+        // Sort by the numeric weeks field; display the verified value + unit.
+        formatter: c => {
+          const r = c.getRow().getData();
+          if (r.duration_value && r.duration_unit) {
+            return `${r.duration_value} ${r.duration_unit}`;
+          }
+          return `<span style="color:var(--text-mute);">·</span>`;
+        },
+      },
+      {
+        title: "Keywords", field: "keywords", minWidth: 240,
+        formatter: c => {
+          const a = c.getValue() || [];
+          return a.slice(0, 8).map(k => `<span class="kw">${escapeHtml(k)}</span>`).join("")
+               + (a.length > 8 ? `<span class="kw">+${a.length - 8}</span>` : "");
+        },
+      },
+    ],
+    rowSelectionChanged: (data) => {
+      $("#selcount").textContent = data.length;
+      $("#drawer").classList.toggle("show", data.length > 0);
+    },
+    dataFiltered: (_filters, frows) => {
+      $("#visible").textContent = frows.length;
+      $("#total").textContent = table.getDataCount();
+    },
+  });
+
+  /* ========================================================================
+     Filter pipeline
+     ====================================================================== */
+  function parseDate(s){
+    if (!s) return null;
+    const m = String(s).match(/^(\d{4})-(\d{2})-(\d{2})/);
+    if (!m) return null;
+    const d = new Date(`${m[1]}-${m[2]}-${m[3]}T00:00:00Z`);
+    return isNaN(d) ? null : d;
+  }
+  function inDateRange(value, min, max){
+    const d = parseDate(value);
+    if (min || max) {
+      if (!d) return false;        // empty/unknown dates are excluded when range is active
+      if (min && d < min) return false;
+      if (max && d > max) return false;
+    }
+    return true;
+  }
+
+  function applyFilters(){
+    const q = $("#global-search").value.trim().toLowerCase();
+    const remoteOnly = $("#remote-only").checked;
+    const hideMissingDates = $("#missing-dates").checked;
+
+    const dMin = parseDate($("#deadline-min").value);
+    const dMax = parseDate($("#deadline-max").value);
+    const sMin = parseDate($("#start-min").value);
+    const sMax = parseDate($("#start-max").value);
+
+    const durUnit = $("#dur-unit").value; // weeks | months
+    const durMinIn = parseFloat($("#dur-min").value);
+    const durMaxIn = parseFloat($("#dur-max").value);
+    const durMinW = isFinite(durMinIn) ? (durUnit === "months" ? durMinIn * 4.345 : durMinIn) : null;
+    const durMaxW = isFinite(durMaxIn) ? (durUnit === "months" ? durMaxIn * 4.345 : durMaxIn) : null;
+
+    table.setFilter((data) => {
+      // Multi-selects.
+      for (const cfg of fieldConfigs) {
+        const ms = multiSelects[cfg.field];
+        if (ms && !ms.matches(data[cfg.field])) return false;
+      }
+
+      if (remoteOnly && !data.remote) return false;
+
+      // Date ranges.
+      if (!inDateRange(data.deadline, dMin, dMax)) return false;
+      if (!inDateRange(data.start_date, sMin, sMax)) return false;
+
+      // Duration range (numeric).
+      if (durMinW != null || durMaxW != null) {
+        const w = data.duration_weeks;
+        if (w == null || !isFinite(w)) return false;
+        if (durMinW != null && w < durMinW) return false;
+        if (durMaxW != null && w > durMaxW) return false;
+      }
+
+      if (hideMissingDates && !data.deadline && !data.start_date) return false;
+
+      if (q) {
+        const hay = [
+          data.title, data.company,
+          ...(data.cities || []),
+          data.country, data.location_raw, data.description,
+          ...(data.keywords || []),
+        ].join(" ").toLowerCase();
+        if (!hay.includes(q)) return false;
+      }
+      return true;
+    });
+
+    // Update visible/total counters synchronously after the filter applies.
+    // (Relying on the dataFiltered callback is unreliable across versions.)
+    requestAnimationFrame(() => {
+      const visibleRows = table.getRows("active").length;
+      const totalRows = table.getDataCount();
+      $("#visible").textContent = visibleRows;
+      $("#total").textContent = totalRows;
+    });
+  }
+
+  /* Wire up plain inputs */
+  ["#global-search", "#remote-only", "#missing-dates",
+   "#deadline-min", "#deadline-max", "#start-min", "#start-max",
+   "#dur-min", "#dur-max", "#dur-unit"]
+    .forEach(s => $(s).addEventListener("input", applyFilters));
+
+  /* Clear-buttons inside range widgets */
+  $$("button[data-clear]").forEach(btn => {
+    btn.addEventListener("click", (e) => {
+      e.stopPropagation();
+      const what = btn.dataset.clear;
+      if (what === "deadline") { $("#deadline-min").value = ""; $("#deadline-max").value = ""; }
+      if (what === "start")    { $("#start-min").value = "";    $("#start-max").value = ""; }
+      if (what === "duration") { $("#dur-min").value = "";      $("#dur-max").value = ""; }
+      applyFilters();
+    });
+  });
+
+  /* "Clear filters" master button */
+  $("#clear").addEventListener("click", () => {
+    $("#global-search").value = "";
+    $("#remote-only").checked = false;
+    $("#missing-dates").checked = false;
+    ["#deadline-min","#deadline-max","#start-min","#start-max","#dur-min","#dur-max"]
+      .forEach(s => $(s).value = "");
+    $("#dur-unit").value = "weeks";
+    for (const f in multiSelects) multiSelects[f].clear();
+    applyFilters();
+  });
+
+  /* CSV export */
+  function exportSelected(){
+    const sel = table.getSelectedData();
+    const src = sel.length ? sel : table.getData(true);
+    if (!src.length) { alert("Nothing to export."); return; }
+    const cols = ["tier","company","title","position_category",
+                  "cities","country","remote",
+                  "posted_at","deadline","start_date",
+                  "duration_value","duration_unit","duration_weeks",
+                  "keywords","url"];
+    const escape = (v) => {
+      if (v == null) return "";
+      let s = Array.isArray(v) ? v.join("; ") : String(v);
+      if (/[",\n]/.test(s)) s = '"' + s.replace(/"/g, '""') + '"';
+      return s;
+    };
+    const csv = [cols.join(",")]
+      .concat(src.map(r => cols.map(c => escape(r[c])).join(",")))
+      .join("\n");
+    const blob = new Blob([csv], { type: "text/csv;charset=utf-8" });
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(blob);
+    a.download = `internships_${new Date().toISOString().slice(0,10)}.csv`;
+    a.click();
+    URL.revokeObjectURL(a.href);
+  }
+  $("#export").addEventListener("click", exportSelected);
+  $("#export-sel-2").addEventListener("click", exportSelected);
+  $("#open-sel").addEventListener("click", () => {
+    table.getSelectedData().forEach(r => r.url && window.open(r.url, "_blank", "noopener"));
+  });
+  $("#clear-sel").addEventListener("click", () => table.deselectRow());
+
+  function escapeHtml(s){
+    return String(s ?? "").replace(/[&<>"']/g, (c) => ({
+      "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"
+    }[c]));
+  }
+
+  // Render an ISO date/datetime as "DD-MM-YYYY" (with " HH:MM" if there's a
+  // time component). Returns a dim marker for empty/invalid values so the
+  // column still looks clean.
+  function formatDate(iso) {
+    if (!iso || typeof iso !== "string") {
+      return `<span style="color:var(--text-mute);">·</span>`;
+    }
+    // Accept "YYYY-MM-DD" or "YYYY-MM-DDTHH:MM" or "YYYY-MM-DD HH:MM[:SS]"
+    const m = iso.match(/^(\d{4})-(\d{2})-(\d{2})(?:[T ](\d{2}):(\d{2}))?/);
+    if (!m) return `<span style="color:var(--text-mute);">·</span>`;
+    const [, y, mo, d, hh, mm] = m;
+    let out = `${d}-${mo}-${y}`;
+    if (hh && mm && !(hh === "00" && mm === "00")) {
+      out += ` ${hh}:${mm}`;
+    }
+    return out;
+  }
+
+  $("#visible").textContent = rows.length;
+  $("#total").textContent = rows.length;
+
+  // Run once after table builds so counter reflects actual render state.
+  table.on("tableBuilt", () => {
+    $("#visible").textContent = table.getRows("active").length;
+    $("#total").textContent = table.getDataCount();
+  });
+
+})();
+</script>
+</body>
+</html>

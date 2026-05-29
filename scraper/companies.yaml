@@ -1,0 +1,670 @@
+# Companies to scrape, grouped by tier.
+# Each company has:
+#   adapter: which scraper adapter to use
+#   slug/url/board_id: adapter-specific identifier
+#   tier: S+, S, A+, A, B (used for sorting/visual cue)
+#
+# Adapter types currently supported:
+#   greenhouse        -> https://boards-api.greenhouse.io/v1/boards/{slug}/jobs
+#   lever             -> https://api.lever.co/v0/postings/{slug}?mode=json
+#   ashby             -> https://api.ashbyhq.com/posting-api/job-board/{slug}
+#   smartrecruiters   -> https://api.smartrecruiters.com/v1/companies/{slug}/postings
+#   workday           -> {host}/wday/cxs/{tenant}/{site}/jobs (POST)
+#   custom_playwright -> dedicated module under adapters/custom/<slug>.py
+
+companies:
+
+  # ===== S+ Tier =====
+  - name: OpenAI
+    tier: "S+"
+    adapter: ashby
+    slug: openai
+    careers_url: https://openai.com/careers/search
+
+  - name: Anthropic
+    tier: "S+"
+    adapter: greenhouse
+    slug: anthropic
+    careers_url: https://www.anthropic.com/jobs
+
+  - name: Google
+    tier: "S+"
+    adapter: custom_playwright
+    module: google
+    careers_url: https://www.google.com/about/careers/applications/jobs/results/?employment_type=INTERN
+
+  - name: Meta
+    tier: "S+"
+    adapter: custom_playwright
+    module: meta
+    careers_url: https://www.metacareers.com/jobs/?roles[0]=Internship
+
+  - name: NVIDIA
+    tier: "S+"
+    adapter: workday
+    host: https://nvidia.wd5.myworkdayjobs.com
+    tenant: nvidia
+    site: NVIDIAExternalCareerSite
+    careers_url: https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite
+
+  - name: Jane Street
+    tier: "S+"
+    adapter: custom_playwright
+    module: janestreet
+    careers_url: https://www.janestreet.com/join-jane-street/open-roles/
+
+  - name: Citadel
+    tier: "S+"
+    adapter: custom_playwright
+    module: citadel
+    careers_url: https://www.citadel.com/careers/open-opportunities/
+
+  - name: Hudson River Trading
+    tier: "S+"
+    adapter: greenhouse
+    slug: wehrt
+    careers_url: https://www.hudsonrivertrading.com/careers/
+
+  - name: Two Sigma
+    tier: "S+"
+    adapter: custom_playwright
+    module: twosigma
+    careers_url: https://careers.twosigma.com/careers/OpenRoles
+
+  - name: Databricks
+    tier: "S+"
+    adapter: greenhouse
+    slug: databricks
+    careers_url: https://www.databricks.com/company/careers/open-positions
+
+  - name: Palantir
+    tier: "S+"
+    adapter: lever
+    slug: palantir
+    careers_url: https://www.palantir.com/careers/
+
+  # ===== S Tier =====
+  - name: Amazon Web Services
+    tier: "S"
+    adapter: custom_playwright
+    module: amazon
+    careers_url: https://www.amazon.jobs/en/teams/internships-for-students
+
+  - name: Microsoft
+    tier: "S"
+    adapter: custom_playwright
+    module: microsoft
+    careers_url: https://jobs.careers.microsoft.com/global/en/search?et=Internship
+
+  - name: Stripe
+    tier: "S"
+    adapter: greenhouse
+    slug: stripe
+    careers_url: https://stripe.com/jobs/search
+
+  - name: Snowflake
+    tier: "S"
+    adapter: custom_playwright
+    module: snowflake
+    careers_url: https://careers.snowflake.com/us/en/students
+
+  - name: Cloudflare
+    tier: "S"
+    adapter: greenhouse
+    slug: cloudflare
+    careers_url: https://www.cloudflare.com/careers/jobs/
+
+  - name: Datadog
+    tier: "S"
+    adapter: greenhouse
+    slug: datadog
+    careers_url: https://careers.datadoghq.com/all-jobs/
+
+  - name: MongoDB
+    tier: "S"
+    adapter: greenhouse
+    slug: mongodb
+    careers_url: https://www.mongodb.com/company/careers/
+
+  - name: Elastic
+    tier: "S"
+    adapter: greenhouse
+    slug: elastic
+    careers_url: https://www.elastic.co/about/careers/
+
+  - name: Confluent
+    tier: "S"
+    adapter: greenhouse
+    slug: confluent
+    careers_url: https://careers.confluent.io/
+
+  - name: Spotify
+    tier: "S"
+    adapter: custom_playwright
+    module: spotify
+    careers_url: https://www.lifeatspotify.com/jobs?l=internship
+
+  - name: Apple
+    tier: "S"
+    adapter: custom_playwright
+    module: apple
+    careers_url: https://jobs.apple.com/en-us/search?team=internships-STDNT-INTRN
+
+  - name: Netflix
+    tier: "S"
+    adapter: custom_playwright
+    module: netflix
+    careers_url: https://explore.jobs.netflix.net/careers
+
+  - name: Airbnb
+    tier: "S"
+    adapter: greenhouse
+    slug: airbnb
+    careers_url: https://careers.airbnb.com/
+
+  - name: Adobe
+    tier: "S"
+    adapter: workday
+    host: https://adobe.wd5.myworkdayjobs.com
+    tenant: adobe
+    site: external_experienced
+    careers_url: https://adobe.wd5.myworkdayjobs.com/external_experienced
+
+  - name: ASML
+    tier: "S"
+    adapter: custom_playwright
+    module: asml
+    careers_url: https://www.asml.com/en/careers/find-your-job?contracttype=Internship
+
+  # ===== A+ Tier =====
+  - name: SAP
+    tier: "A+"
+    adapter: custom_playwright
+    module: sap
+    careers_url: https://jobs.sap.com/search/?createNewAlert=false&q=intern&locationsearch=
+
+  - name: Cisco
+    tier: "A+"
+    adapter: custom_playwright
+    module: cisco
+    careers_url: https://jobs.cisco.com/jobs/SearchJobs/?3_5_3=68
+
+  - name: CrowdStrike
+    tier: "A+"
+    adapter: greenhouse
+    slug: crowdstrike
+    careers_url: https://www.crowdstrike.com/careers/
+
+  - name: Dynatrace
+    tier: "A+"
+    adapter: custom_playwright
+    module: dynatrace
+    careers_url: https://careers.dynatrace.com/jobs/
+
+  - name: Hugging Face
+    tier: "A+"
+    adapter: lever
+    slug: huggingface
+    careers_url: https://apply.workable.com/huggingface/
+
+  - name: Oracle
+    tier: "A+"
+    adapter: custom_playwright
+    module: oracle
+    careers_url: https://careers.oracle.com/jobs/#en/sites/jobsearch
+
+  - name: PayPal
+    tier: "A+"
+    adapter: workday
+    host: https://paypal.wd1.myworkdayjobs.com
+    tenant: paypal
+    site: jobs
+    careers_url: https://paypal.wd1.myworkdayjobs.com/jobs
+
+  - name: Wise
+    tier: "A+"
+    adapter: greenhouse
+    slug: wise
+    careers_url: https://wise.jobs/
+
+  - name: Adyen
+    tier: "A+"
+    adapter: smartrecruiters
+    slug: Adyen
+    careers_url: https://careers.adyen.com/vacancies
+
+  - name: Revolut
+    tier: "A+"
+    adapter: smartrecruiters
+    slug: Revolut
+    careers_url: https://www.revolut.com/careers/
+
+  - name: Klarna
+    tier: "A+"
+    adapter: greenhouse
+    slug: klarna
+    careers_url: https://www.klarna.com/careers/
+
+  - name: Booking.com
+    tier: "A+"
+    adapter: custom_playwright
+    module: booking
+    careers_url: https://jobs.booking.com/careers/SearchJobs/?3_5_3=27
+
+  - name: Uber
+    tier: "A+"
+    adapter: custom_playwright
+    module: uber
+    careers_url: https://www.uber.com/global/en/careers/list/?query=intern
+
+  - name: Notion
+    tier: "A+"
+    adapter: greenhouse
+    slug: notion
+    careers_url: https://www.notion.com/careers
+
+  - name: Scale AI
+    tier: "A+"
+    adapter: ashby
+    slug: scaleai
+    careers_url: https://scale.com/careers
+
+  - name: Helsing
+    tier: "A+"
+    adapter: ashby
+    slug: helsing
+    careers_url: https://helsing.ai/jobs
+
+  # ===== A Tier =====
+  - name: N26
+    tier: "A"
+    adapter: greenhouse
+    slug: n26
+    careers_url: https://n26.com/en/careers
+
+  - name: Payhawk
+    tier: "A"
+    adapter: greenhouse
+    slug: payhawk
+    careers_url: https://payhawk.com/careers
+
+  - name: Seqera
+    tier: "A"
+    adapter: lever
+    slug: seqera
+    careers_url: https://seqera.io/careers/
+
+  - name: TravelPerk
+    tier: "A"
+    adapter: greenhouse
+    slug: travelperk
+    careers_url: https://www.travelperk.com/careers/
+
+  - name: Typeform
+    tier: "A"
+    adapter: greenhouse
+    slug: typeform
+    careers_url: https://www.typeform.com/careers/
+
+  - name: Personio
+    tier: "A"
+    adapter: greenhouse
+    slug: personio
+    careers_url: https://www.personio.com/careers/
+
+  - name: Factorial
+    tier: "A"
+    adapter: greenhouse
+    slug: factorialhr
+    careers_url: https://factorialhr.com/careers
+
+  - name: Wallapop
+    tier: "A"
+    adapter: greenhouse
+    slug: wallapop
+    careers_url: https://wallapop.com/careers
+
+  - name: Glovo
+    tier: "A"
+    adapter: greenhouse
+    slug: glovo
+    careers_url: https://jobs.glovoapp.com/
+
+  - name: Red Points
+    tier: "A"
+    adapter: greenhouse
+    slug: redpoints
+    careers_url: https://www.redpoints.com/careers/
+
+  - name: Manychat
+    tier: "A"
+    adapter: greenhouse
+    slug: manychat
+    careers_url: https://manychat.com/careers
+
+  - name: Mirakl
+    tier: "A"
+    adapter: greenhouse
+    slug: mirakl
+    careers_url: https://www.mirakl.com/company/careers
+
+  - name: Hack The Box
+    tier: "A"
+    adapter: greenhouse
+    slug: hackthebox
+    careers_url: https://www.hackthebox.com/careers
+
+  - name: Ericsson
+    tier: "A"
+    adapter: custom_playwright
+    module: ericsson
+    careers_url: https://jobs.ericsson.com/
+
+  - name: Zoom
+    tier: "A"
+    adapter: workday
+    host: https://zoom.wd5.myworkdayjobs.com
+    tenant: zoom
+    site: Zoom
+    careers_url: https://zoom.wd5.myworkdayjobs.com/Zoom
+
+  - name: Zalando
+    tier: "A"
+    adapter: custom_playwright
+    module: zalando
+    careers_url: https://jobs.zalando.com/en/jobs/?employment_type=intern
+
+  # ===== B Tier =====
+  - name: HP
+    tier: "B"
+    adapter: workday
+    host: https://hp.wd5.myworkdayjobs.com
+    tenant: hp
+    site: ExternalCareerSite
+    careers_url: https://hp.wd5.myworkdayjobs.com/ExternalCareerSite
+
+  - name: IBM
+    tier: "B"
+    adapter: custom_playwright
+    module: ibm
+    careers_url: https://www.ibm.com/careers/search?field_keyword_18[0]=Internship
+
+  - name: Huawei
+    tier: "B"
+    adapter: custom_playwright
+    module: huawei
+    careers_url: https://career.huawei.com/reccampportal/portal5/index.html
+
+  - name: eBay
+    tier: "B"
+    adapter: workday
+    host: https://ebay.wd1.myworkdayjobs.com
+    tenant: ebay
+    site: ECG
+    careers_url: https://ebay.wd1.myworkdayjobs.com/ECG
+
+  - name: Lime
+    tier: "B"
+    adapter: greenhouse
+    slug: lime
+    careers_url: https://www.li.me/careers
+
+  - name: Bolt
+    tier: "B"
+    adapter: greenhouse
+    slug: bolt
+    careers_url: https://bolt.eu/en/careers/
+
+  # ===== Additional EU-focused tech companies =====
+
+  # AI labs with EU presence
+  - name: Mistral AI
+    tier: "S+"
+    adapter: custom_playwright
+    module: mistral
+    careers_url: https://mistral.ai/careers
+
+  - name: Aleph Alpha
+    tier: "A+"
+    adapter: greenhouse
+    slug: alephalpha
+    careers_url: https://aleph-alpha.com/jobs
+
+  - name: DeepL
+    tier: "A+"
+    adapter: greenhouse
+    slug: deepl
+    careers_url: https://www.deepl.com/careers
+
+  - name: Black Forest Labs
+    tier: "A+"
+    adapter: ashby
+    slug: bfl
+    careers_url: https://bfl.ai/careers
+
+  - name: Stability AI
+    tier: "A"
+    adapter: greenhouse
+    slug: stabilityai
+    careers_url: https://stability.ai/careers
+
+  - name: Synthesia
+    tier: "A"
+    adapter: greenhouse
+    slug: synthesia
+    careers_url: https://www.synthesia.io/careers
+
+  - name: Cohere
+    tier: "A+"
+    adapter: ashby
+    slug: cohere
+    careers_url: https://cohere.com/careers
+
+  - name: PolyAI
+    tier: "A"
+    adapter: greenhouse
+    slug: polyai
+    careers_url: https://poly.ai/careers/
+
+  # Fintech / banking
+  - name: Trade Republic
+    tier: "A+"
+    adapter: greenhouse
+    slug: traderepublic
+    careers_url: https://traderepublic.com/careers
+
+  - name: Monzo
+    tier: "A+"
+    adapter: greenhouse
+    slug: monzo
+    careers_url: https://monzo.com/careers
+
+  - name: GoCardless
+    tier: "A"
+    adapter: greenhouse
+    slug: gocardless
+    careers_url: https://gocardless.com/careers/
+
+  - name: Pleo
+    tier: "A"
+    adapter: lever
+    slug: pleo
+    careers_url: https://www.pleo.io/careers
+
+  - name: Mollie
+    tier: "A"
+    adapter: greenhouse
+    slug: mollie
+    careers_url: https://jobs.mollie.com/
+
+  - name: Qonto
+    tier: "A"
+    adapter: lever
+    slug: qonto
+    careers_url: https://qonto.com/en/about-us/jobs
+
+  - name: Solaris
+    tier: "B"
+    adapter: greenhouse
+    slug: solarisbank
+    careers_url: https://www.solarisgroup.com/en/careers/
+
+  - name: Pennylane
+    tier: "B"
+    adapter: lever
+    slug: pennylane
+    careers_url: https://www.pennylane.com/careers
+
+  # Mobility / logistics
+  - name: BlaBlaCar
+    tier: "A"
+    adapter: lever
+    slug: blablacar
+    careers_url: https://www.blablacar.com/careers
+
+  - name: Wolt
+    tier: "A"
+    adapter: greenhouse
+    slug: wolt
+    careers_url: https://careers.wolt.com/
+
+  - name: Delivery Hero
+    tier: "A"
+    adapter: smartrecruiters
+    slug: DeliveryHero
+    careers_url: https://careers.deliveryhero.com/
+
+  - name: Flink
+    tier: "B"
+    adapter: greenhouse
+    slug: flinkfood
+    careers_url: https://www.goflink.com/careers/
+
+  - name: Picnic
+    tier: "A"
+    adapter: greenhouse
+    slug: picnic
+    careers_url: https://jobs.picnic.app/
+
+  - name: Gorillas
+    tier: "B"
+    adapter: greenhouse
+    slug: gorillas
+    careers_url: https://gorillas.io/en/careers
+
+  # SaaS / enterprise
+  - name: Doctolib
+    tier: "A"
+    adapter: greenhouse
+    slug: doctolib
+    careers_url: https://careers.doctolib.com/
+
+  - name: Algolia
+    tier: "A"
+    adapter: greenhouse
+    slug: algolia
+    careers_url: https://www.algolia.com/careers/
+
+  - name: Contentful
+    tier: "A"
+    adapter: greenhouse
+    slug: contentful
+    careers_url: https://www.contentful.com/careers/
+
+  - name: Sumup
+    tier: "A"
+    adapter: greenhouse
+    slug: sumup
+    careers_url: https://sumup.com/careers/
+
+  - name: Forto
+    tier: "B"
+    adapter: greenhouse
+    slug: forto
+    careers_url: https://forto.com/en/career/
+
+  - name: Celonis
+    tier: "A"
+    adapter: greenhouse
+    slug: celonis
+    careers_url: https://www.celonis.com/careers/
+
+  - name: 1Password
+    tier: "A"
+    adapter: greenhouse
+    slug: 1password
+    careers_url: https://1password.com/careers
+
+  - name: HashiCorp
+    tier: "A"
+    adapter: greenhouse
+    slug: hashicorp
+    careers_url: https://www.hashicorp.com/jobs
+
+  # Gaming / entertainment
+  - name: Bending Spoons
+    tier: "A"
+    adapter: lever
+    slug: bendingspoons
+    careers_url: https://bendingspoons.com/careers
+
+  - name: King
+    tier: "A"
+    adapter: smartrecruiters
+    slug: king
+    careers_url: https://careers.king.com/
+
+  - name: Mojang Studios
+    tier: "A"
+    adapter: smartrecruiters
+    slug: MojangStudios
+    careers_url: https://careers.mojang.com/
+
+  - name: Sonos
+    tier: "B"
+    adapter: workday
+    host: https://sonos.wd1.myworkdayjobs.com
+    tenant: sonos
+    site: SonosJobOpportunities
+    careers_url: https://sonos.wd1.myworkdayjobs.com/SonosJobOpportunities
+
+  # Industry / hardware
+  - name: Siemens
+    tier: "A"
+    adapter: workday
+    host: https://siemens.wd3.myworkdayjobs.com
+    tenant: siemens
+    site: siemens_careers
+    careers_url: https://siemens.wd3.myworkdayjobs.com/siemens_careers
+
+  - name: Bosch
+    tier: "A"
+    adapter: smartrecruiters
+    slug: BoschGroup
+    careers_url: https://www.bosch.com/careers/
+
+  - name: Infineon
+    tier: "B"
+    adapter: workday
+    host: https://infineon.wd3.myworkdayjobs.com
+    tenant: infineon
+    site: External
+    careers_url: https://infineon.wd3.myworkdayjobs.com/External
+
+  - name: STMicroelectronics
+    tier: "B"
+    adapter: smartrecruiters
+    slug: STMicroelectronicsInternationalNV
+    careers_url: https://www.st.com/content/st_com/en/about/careers.html
+
+  - name: Volocopter
+    tier: "B"
+    adapter: greenhouse
+    slug: volocopter
+    careers_url: https://www.volocopter.com/careers/
+
+  - name: Lilium
+    tier: "B"
+    adapter: greenhouse
+    slug: lilium
+    careers_url: https://lilium.com/careers
