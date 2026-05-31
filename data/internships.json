@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-30T09:38:23+00:00",
-  "total": 310,
+  "generated_at": "2026-05-31T10:37:52+00:00",
+  "total": 311,
   "companies_scraped": 104,
   "postings": [
     {
@@ -40,7 +40,7 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5208218008",
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5208218008",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:08+00:00"
+      "scraped_at": "2026-05-31T10:33:18+00:00"
     },
     {
       "id": "7605bf2a0fdad026",
@@ -82,49 +82,7 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5226862008",
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5226862008",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:08+00:00"
-    },
-    {
-      "id": "6046c9b7b65038c5",
-      "company": "Anthropic",
-      "tier": "S+",
-      "title": "Applied AI Architect, Industries",
-      "position_category": "AI/ML",
-      "employment_type": "Internship",
-      "cities": [
-        "Munich"
-      ],
-      "city_countries": [
-        "Germany"
-      ],
-      "country": "Germany",
-      "location_raw": "Munich, Germany",
-      "remote": false,
-      "posted_at": "2026-04-24",
-      "deadline": "",
-      "start_date": "",
-      "duration_value": null,
-      "duration_unit": "",
-      "duration_weeks": null,
-      "keywords": [
-        "AI Alignment",
-        "C",
-        "LLM",
-        "Python",
-        "P Li",
-        "Li P",
-        "Claude",
-        "Stakeholders",
-        "Executives",
-        "Architect",
-        "Value",
-        "trade-offs"
-      ],
-      "description": "<div class=\"content-intro\"><h2><strong>About Anthropic</strong></h2> <p>Anthropic’s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and business leaders working together to build beneficial AI systems.</p></div><h2 class=\"heading\"><strong>About the role</strong></h2> <p>As an Applied AI team member at Anthropic, you will be a Pre-Sales architect focused on becoming a trusted technical advisor helping large enterprises understand the value of Claude and paint the vision on how they can successfully integrate and deploy Claude into their technology stack. You'll combine your deep technical expertise with customer-facing skills to architect innovative LLM solutions that address complex business challenges while maintaining our high standards for safety and reliability.</p> <p>Working closely with our Sales, Product, and Engineering teams, you'll guide customers from initial technical discovery through successful deployment. You'll leverage your expertise to help customers understand Claude's capabilities, develop evals, and design scalable architectures that maximize the value of our AI systems.</p> <h2 class=\"heading\"><strong>Responsibilities:</strong></h2> <ul> <li> <p>Partner with account executives to deeply understand customer requirements and translate them into technical solutions, ensuring alignment between business objectives and technical implementation</p> </li> <li> <p>Serve as the primary technical advisor to enterprise customers throughout their Claude adoption journey, from discovery to initial evaluation through deployment. You will need to coordinate internally across multiple teams &amp; stakeholders to drive customer success</p> </li> <li> <p>Support customers building with both the Claude API and Claude for Work</p> </li> <li> <p>Create and deliver compelling technical content tailored to different audiences. You will need to be able to spread the gamut from technical deep dives for engineering &amp; development teams up to business value focused conversations with executives</p> </li> <li> <p>Guide technical architecture decisions and help customers integrate Claude effectively into their existing technology stack</p> </li> <li> <p>Help customers develop evaluation frameworks to measure Claude's performance for their specific use cases</p> </li> <li> <p>Identify common integration patterns and contribute insights back to our Product and Engineering teams</p> </li> <li> <p>Travel occasionally to customer sites for workshops, technical deep dives, and relationship building</p> </li> <li> <p>Maintain strong knowledge of the latest developments in LLM capabilities and implementation patterns</p> </li> </ul> <h2 class=\"heading\"><strong>You may be a good fit if you have:</strong></h2> <ul> <li> <p>5+ years of experience in technical customer-facing roles such as Solutions Architect, Sales Engineer, or Technical Account Manager</p> </li> <li>Native German speaker with fluent English proficiency</li> <li> <p>Experience working with enterprise customers, navigating complex buying cycles involving multiple stakeholders</p> </li> <li> <p>Exceptional ability to build relationships with and communicate technical concepts to diverse stakeholders to include C-suite executives, engineering &amp; IT teams, and more</p> </li> <li> <p>Strong technical communication skills with the ability to translate customer requirements between technical and business stakeholders</p> </li> <li> <p>Experience designing scalable cloud architectures and integrating with enterprise systems</p> </li> <li> <p>Comfortable with python</p> </li> <li> <p>Familiarity with common LLM frameworks and tools or a background in machine learning or data science</p> </li> <li> <p>Excitement for engaging in cross-organizational collaboration, working through trade-offs, and balancing competing priorities</p> </li> <li> <p>A love of teaching, mentoring, and helping others succeed</p> </li> <li> <p>Excellent communication and interpersonal skills, able to convey complicated topics in easily understandable terms to a diverse set of external and internal stakeholders. You enjoy engaging in cross-organizational collaboration, working through trade-offs, and balancing competing priorities</p> </li> <li> <p>Passion for thinking creatively about how to use technology in a way that is safe and beneficial, and ultimately furthers the goal of advancing safe AI systems</p> </li> </ul> <p><strong>Deadline to apply:&nbsp;</strong>None. Applications will be reviewed on a rolling basis.&nbsp;</p><div class=\"content-pay-transparency\"><div class=\"pay-input\"><div class=\"description\"><p>The annual compensation range for this role is listed below.&nbsp;</p> <p>For sales roles, the range provided is the role’s On Target Earnings (\"OTE\") range, meaning that the range includes",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/4977624008",
-      "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/4977624008",
-      "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:08+00:00"
+      "scraped_at": "2026-05-31T10:33:18+00:00"
     },
     {
       "id": "a98b1cf7e44e7c0b",
@@ -166,7 +124,49 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5031670008",
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5031670008",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:08+00:00"
+      "scraped_at": "2026-05-31T10:33:18+00:00"
+    },
+    {
+      "id": "6046c9b7b65038c5",
+      "company": "Anthropic",
+      "tier": "S+",
+      "title": "Applied AI Architect, Industries",
+      "position_category": "AI/ML",
+      "employment_type": "Internship",
+      "cities": [
+        "Munich"
+      ],
+      "city_countries": [
+        "Germany"
+      ],
+      "country": "Germany",
+      "location_raw": "Munich, Germany",
+      "remote": false,
+      "posted_at": "2026-04-24",
+      "deadline": "",
+      "start_date": "",
+      "duration_value": null,
+      "duration_unit": "",
+      "duration_weeks": null,
+      "keywords": [
+        "AI Alignment",
+        "C",
+        "LLM",
+        "Python",
+        "P Li",
+        "Li P",
+        "Claude",
+        "Stakeholders",
+        "Executives",
+        "Architect",
+        "Value",
+        "trade-offs"
+      ],
+      "description": "<div class=\"content-intro\"><h2><strong>About Anthropic</strong></h2> <p>Anthropic’s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and business leaders working together to build beneficial AI systems.</p></div><h2 class=\"heading\"><strong>About the role</strong></h2> <p>As an Applied AI team member at Anthropic, you will be a Pre-Sales architect focused on becoming a trusted technical advisor helping large enterprises understand the value of Claude and paint the vision on how they can successfully integrate and deploy Claude into their technology stack. You'll combine your deep technical expertise with customer-facing skills to architect innovative LLM solutions that address complex business challenges while maintaining our high standards for safety and reliability.</p> <p>Working closely with our Sales, Product, and Engineering teams, you'll guide customers from initial technical discovery through successful deployment. You'll leverage your expertise to help customers understand Claude's capabilities, develop evals, and design scalable architectures that maximize the value of our AI systems.</p> <h2 class=\"heading\"><strong>Responsibilities:</strong></h2> <ul> <li> <p>Partner with account executives to deeply understand customer requirements and translate them into technical solutions, ensuring alignment between business objectives and technical implementation</p> </li> <li> <p>Serve as the primary technical advisor to enterprise customers throughout their Claude adoption journey, from discovery to initial evaluation through deployment. You will need to coordinate internally across multiple teams &amp; stakeholders to drive customer success</p> </li> <li> <p>Support customers building with both the Claude API and Claude for Work</p> </li> <li> <p>Create and deliver compelling technical content tailored to different audiences. You will need to be able to spread the gamut from technical deep dives for engineering &amp; development teams up to business value focused conversations with executives</p> </li> <li> <p>Guide technical architecture decisions and help customers integrate Claude effectively into their existing technology stack</p> </li> <li> <p>Help customers develop evaluation frameworks to measure Claude's performance for their specific use cases</p> </li> <li> <p>Identify common integration patterns and contribute insights back to our Product and Engineering teams</p> </li> <li> <p>Travel occasionally to customer sites for workshops, technical deep dives, and relationship building</p> </li> <li> <p>Maintain strong knowledge of the latest developments in LLM capabilities and implementation patterns</p> </li> </ul> <h2 class=\"heading\"><strong>You may be a good fit if you have:</strong></h2> <ul> <li> <p>5+ years of experience in technical customer-facing roles such as Solutions Architect, Sales Engineer, or Technical Account Manager</p> </li> <li>Native German speaker with fluent English proficiency</li> <li> <p>Experience working with enterprise customers, navigating complex buying cycles involving multiple stakeholders</p> </li> <li> <p>Exceptional ability to build relationships with and communicate technical concepts to diverse stakeholders to include C-suite executives, engineering &amp; IT teams, and more</p> </li> <li> <p>Strong technical communication skills with the ability to translate customer requirements between technical and business stakeholders</p> </li> <li> <p>Experience designing scalable cloud architectures and integrating with enterprise systems</p> </li> <li> <p>Comfortable with python</p> </li> <li> <p>Familiarity with common LLM frameworks and tools or a background in machine learning or data science</p> </li> <li> <p>Excitement for engaging in cross-organizational collaboration, working through trade-offs, and balancing competing priorities</p> </li> <li> <p>A love of teaching, mentoring, and helping others succeed</p> </li> <li> <p>Excellent communication and interpersonal skills, able to convey complicated topics in easily understandable terms to a diverse set of external and internal stakeholders. You enjoy engaging in cross-organizational collaboration, working through trade-offs, and balancing competing priorities</p> </li> <li> <p>Passion for thinking creatively about how to use technology in a way that is safe and beneficial, and ultimately furthers the goal of advancing safe AI systems</p> </li> </ul> <p><strong>Deadline to apply:&nbsp;</strong>None. Applications will be reviewed on a rolling basis.&nbsp;</p><div class=\"content-pay-transparency\"><div class=\"pay-input\"><div class=\"description\"><p>The annual compensation range for this role is listed below.&nbsp;</p> <p>For sales roles, the range provided is the role’s On Target Earnings (\"OTE\") range, meaning that the range includes",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/4977624008",
+      "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/4977624008",
+      "source_adapter": "greenhouse",
+      "scraped_at": "2026-05-31T10:33:18+00:00"
     },
     {
       "id": "d10f1215ebf0fe9a",
@@ -206,7 +206,7 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/4977626008",
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/4977626008",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:08+00:00"
+      "scraped_at": "2026-05-31T10:33:18+00:00"
     },
     {
       "id": "a678820f366bda60",
@@ -246,7 +246,7 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/4968059008",
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/4968059008",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:08+00:00"
+      "scraped_at": "2026-05-31T10:33:18+00:00"
     },
     {
       "id": "102e125e8655580d",
@@ -286,46 +286,7 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5116274008",
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5116274008",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:08+00:00"
-    },
-    {
-      "id": "9bc96e7e673a7d6f",
-      "company": "Anthropic",
-      "tier": "S+",
-      "title": "Commercial Counsel, EMEA",
-      "position_category": "AI/ML",
-      "employment_type": "Internship",
-      "cities": [
-        "London"
-      ],
-      "city_countries": [
-        "United Kingdom"
-      ],
-      "country": "United Kingdom",
-      "location_raw": "London, UK",
-      "remote": false,
-      "posted_at": "2026-04-02",
-      "deadline": "",
-      "start_date": "",
-      "duration_value": 48,
-      "duration_unit": "months",
-      "duration_weeks": 209,
-      "keywords": [
-        "Go",
-        "Nbsp Li",
-        "Emea",
-        "Legal",
-        "Commercial",
-        "Transactions",
-        "Agreements",
-        "Deal",
-        "Sizes"
-      ],
-      "description": "<div class=\"content-intro\"><h2><strong>About Anthropic</strong></h2> <p>Anthropic’s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and business leaders working together to build beneficial AI systems.</p></div><p>Anthropic is seeking an exceptional Commercial Counsel to join our founding Commercial Legal team in EMEA! You'll serve as a strategic legal partner to our sales teams, supporting complex deal negotiations and commercial activities that fuel our expansion with leading EMEA companies and organizations across all market segments, from SMB to large enterprises. In this highly impactful role, you'll guide sophisticated technology transactions across diverse industries and client sizes while providing strategic counsel on the unique legal and regulatory considerations for responsible AI deployment throughout the EMEA region.</p> <p><strong>Responsibilities:</strong></p> <ul> <li>Draft, review, and negotiate commercial agreements, with a primary focus on GTM/Sales transactions in EMEA, including enterprise customer contracts&nbsp;</li> <li>Partner closely with Sales and Go-to-Market teams to support deal velocity and provide practical legal guidance&nbsp;</li> <li>Help build and maintain our commercial legal infrastructure, including contract templates, playbooks, and process improvements&nbsp;</li> <li>Identify and escalate legal risks appropriately while supporting business momentum&nbsp;</li> <li>Stay current on legal developments affecting AI technologies</li> <li>Foster relationships with external stakeholders, including clients of all sizes, regulatory bodies, and industry partners across the EMEA region<br><br></li> </ul> <p><strong>You might be a good fit if you have:</strong></p> <ul> <li>Law degree and qualification to practice law in a relevant EMEA jurisdiction</li> <li>At least 4 years of legal experience, ideally with exposure to commercial contracts, SaaS agreements, or technology transactions</li> <li>Clear communication skills and comfort translating legal concepts for non-lawyer audiences&nbsp;</li> <li>A low-ego, collaborative approach to working with colleagues and external partners&nbsp;</li> <li>Curiosity about AI technology, AI Policy, and commitment to responsible AI development&nbsp;</li> <li>Experience navigating multi-stakeholder agreements involving technical and policy considerations</li> <li>Comfort in fast-paced environments with shifting priorities and tight deadlines&nbsp;</li> <li>A \"doer\" attitude—willingness to roll up your sleeves and pitch in where needed</li> </ul> <p><strong>Strong candidates may have:</strong></p> <ul> <li>In-house experience at leading technology companies with EMEA operations</li> <li>Previous experience with AI, machine learning, or other experimental technologies in commercial contexts</li> <li>Experience supporting sales teams across diverse client segments in deal negotiations&nbsp;</li> </ul> <p><strong>Role-specific policy: </strong>For this role, we expect all staff to be able to work from our London office at least 3 days a week, though we encourage you to apply even if you might need some flexibility for an interim period of time.</p><div class=\"content-pay-transparency\"><div class=\"pay-input\"><div class=\"description\"><p>The annual compensation range for this role is listed below.&nbsp;</p> <p>For sales roles, the range provided is the role’s On Target Earnings (\"OTE\") range, meaning that the range includes both the sales commissions/sales bonuses target and annual base salary for the role.</p></div><div class=\"title\">Annual Salary:</div><div class=\"pay-range\"><span>£125,000</span><span class=\"divider\">&mdash;</span><span>£165,000 GBP</span></div></div></div><div class=\"content-conclusion\"><h2><strong>Logistics</strong></h2> <p><strong>Minimum education: </strong>Bachelor’s degree or an equivalent combination of education, training, and/or experience</p> <p><strong>Required field of study:&nbsp;</strong>A field relevant to the role as demonstrated through coursework, training, or professional experience</p> <p><strong>Minimum years of experience: </strong>Years of experience required will correlate with the internal job level requirements for the position</p> <p><strong>Location-based hybrid policy:</strong> Currently, we expect all staff to be in one of our offices at least 25% of the time. However, some roles may require more time in our offices.</p> <p><strong data-stringify-type=\"bold\">Visa sponsorship:</strong>&nbsp;We do sponsor visas! However, we aren't able to successfully sponsor visas for every role and every candidate. But if we make you an offer, we will make every reasonable effort to get you a visa, and we retain an immigration lawyer to help with this.</p> <p><strong>We encourage you to apply even if you do not believe you meet ever",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5142966008",
-      "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5142966008",
-      "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:08+00:00"
+      "scraped_at": "2026-05-31T10:33:18+00:00"
     },
     {
       "id": "9653794ac4444de3",
@@ -364,7 +325,46 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5142971008",
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5142971008",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:08+00:00"
+      "scraped_at": "2026-05-31T10:33:18+00:00"
+    },
+    {
+      "id": "9bc96e7e673a7d6f",
+      "company": "Anthropic",
+      "tier": "S+",
+      "title": "Commercial Counsel, EMEA",
+      "position_category": "AI/ML",
+      "employment_type": "Internship",
+      "cities": [
+        "London"
+      ],
+      "city_countries": [
+        "United Kingdom"
+      ],
+      "country": "United Kingdom",
+      "location_raw": "London, UK",
+      "remote": false,
+      "posted_at": "2026-04-02",
+      "deadline": "",
+      "start_date": "",
+      "duration_value": 48,
+      "duration_unit": "months",
+      "duration_weeks": 209,
+      "keywords": [
+        "Go",
+        "Nbsp Li",
+        "Emea",
+        "Legal",
+        "Commercial",
+        "Transactions",
+        "Agreements",
+        "Deal",
+        "Sizes"
+      ],
+      "description": "<div class=\"content-intro\"><h2><strong>About Anthropic</strong></h2> <p>Anthropic’s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and business leaders working together to build beneficial AI systems.</p></div><p>Anthropic is seeking an exceptional Commercial Counsel to join our founding Commercial Legal team in EMEA! You'll serve as a strategic legal partner to our sales teams, supporting complex deal negotiations and commercial activities that fuel our expansion with leading EMEA companies and organizations across all market segments, from SMB to large enterprises. In this highly impactful role, you'll guide sophisticated technology transactions across diverse industries and client sizes while providing strategic counsel on the unique legal and regulatory considerations for responsible AI deployment throughout the EMEA region.</p> <p><strong>Responsibilities:</strong></p> <ul> <li>Draft, review, and negotiate commercial agreements, with a primary focus on GTM/Sales transactions in EMEA, including enterprise customer contracts&nbsp;</li> <li>Partner closely with Sales and Go-to-Market teams to support deal velocity and provide practical legal guidance&nbsp;</li> <li>Help build and maintain our commercial legal infrastructure, including contract templates, playbooks, and process improvements&nbsp;</li> <li>Identify and escalate legal risks appropriately while supporting business momentum&nbsp;</li> <li>Stay current on legal developments affecting AI technologies</li> <li>Foster relationships with external stakeholders, including clients of all sizes, regulatory bodies, and industry partners across the EMEA region<br><br></li> </ul> <p><strong>You might be a good fit if you have:</strong></p> <ul> <li>Law degree and qualification to practice law in a relevant EMEA jurisdiction</li> <li>At least 4 years of legal experience, ideally with exposure to commercial contracts, SaaS agreements, or technology transactions</li> <li>Clear communication skills and comfort translating legal concepts for non-lawyer audiences&nbsp;</li> <li>A low-ego, collaborative approach to working with colleagues and external partners&nbsp;</li> <li>Curiosity about AI technology, AI Policy, and commitment to responsible AI development&nbsp;</li> <li>Experience navigating multi-stakeholder agreements involving technical and policy considerations</li> <li>Comfort in fast-paced environments with shifting priorities and tight deadlines&nbsp;</li> <li>A \"doer\" attitude—willingness to roll up your sleeves and pitch in where needed</li> </ul> <p><strong>Strong candidates may have:</strong></p> <ul> <li>In-house experience at leading technology companies with EMEA operations</li> <li>Previous experience with AI, machine learning, or other experimental technologies in commercial contexts</li> <li>Experience supporting sales teams across diverse client segments in deal negotiations&nbsp;</li> </ul> <p><strong>Role-specific policy: </strong>For this role, we expect all staff to be able to work from our London office at least 3 days a week, though we encourage you to apply even if you might need some flexibility for an interim period of time.</p><div class=\"content-pay-transparency\"><div class=\"pay-input\"><div class=\"description\"><p>The annual compensation range for this role is listed below.&nbsp;</p> <p>For sales roles, the range provided is the role’s On Target Earnings (\"OTE\") range, meaning that the range includes both the sales commissions/sales bonuses target and annual base salary for the role.</p></div><div class=\"title\">Annual Salary:</div><div class=\"pay-range\"><span>£125,000</span><span class=\"divider\">&mdash;</span><span>£165,000 GBP</span></div></div></div><div class=\"content-conclusion\"><h2><strong>Logistics</strong></h2> <p><strong>Minimum education: </strong>Bachelor’s degree or an equivalent combination of education, training, and/or experience</p> <p><strong>Required field of study:&nbsp;</strong>A field relevant to the role as demonstrated through coursework, training, or professional experience</p> <p><strong>Minimum years of experience: </strong>Years of experience required will correlate with the internal job level requirements for the position</p> <p><strong>Location-based hybrid policy:</strong> Currently, we expect all staff to be in one of our offices at least 25% of the time. However, some roles may require more time in our offices.</p> <p><strong data-stringify-type=\"bold\">Visa sponsorship:</strong>&nbsp;We do sponsor visas! However, we aren't able to successfully sponsor visas for every role and every candidate. But if we make you an offer, we will make every reasonable effort to get you a visa, and we retain an immigration lawyer to help with this.</p> <p><strong>We encourage you to apply even if you do not believe you meet ever",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5142966008",
+      "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5142966008",
+      "source_adapter": "greenhouse",
+      "scraped_at": "2026-05-31T10:33:18+00:00"
     },
     {
       "id": "1f37ef24751d11fe",
@@ -406,7 +406,7 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5156057008",
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5156057008",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:08+00:00"
+      "scraped_at": "2026-05-31T10:33:19+00:00"
     },
     {
       "id": "d6b4d1f4f009e064",
@@ -446,7 +446,7 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5123821008",
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5123821008",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:08+00:00"
+      "scraped_at": "2026-05-31T10:33:19+00:00"
     },
     {
       "id": "608ef2d89885af21",
@@ -486,7 +486,7 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5153392008",
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5153392008",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:08+00:00"
+      "scraped_at": "2026-05-31T10:33:19+00:00"
     },
     {
       "id": "8445a18dbbc20aef",
@@ -528,7 +528,7 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5208284008",
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5208284008",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:08+00:00"
+      "scraped_at": "2026-05-31T10:33:19+00:00"
     },
     {
       "id": "314d2182f93f16ad",
@@ -572,7 +572,7 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5135168008",
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5135168008",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:08+00:00"
+      "scraped_at": "2026-05-31T10:33:19+00:00"
     },
     {
       "id": "e601ddb0cd8470d0",
@@ -614,7 +614,7 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/4610158008",
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/4610158008",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:08+00:00"
+      "scraped_at": "2026-05-31T10:33:19+00:00"
     },
     {
       "id": "b6cb4d06790d5d8d",
@@ -656,7 +656,7 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5115935008",
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5115935008",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:08+00:00"
+      "scraped_at": "2026-05-31T10:33:19+00:00"
     },
     {
       "id": "1f49ce74aa8bfd7c",
@@ -698,7 +698,7 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5198074008",
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5198074008",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:08+00:00"
+      "scraped_at": "2026-05-31T10:33:19+00:00"
     },
     {
       "id": "1c9077151b9275e6",
@@ -740,7 +740,7 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5119713008",
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5119713008",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:08+00:00"
+      "scraped_at": "2026-05-31T10:33:19+00:00"
     },
     {
       "id": "6eb580185176ed0f",
@@ -782,7 +782,7 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/4938436008",
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/4938436008",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:08+00:00"
+      "scraped_at": "2026-05-31T10:33:19+00:00"
     },
     {
       "id": "e1bd009a0826e287",
@@ -826,7 +826,7 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5112018008",
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5112018008",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:08+00:00"
+      "scraped_at": "2026-05-31T10:33:19+00:00"
     },
     {
       "id": "b157a79418861659",
@@ -868,7 +868,7 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5126127008",
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5126127008",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:08+00:00"
+      "scraped_at": "2026-05-31T10:33:19+00:00"
     },
     {
       "id": "4ee93fc52e38d8e4",
@@ -909,7 +909,7 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5074908008",
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5074908008",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:08+00:00"
+      "scraped_at": "2026-05-31T10:33:19+00:00"
     },
     {
       "id": "ea06625c203c7d1d",
@@ -953,7 +953,7 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5204086008",
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5204086008",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:08+00:00"
+      "scraped_at": "2026-05-31T10:33:19+00:00"
     },
     {
       "id": "f5c617a4f2c23071",
@@ -995,7 +995,7 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5152348008",
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5152348008",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:08+00:00"
+      "scraped_at": "2026-05-31T10:33:19+00:00"
     },
     {
       "id": "77ccc1dd4e81a09a",
@@ -1033,7 +1033,7 @@
       "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8560407002",
       "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8560407002",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:51+00:00"
+      "scraped_at": "2026-05-31T10:34:02+00:00"
     },
     {
       "id": "081d80137bd9b33c",
@@ -1075,7 +1075,7 @@
       "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8560393002",
       "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8560393002",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:51+00:00"
+      "scraped_at": "2026-05-31T10:34:02+00:00"
     },
     {
       "id": "d58fd1eadd60d9a5",
@@ -1117,7 +1117,7 @@
       "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8560401002",
       "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8560401002",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:51+00:00"
+      "scraped_at": "2026-05-31T10:34:02+00:00"
     },
     {
       "id": "8857282af0efbd95",
@@ -1159,7 +1159,7 @@
       "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8551531002",
       "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8551531002",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:51+00:00"
+      "scraped_at": "2026-05-31T10:34:02+00:00"
     },
     {
       "id": "920c9e746b6165b2",
@@ -1201,7 +1201,7 @@
       "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8551533002",
       "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8551533002",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:51+00:00"
+      "scraped_at": "2026-05-31T10:34:02+00:00"
     },
     {
       "id": "befe7d4e1b14ebb5",
@@ -1243,7 +1243,7 @@
       "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8462016002",
       "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8462016002",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:51+00:00"
+      "scraped_at": "2026-05-31T10:34:02+00:00"
     },
     {
       "id": "4cba7a32c60d7f1e",
@@ -1281,7 +1281,7 @@
       "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8521090002",
       "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8521090002",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:51+00:00"
+      "scraped_at": "2026-05-31T10:34:02+00:00"
     },
     {
       "id": "549faa6e6d1b7c20",
@@ -1323,7 +1323,7 @@
       "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8554531002",
       "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8554531002",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:51+00:00"
+      "scraped_at": "2026-05-31T10:34:02+00:00"
     },
     {
       "id": "d4498b2ab52ea394",
@@ -1365,7 +1365,7 @@
       "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8396801002",
       "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8396801002",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:51+00:00"
+      "scraped_at": "2026-05-31T10:34:02+00:00"
     },
     {
       "id": "cbf2a51b56d1f6a9",
@@ -1407,7 +1407,7 @@
       "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8439047002",
       "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8439047002",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:51+00:00"
+      "scraped_at": "2026-05-31T10:34:02+00:00"
     },
     {
       "id": "32a9fd2b419ab75f",
@@ -1448,7 +1448,7 @@
       "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8441894002",
       "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8441894002",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:51+00:00"
+      "scraped_at": "2026-05-31T10:34:02+00:00"
     },
     {
       "id": "079c3071d255bfb9",
@@ -1490,7 +1490,7 @@
       "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8452394002",
       "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8452394002",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:51+00:00"
+      "scraped_at": "2026-05-31T10:34:02+00:00"
     },
     {
       "id": "1c4bc65916fb6c6a",
@@ -1532,7 +1532,7 @@
       "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8549681002",
       "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8549681002",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:51+00:00"
+      "scraped_at": "2026-05-31T10:34:02+00:00"
     },
     {
       "id": "d5573e40d652c1b2",
@@ -1574,7 +1574,7 @@
       "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8554842002",
       "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8554842002",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:51+00:00"
+      "scraped_at": "2026-05-31T10:34:02+00:00"
     },
     {
       "id": "8fbdee684ef32bf0",
@@ -1611,7 +1611,7 @@
       "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8287373002",
       "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8287373002",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:51+00:00"
+      "scraped_at": "2026-05-31T10:34:02+00:00"
     },
     {
       "id": "afdc77e52d807bb9",
@@ -1648,7 +1648,7 @@
       "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8287372002",
       "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8287372002",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:51+00:00"
+      "scraped_at": "2026-05-31T10:34:02+00:00"
     },
     {
       "id": "917b4da4c7f9e491",
@@ -1689,7 +1689,7 @@
       "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8285493002",
       "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8285493002",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:51+00:00"
+      "scraped_at": "2026-05-31T10:34:02+00:00"
     },
     {
       "id": "274608c19a180c05",
@@ -1730,7 +1730,7 @@
       "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8304674002",
       "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8304674002",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:51+00:00"
+      "scraped_at": "2026-05-31T10:34:02+00:00"
     },
     {
       "id": "69d13fa97f5dbad3",
@@ -1772,7 +1772,7 @@
       "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8388585002",
       "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8388585002",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:51+00:00"
+      "scraped_at": "2026-05-31T10:34:02+00:00"
     },
     {
       "id": "c2bff30ea90918a6",
@@ -1810,7 +1810,7 @@
       "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8403550002",
       "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8403550002",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:51+00:00"
+      "scraped_at": "2026-05-31T10:34:02+00:00"
     },
     {
       "id": "8e2f77b326bac5c6",
@@ -1852,7 +1852,7 @@
       "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8012650002",
       "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8012650002",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:51+00:00"
+      "scraped_at": "2026-05-31T10:34:02+00:00"
     },
     {
       "id": "6b157b7e601d3085",
@@ -1894,7 +1894,7 @@
       "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7737233002",
       "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7737233002",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:51+00:00"
+      "scraped_at": "2026-05-31T10:34:02+00:00"
     },
     {
       "id": "f84620d5b492cf1a",
@@ -1936,7 +1936,7 @@
       "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8029666002",
       "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8029666002",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:51+00:00"
+      "scraped_at": "2026-05-31T10:34:02+00:00"
     },
     {
       "id": "88dbecd231673999",
@@ -1978,7 +1978,7 @@
       "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8012658002",
       "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8012658002",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:51+00:00"
+      "scraped_at": "2026-05-31T10:34:02+00:00"
     },
     {
       "id": "fcc6a44501309466",
@@ -2020,7 +2020,7 @@
       "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8012691002",
       "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8012691002",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:51+00:00"
+      "scraped_at": "2026-05-31T10:34:02+00:00"
     },
     {
       "id": "af48bc07746cd0ea",
@@ -2062,7 +2062,7 @@
       "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8029677002",
       "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8029677002",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:51+00:00"
+      "scraped_at": "2026-05-31T10:34:02+00:00"
     },
     {
       "id": "f2459df3f06d2365",
@@ -2104,7 +2104,7 @@
       "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7640776002",
       "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7640776002",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:51+00:00"
+      "scraped_at": "2026-05-31T10:34:02+00:00"
     },
     {
       "id": "e33b22b273fb12de",
@@ -2146,7 +2146,7 @@
       "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8500326002",
       "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8500326002",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:51+00:00"
+      "scraped_at": "2026-05-31T10:34:02+00:00"
     },
     {
       "id": "15ba7414d8c457c9",
@@ -2184,7 +2184,7 @@
       "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8368209002",
       "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8368209002",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:51+00:00"
+      "scraped_at": "2026-05-31T10:34:02+00:00"
     },
     {
       "id": "c6603a13fbe2a0d5",
@@ -2226,7 +2226,7 @@
       "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8531019002",
       "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8531019002",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:51+00:00"
+      "scraped_at": "2026-05-31T10:34:02+00:00"
     },
     {
       "id": "4ecc36f491fde615",
@@ -2268,7 +2268,7 @@
       "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8452396002",
       "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8452396002",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:51+00:00"
+      "scraped_at": "2026-05-31T10:34:02+00:00"
     },
     {
       "id": "7f2fadcb5a008087",
@@ -2310,7 +2310,7 @@
       "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8481717002",
       "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8481717002",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:51+00:00"
+      "scraped_at": "2026-05-31T10:34:02+00:00"
     },
     {
       "id": "938a808436dbc503",
@@ -2352,7 +2352,7 @@
       "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8392406002",
       "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8392406002",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:51+00:00"
+      "scraped_at": "2026-05-31T10:34:02+00:00"
     },
     {
       "id": "a0b3bf116311a0eb",
@@ -2390,7 +2390,7 @@
       "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8560496002",
       "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8560496002",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:51+00:00"
+      "scraped_at": "2026-05-31T10:34:02+00:00"
     },
     {
       "id": "c4b7093bb8b1ac6b",
@@ -2432,7 +2432,7 @@
       "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8421122002",
       "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8421122002",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:51+00:00"
+      "scraped_at": "2026-05-31T10:34:02+00:00"
     },
     {
       "id": "a51953f0e63ece6a",
@@ -2474,7 +2474,7 @@
       "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8439180002",
       "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8439180002",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:51+00:00"
+      "scraped_at": "2026-05-31T10:34:02+00:00"
     },
     {
       "id": "95c0e50f85008ed3",
@@ -2516,7 +2516,7 @@
       "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7643201002",
       "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7643201002",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:51+00:00"
+      "scraped_at": "2026-05-31T10:34:02+00:00"
     },
     {
       "id": "aac00078a52e72aa",
@@ -2558,7 +2558,7 @@
       "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8449356002",
       "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8449356002",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:51+00:00"
+      "scraped_at": "2026-05-31T10:34:02+00:00"
     },
     {
       "id": "772ca78a404e2dfe",
@@ -2600,7 +2600,7 @@
       "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8512037002",
       "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8512037002",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:51+00:00"
+      "scraped_at": "2026-05-31T10:34:02+00:00"
     },
     {
       "id": "7f67c8a4178b72a0",
@@ -2642,7 +2642,7 @@
       "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8455750002",
       "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8455750002",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:51+00:00"
+      "scraped_at": "2026-05-31T10:34:02+00:00"
     },
     {
       "id": "9fc2bca18cc2a31c",
@@ -2680,7 +2680,7 @@
       "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8368205002",
       "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8368205002",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:51+00:00"
+      "scraped_at": "2026-05-31T10:34:02+00:00"
     },
     {
       "id": "f8e495623221f955",
@@ -2722,7 +2722,7 @@
       "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8537180002",
       "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8537180002",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:51+00:00"
+      "scraped_at": "2026-05-31T10:34:02+00:00"
     },
     {
       "id": "f92c82d694fbcd64",
@@ -2760,7 +2760,7 @@
       "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8389657002",
       "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8389657002",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:51+00:00"
+      "scraped_at": "2026-05-31T10:34:02+00:00"
     },
     {
       "id": "5906db4045fa06b8",
@@ -2802,7 +2802,7 @@
       "url": "https://jobs.lever.co/palantir/774cf5c9-bf6a-4d77-bf60-d50ef1beb1a0",
       "apply_url": "https://jobs.lever.co/palantir/774cf5c9-bf6a-4d77-bf60-d50ef1beb1a0/apply",
       "source_adapter": "lever",
-      "scraped_at": "2026-05-30T09:34:54+00:00"
+      "scraped_at": "2026-05-31T10:34:05+00:00"
     },
     {
       "id": "c4ec7e2e252eebab",
@@ -2844,7 +2844,7 @@
       "url": "https://jobs.lever.co/palantir/1b6f1d82-d459-4dea-8bc2-8d2ffe6f881a",
       "apply_url": "https://jobs.lever.co/palantir/1b6f1d82-d459-4dea-8bc2-8d2ffe6f881a/apply",
       "source_adapter": "lever",
-      "scraped_at": "2026-05-30T09:34:54+00:00"
+      "scraped_at": "2026-05-31T10:34:05+00:00"
     },
     {
       "id": "650c44b61dcc3a88",
@@ -2878,7 +2878,7 @@
       "url": "https://jobs.lever.co/palantir/ac0dc094-2480-43c2-8495-26ade227ff4f",
       "apply_url": "https://jobs.lever.co/palantir/ac0dc094-2480-43c2-8495-26ade227ff4f/apply",
       "source_adapter": "lever",
-      "scraped_at": "2026-05-30T09:34:54+00:00"
+      "scraped_at": "2026-05-31T10:34:05+00:00"
     },
     {
       "id": "813c66e2479033ae",
@@ -2907,7 +2907,7 @@
       "url": "https://jobs.lever.co/palantir/d582cd84-14fd-4aa3-b413-15982d286bd9",
       "apply_url": "https://jobs.lever.co/palantir/d582cd84-14fd-4aa3-b413-15982d286bd9/apply",
       "source_adapter": "lever",
-      "scraped_at": "2026-05-30T09:34:54+00:00"
+      "scraped_at": "2026-05-31T10:34:05+00:00"
     },
     {
       "id": "f1ed8b559b228f2c",
@@ -2939,7 +2939,7 @@
       "url": "https://careers.airbnb.com/positions/7907839?gh_jid=7907839",
       "apply_url": "https://careers.airbnb.com/positions/7907839?gh_jid=7907839",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:35:23+00:00"
+      "scraped_at": "2026-05-31T10:34:34+00:00"
     },
     {
       "id": "bde62630ed8ba075",
@@ -2970,7 +2970,7 @@
       "url": "https://www.amazon.jobs/en/jobs/3160068/associate-solutions-architect-intern-2026",
       "apply_url": "https://www.amazon.jobs/en/jobs/3160068/associate-solutions-architect-intern-2026",
       "source_adapter": "custom_playwright",
-      "scraped_at": "2026-05-30T09:34:55+00:00"
+      "scraped_at": "2026-05-31T10:34:06+00:00"
     },
     {
       "id": "0e24114498762102",
@@ -3001,7 +3001,7 @@
       "url": "https://www.amazon.jobs/en/jobs/3143769/associate-solutions-architect-intern-2026",
       "apply_url": "https://www.amazon.jobs/en/jobs/3143769/associate-solutions-architect-intern-2026",
       "source_adapter": "custom_playwright",
-      "scraped_at": "2026-05-30T09:34:55+00:00"
+      "scraped_at": "2026-05-31T10:34:06+00:00"
     },
     {
       "id": "672c52e0343c31c3",
@@ -3039,7 +3039,7 @@
       "url": "https://www.amazon.jobs/en/jobs/3148533/jr-software-develoment-engineer",
       "apply_url": "https://www.amazon.jobs/en/jobs/3148533/jr-software-develoment-engineer",
       "source_adapter": "custom_playwright",
-      "scraped_at": "2026-05-30T09:34:55+00:00"
+      "scraped_at": "2026-05-31T10:34:06+00:00"
     },
     {
       "id": "bd324177250307f6",
@@ -3081,7 +3081,7 @@
       "url": "https://careers.datadoghq.com/detail/7194969/?gh_jid=7194969",
       "apply_url": "https://careers.datadoghq.com/detail/7194969/?gh_jid=7194969",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:35:01+00:00"
+      "scraped_at": "2026-05-31T10:34:12+00:00"
     },
     {
       "id": "c6d66ba3bfd6c8cb",
@@ -3123,7 +3123,7 @@
       "url": "https://careers.datadoghq.com/detail/6652564/?gh_jid=6652564",
       "apply_url": "https://careers.datadoghq.com/detail/6652564/?gh_jid=6652564",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:35:01+00:00"
+      "scraped_at": "2026-05-31T10:34:12+00:00"
     },
     {
       "id": "5bdbdb9db0157358",
@@ -3165,7 +3165,7 @@
       "url": "https://careers.datadoghq.com/detail/7821345/?gh_jid=7821345",
       "apply_url": "https://careers.datadoghq.com/detail/7821345/?gh_jid=7821345",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:35:01+00:00"
+      "scraped_at": "2026-05-31T10:34:13+00:00"
     },
     {
       "id": "5fb881a3e05577ee",
@@ -3205,7 +3205,7 @@
       "url": "https://careers.datadoghq.com/detail/7826176/?gh_jid=7826176",
       "apply_url": "https://careers.datadoghq.com/detail/7826176/?gh_jid=7826176",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:35:01+00:00"
+      "scraped_at": "2026-05-31T10:34:13+00:00"
     },
     {
       "id": "b147fef084ab2250",
@@ -3247,7 +3247,7 @@
       "url": "https://careers.datadoghq.com/detail/7722122/?gh_jid=7722122",
       "apply_url": "https://careers.datadoghq.com/detail/7722122/?gh_jid=7722122",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:35:01+00:00"
+      "scraped_at": "2026-05-31T10:34:13+00:00"
     },
     {
       "id": "56e9466a926ccaf5",
@@ -3289,7 +3289,7 @@
       "url": "https://careers.datadoghq.com/detail/7683726/?gh_jid=7683726",
       "apply_url": "https://careers.datadoghq.com/detail/7683726/?gh_jid=7683726",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:35:01+00:00"
+      "scraped_at": "2026-05-31T10:34:13+00:00"
     },
     {
       "id": "3090f9b745b2dd49",
@@ -3328,7 +3328,7 @@
       "url": "https://careers.datadoghq.com/detail/7781274/?gh_jid=7781274",
       "apply_url": "https://careers.datadoghq.com/detail/7781274/?gh_jid=7781274",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:35:01+00:00"
+      "scraped_at": "2026-05-31T10:34:13+00:00"
     },
     {
       "id": "4e7db68fa76ff557",
@@ -3378,7 +3378,7 @@
       "url": "https://careers.datadoghq.com/detail/7527768/?gh_jid=7527768",
       "apply_url": "https://careers.datadoghq.com/detail/7527768/?gh_jid=7527768",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:35:01+00:00"
+      "scraped_at": "2026-05-31T10:34:13+00:00"
     },
     {
       "id": "ee76d911d185dfa5",
@@ -3420,7 +3420,7 @@
       "url": "https://careers.datadoghq.com/detail/7646452/?gh_jid=7646452",
       "apply_url": "https://careers.datadoghq.com/detail/7646452/?gh_jid=7646452",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:35:01+00:00"
+      "scraped_at": "2026-05-31T10:34:13+00:00"
     },
     {
       "id": "f9c6a5567c2df262",
@@ -3463,7 +3463,7 @@
       "url": "https://careers.datadoghq.com/detail/7496253/?gh_jid=7496253",
       "apply_url": "https://careers.datadoghq.com/detail/7496253/?gh_jid=7496253",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:35:01+00:00"
+      "scraped_at": "2026-05-31T10:34:13+00:00"
     },
     {
       "id": "08babede39a6c99b",
@@ -3501,7 +3501,7 @@
       "url": "https://jobs.elastic.co/jobs?gh_jid=7472744&gh_jid=7472744",
       "apply_url": "https://jobs.elastic.co/jobs?gh_jid=7472744&gh_jid=7472744",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:35:03+00:00"
+      "scraped_at": "2026-05-31T10:34:14+00:00"
     },
     {
       "id": "32bfc45fb907dff0",
@@ -3537,7 +3537,7 @@
       "url": "https://jobs.elastic.co/jobs?gh_jid=7798319&gh_jid=7798319",
       "apply_url": "https://jobs.elastic.co/jobs?gh_jid=7798319&gh_jid=7798319",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:35:03+00:00"
+      "scraped_at": "2026-05-31T10:34:14+00:00"
     },
     {
       "id": "e9344d7d2fee186d",
@@ -3573,7 +3573,7 @@
       "url": "https://jobs.elastic.co/jobs?gh_jid=7607146&gh_jid=7607146",
       "apply_url": "https://jobs.elastic.co/jobs?gh_jid=7607146&gh_jid=7607146",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:35:03+00:00"
+      "scraped_at": "2026-05-31T10:34:14+00:00"
     },
     {
       "id": "7a65277559486373",
@@ -3611,7 +3611,7 @@
       "url": "https://jobs.elastic.co/jobs?gh_jid=7451737&gh_jid=7451737",
       "apply_url": "https://jobs.elastic.co/jobs?gh_jid=7451737&gh_jid=7451737",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:35:03+00:00"
+      "scraped_at": "2026-05-31T10:34:14+00:00"
     },
     {
       "id": "e817c4f2f2438018",
@@ -3647,7 +3647,7 @@
       "url": "https://jobs.elastic.co/jobs?gh_jid=7867553&gh_jid=7867553",
       "apply_url": "https://jobs.elastic.co/jobs?gh_jid=7867553&gh_jid=7867553",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:35:03+00:00"
+      "scraped_at": "2026-05-31T10:34:15+00:00"
     },
     {
       "id": "82dfc9cb4d40f957",
@@ -3684,7 +3684,7 @@
       "url": "https://jobs.elastic.co/jobs?gh_jid=7874677&gh_jid=7874677",
       "apply_url": "https://jobs.elastic.co/jobs?gh_jid=7874677&gh_jid=7874677",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:35:03+00:00"
+      "scraped_at": "2026-05-31T10:34:15+00:00"
     },
     {
       "id": "9499f82142343608",
@@ -3722,7 +3722,7 @@
       "url": "https://jobs.elastic.co/jobs?gh_jid=7957191&gh_jid=7957191",
       "apply_url": "https://jobs.elastic.co/jobs?gh_jid=7957191&gh_jid=7957191",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:35:03+00:00"
+      "scraped_at": "2026-05-31T10:34:15+00:00"
     },
     {
       "id": "9b10f25b564ad110",
@@ -3764,7 +3764,7 @@
       "url": "https://jobs.elastic.co/jobs?gh_jid=7811852&gh_jid=7811852",
       "apply_url": "https://jobs.elastic.co/jobs?gh_jid=7811852&gh_jid=7811852",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:35:03+00:00"
+      "scraped_at": "2026-05-31T10:34:15+00:00"
     },
     {
       "id": "055eda35ac4f2624",
@@ -3800,7 +3800,7 @@
       "url": "https://jobs.elastic.co/jobs?gh_jid=7525999&gh_jid=7525999",
       "apply_url": "https://jobs.elastic.co/jobs?gh_jid=7525999&gh_jid=7525999",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:35:03+00:00"
+      "scraped_at": "2026-05-31T10:34:15+00:00"
     },
     {
       "id": "da5ebd7f083b43b8",
@@ -3842,7 +3842,7 @@
       "url": "https://www.mongodb.com/careers/job/?gh_jid=7905517",
       "apply_url": "https://www.mongodb.com/careers/job/?gh_jid=7905517",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:35:02+00:00"
+      "scraped_at": "2026-05-31T10:34:13+00:00"
     },
     {
       "id": "f41ea40dfa8b0e9b",
@@ -3884,7 +3884,7 @@
       "url": "https://www.mongodb.com/careers/job/?gh_jid=7334950",
       "apply_url": "https://www.mongodb.com/careers/job/?gh_jid=7334950",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:35:02+00:00"
+      "scraped_at": "2026-05-31T10:34:13+00:00"
     },
     {
       "id": "4e877ff6dc6abb15",
@@ -3926,7 +3926,7 @@
       "url": "https://www.mongodb.com/careers/job/?gh_jid=7335567",
       "apply_url": "https://www.mongodb.com/careers/job/?gh_jid=7335567",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:35:02+00:00"
+      "scraped_at": "2026-05-31T10:34:13+00:00"
     },
     {
       "id": "01df13b364eb0a14",
@@ -3968,7 +3968,7 @@
       "url": "https://www.mongodb.com/careers/job/?gh_jid=7337287",
       "apply_url": "https://www.mongodb.com/careers/job/?gh_jid=7337287",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:35:02+00:00"
+      "scraped_at": "2026-05-31T10:34:13+00:00"
     },
     {
       "id": "978c67caef42ff85",
@@ -4010,7 +4010,7 @@
       "url": "https://www.mongodb.com/careers/job/?gh_jid=7335205",
       "apply_url": "https://www.mongodb.com/careers/job/?gh_jid=7335205",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:35:02+00:00"
+      "scraped_at": "2026-05-31T10:34:13+00:00"
     },
     {
       "id": "aee6b14bb837e866",
@@ -4052,7 +4052,7 @@
       "url": "https://www.mongodb.com/careers/job/?gh_jid=7298536",
       "apply_url": "https://www.mongodb.com/careers/job/?gh_jid=7298536",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:35:02+00:00"
+      "scraped_at": "2026-05-31T10:34:13+00:00"
     },
     {
       "id": "d45d2e60737274b5",
@@ -4094,7 +4094,7 @@
       "url": "https://www.mongodb.com/careers/job/?gh_jid=7334895",
       "apply_url": "https://www.mongodb.com/careers/job/?gh_jid=7334895",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:35:02+00:00"
+      "scraped_at": "2026-05-31T10:34:13+00:00"
     },
     {
       "id": "20ea97dc53ab03f2",
@@ -4132,7 +4132,7 @@
       "url": "https://www.mongodb.com/careers/job/?gh_jid=7836059",
       "apply_url": "https://www.mongodb.com/careers/job/?gh_jid=7836059",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:35:02+00:00"
+      "scraped_at": "2026-05-31T10:34:13+00:00"
     },
     {
       "id": "5a3fe94c190b779c",
@@ -4174,7 +4174,7 @@
       "url": "https://www.mongodb.com/careers/job/?gh_jid=7721092",
       "apply_url": "https://www.mongodb.com/careers/job/?gh_jid=7721092",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:35:02+00:00"
+      "scraped_at": "2026-05-31T10:34:13+00:00"
     },
     {
       "id": "5ec18febafaa0446",
@@ -4216,7 +4216,7 @@
       "url": "https://www.mongodb.com/careers/job/?gh_jid=7453323",
       "apply_url": "https://www.mongodb.com/careers/job/?gh_jid=7453323",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:35:02+00:00"
+      "scraped_at": "2026-05-31T10:34:13+00:00"
     },
     {
       "id": "57c079b88b1497ad",
@@ -4257,7 +4257,7 @@
       "url": "https://www.mongodb.com/careers/job/?gh_jid=7658187",
       "apply_url": "https://www.mongodb.com/careers/job/?gh_jid=7658187",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:35:02+00:00"
+      "scraped_at": "2026-05-31T10:34:13+00:00"
     },
     {
       "id": "c52a9707a358b7f4",
@@ -4299,7 +4299,7 @@
       "url": "https://www.mongodb.com/careers/job/?gh_jid=7711879",
       "apply_url": "https://www.mongodb.com/careers/job/?gh_jid=7711879",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:35:02+00:00"
+      "scraped_at": "2026-05-31T10:34:13+00:00"
     },
     {
       "id": "d9ef05a5c94d015e",
@@ -4338,7 +4338,7 @@
       "url": "https://www.mongodb.com/careers/job/?gh_jid=7874662",
       "apply_url": "https://www.mongodb.com/careers/job/?gh_jid=7874662",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:35:02+00:00"
+      "scraped_at": "2026-05-31T10:34:13+00:00"
     },
     {
       "id": "474a6d7c70f26712",
@@ -4380,7 +4380,7 @@
       "url": "https://www.mongodb.com/careers/job/?gh_jid=7913892",
       "apply_url": "https://www.mongodb.com/careers/job/?gh_jid=7913892",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:35:02+00:00"
+      "scraped_at": "2026-05-31T10:34:13+00:00"
     },
     {
       "id": "bc4fdfde751f24fc",
@@ -4422,7 +4422,7 @@
       "url": "https://www.mongodb.com/careers/job/?gh_jid=7821318",
       "apply_url": "https://www.mongodb.com/careers/job/?gh_jid=7821318",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:35:02+00:00"
+      "scraped_at": "2026-05-31T10:34:13+00:00"
     },
     {
       "id": "bb3812cd68753fb0",
@@ -4464,7 +4464,7 @@
       "url": "https://www.mongodb.com/careers/job/?gh_jid=7613695",
       "apply_url": "https://www.mongodb.com/careers/job/?gh_jid=7613695",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:35:02+00:00"
+      "scraped_at": "2026-05-31T10:34:13+00:00"
     },
     {
       "id": "ee4380c50b15599f",
@@ -4506,7 +4506,7 @@
       "url": "https://www.mongodb.com/careers/job/?gh_jid=7939397",
       "apply_url": "https://www.mongodb.com/careers/job/?gh_jid=7939397",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:35:02+00:00"
+      "scraped_at": "2026-05-31T10:34:13+00:00"
     },
     {
       "id": "8bfbef0866a4cc72",
@@ -4548,7 +4548,7 @@
       "url": "https://www.mongodb.com/careers/job/?gh_jid=7859378",
       "apply_url": "https://www.mongodb.com/careers/job/?gh_jid=7859378",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:35:02+00:00"
+      "scraped_at": "2026-05-31T10:34:13+00:00"
     },
     {
       "id": "748068efd66551dd",
@@ -4590,7 +4590,7 @@
       "url": "https://www.mongodb.com/careers/job/?gh_jid=7719763",
       "apply_url": "https://www.mongodb.com/careers/job/?gh_jid=7719763",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:35:02+00:00"
+      "scraped_at": "2026-05-31T10:34:13+00:00"
     },
     {
       "id": "29f5b33fd61cce13",
@@ -4632,7 +4632,7 @@
       "url": "https://www.mongodb.com/careers/job/?gh_jid=7581876",
       "apply_url": "https://www.mongodb.com/careers/job/?gh_jid=7581876",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:35:02+00:00"
+      "scraped_at": "2026-05-31T10:34:13+00:00"
     },
     {
       "id": "9eab04124cae504e",
@@ -4674,7 +4674,7 @@
       "url": "https://www.mongodb.com/careers/job/?gh_jid=7579042",
       "apply_url": "https://www.mongodb.com/careers/job/?gh_jid=7579042",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:35:02+00:00"
+      "scraped_at": "2026-05-31T10:34:13+00:00"
     },
     {
       "id": "8a635717d2311e18",
@@ -4716,7 +4716,7 @@
       "url": "https://www.mongodb.com/careers/job/?gh_jid=7736144",
       "apply_url": "https://www.mongodb.com/careers/job/?gh_jid=7736144",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:35:02+00:00"
+      "scraped_at": "2026-05-31T10:34:13+00:00"
     },
     {
       "id": "757b4da33f5836df",
@@ -4758,7 +4758,7 @@
       "url": "https://www.mongodb.com/careers/job/?gh_jid=7717350",
       "apply_url": "https://www.mongodb.com/careers/job/?gh_jid=7717350",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:35:02+00:00"
+      "scraped_at": "2026-05-31T10:34:13+00:00"
     },
     {
       "id": "4462b08129d39057",
@@ -4796,7 +4796,7 @@
       "url": "https://www.mongodb.com/careers/job/?gh_jid=7766302",
       "apply_url": "https://www.mongodb.com/careers/job/?gh_jid=7766302",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:35:02+00:00"
+      "scraped_at": "2026-05-31T10:34:13+00:00"
     },
     {
       "id": "cc32a60cc8855cdc",
@@ -4838,7 +4838,7 @@
       "url": "https://www.mongodb.com/careers/job/?gh_jid=7745890",
       "apply_url": "https://www.mongodb.com/careers/job/?gh_jid=7745890",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:35:02+00:00"
+      "scraped_at": "2026-05-31T10:34:13+00:00"
     },
     {
       "id": "e46d88f08760f00d",
@@ -4880,7 +4880,7 @@
       "url": "https://www.mongodb.com/careers/job/?gh_jid=7581867",
       "apply_url": "https://www.mongodb.com/careers/job/?gh_jid=7581867",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:35:02+00:00"
+      "scraped_at": "2026-05-31T10:34:13+00:00"
     },
     {
       "id": "df75161ea543db2c",
@@ -4922,7 +4922,7 @@
       "url": "https://www.mongodb.com/careers/job/?gh_jid=7699932",
       "apply_url": "https://www.mongodb.com/careers/job/?gh_jid=7699932",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:35:02+00:00"
+      "scraped_at": "2026-05-31T10:34:13+00:00"
     },
     {
       "id": "9228d21c434c612c",
@@ -4964,7 +4964,7 @@
       "url": "https://www.mongodb.com/careers/job/?gh_jid=7411027",
       "apply_url": "https://www.mongodb.com/careers/job/?gh_jid=7411027",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:35:02+00:00"
+      "scraped_at": "2026-05-31T10:34:13+00:00"
     },
     {
       "id": "70d2b792a44421ee",
@@ -5006,7 +5006,7 @@
       "url": "https://www.mongodb.com/careers/job/?gh_jid=7815443",
       "apply_url": "https://www.mongodb.com/careers/job/?gh_jid=7815443",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:35:02+00:00"
+      "scraped_at": "2026-05-31T10:34:13+00:00"
     },
     {
       "id": "bd28799a28790921",
@@ -5048,7 +5048,7 @@
       "url": "https://www.mongodb.com/careers/job/?gh_jid=7721912",
       "apply_url": "https://www.mongodb.com/careers/job/?gh_jid=7721912",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:35:02+00:00"
+      "scraped_at": "2026-05-31T10:34:13+00:00"
     },
     {
       "id": "376986406a8f7a55",
@@ -5090,7 +5090,7 @@
       "url": "https://www.mongodb.com/careers/job/?gh_jid=7815441",
       "apply_url": "https://www.mongodb.com/careers/job/?gh_jid=7815441",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:35:02+00:00"
+      "scraped_at": "2026-05-31T10:34:13+00:00"
     },
     {
       "id": "cb8d0a4e87b8c224",
@@ -5132,7 +5132,7 @@
       "url": "https://www.mongodb.com/careers/job/?gh_jid=7815442",
       "apply_url": "https://www.mongodb.com/careers/job/?gh_jid=7815442",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:35:02+00:00"
+      "scraped_at": "2026-05-31T10:34:13+00:00"
     },
     {
       "id": "c7642769b450b4e2",
@@ -5174,7 +5174,7 @@
       "url": "https://www.mongodb.com/careers/job/?gh_jid=7815444",
       "apply_url": "https://www.mongodb.com/careers/job/?gh_jid=7815444",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:35:02+00:00"
+      "scraped_at": "2026-05-31T10:34:13+00:00"
     },
     {
       "id": "0addd9155a4e15eb",
@@ -5216,7 +5216,7 @@
       "url": "https://www.mongodb.com/careers/job/?gh_jid=7815447",
       "apply_url": "https://www.mongodb.com/careers/job/?gh_jid=7815447",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:35:02+00:00"
+      "scraped_at": "2026-05-31T10:34:13+00:00"
     },
     {
       "id": "bfbed7df435e329f",
@@ -5254,7 +5254,7 @@
       "url": "https://www.mongodb.com/careers/job/?gh_jid=7557618",
       "apply_url": "https://www.mongodb.com/careers/job/?gh_jid=7557618",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:35:02+00:00"
+      "scraped_at": "2026-05-31T10:34:13+00:00"
     },
     {
       "id": "9cbf7ceffa1331da",
@@ -5296,7 +5296,7 @@
       "url": "https://www.mongodb.com/careers/job/?gh_jid=7948529",
       "apply_url": "https://www.mongodb.com/careers/job/?gh_jid=7948529",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:35:02+00:00"
+      "scraped_at": "2026-05-31T10:34:13+00:00"
     },
     {
       "id": "0e3028803c5b0919",
@@ -5338,7 +5338,7 @@
       "url": "https://www.mongodb.com/careers/job/?gh_jid=7904729",
       "apply_url": "https://www.mongodb.com/careers/job/?gh_jid=7904729",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:35:02+00:00"
+      "scraped_at": "2026-05-31T10:34:13+00:00"
     },
     {
       "id": "e9e4b008d1b1853d",
@@ -5380,7 +5380,7 @@
       "url": "https://www.mongodb.com/careers/job/?gh_jid=7743754",
       "apply_url": "https://www.mongodb.com/careers/job/?gh_jid=7743754",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:35:02+00:00"
+      "scraped_at": "2026-05-31T10:34:13+00:00"
     },
     {
       "id": "b57463f1d9352c2f",
@@ -5420,7 +5420,7 @@
       "url": "https://stripe.com/jobs/search?gh_jid=7182617",
       "apply_url": "https://stripe.com/jobs/search?gh_jid=7182617",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:55+00:00"
+      "scraped_at": "2026-05-31T10:34:06+00:00"
     },
     {
       "id": "7346cb56f7c0b116",
@@ -5460,7 +5460,7 @@
       "url": "https://stripe.com/jobs/search?gh_jid=7775622",
       "apply_url": "https://stripe.com/jobs/search?gh_jid=7775622",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:55+00:00"
+      "scraped_at": "2026-05-31T10:34:06+00:00"
     },
     {
       "id": "d9573d06825b377a",
@@ -5498,7 +5498,7 @@
       "url": "https://stripe.com/jobs/search?gh_jid=7249744",
       "apply_url": "https://stripe.com/jobs/search?gh_jid=7249744",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:55+00:00"
+      "scraped_at": "2026-05-31T10:34:06+00:00"
     },
     {
       "id": "fe9af897f62d7f80",
@@ -5536,7 +5536,7 @@
       "url": "https://stripe.com/jobs/search?gh_jid=7895287",
       "apply_url": "https://stripe.com/jobs/search?gh_jid=7895287",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:55+00:00"
+      "scraped_at": "2026-05-31T10:34:06+00:00"
     },
     {
       "id": "848d1d17823c1fda",
@@ -5578,7 +5578,7 @@
       "url": "https://stripe.com/jobs/search?gh_jid=4921361",
       "apply_url": "https://stripe.com/jobs/search?gh_jid=4921361",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:55+00:00"
+      "scraped_at": "2026-05-31T10:34:06+00:00"
     },
     {
       "id": "b0bf50cded9f40cc",
@@ -5618,7 +5618,7 @@
       "url": "https://stripe.com/jobs/search?gh_jid=7919064",
       "apply_url": "https://stripe.com/jobs/search?gh_jid=7919064",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:55+00:00"
+      "scraped_at": "2026-05-31T10:34:06+00:00"
     },
     {
       "id": "4165b880342d2ed3",
@@ -5657,7 +5657,7 @@
       "url": "https://stripe.com/jobs/search?gh_jid=7874654",
       "apply_url": "https://stripe.com/jobs/search?gh_jid=7874654",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:55+00:00"
+      "scraped_at": "2026-05-31T10:34:06+00:00"
     },
     {
       "id": "bc348159f65106a5",
@@ -5699,7 +5699,7 @@
       "url": "https://stripe.com/jobs/search?gh_jid=7717412",
       "apply_url": "https://stripe.com/jobs/search?gh_jid=7717412",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:55+00:00"
+      "scraped_at": "2026-05-31T10:34:06+00:00"
     },
     {
       "id": "3b5ab61abc8fe821",
@@ -5737,7 +5737,7 @@
       "url": "https://stripe.com/jobs/search?gh_jid=6567104",
       "apply_url": "https://stripe.com/jobs/search?gh_jid=6567104",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:55+00:00"
+      "scraped_at": "2026-05-31T10:34:06+00:00"
     },
     {
       "id": "ebbe926418890ad8",
@@ -5775,7 +5775,7 @@
       "url": "https://stripe.com/jobs/search?gh_jid=7325118",
       "apply_url": "https://stripe.com/jobs/search?gh_jid=7325118",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:55+00:00"
+      "scraped_at": "2026-05-31T10:34:06+00:00"
     },
     {
       "id": "b493e4cc432c27c4",
@@ -5793,7 +5793,7 @@
       "country": "Spain",
       "location_raw": "N/A",
       "remote": false,
-      "posted_at": "2026-05-22",
+      "posted_at": "2026-05-30",
       "deadline": "",
       "start_date": "",
       "duration_value": null,
@@ -5813,7 +5813,7 @@
       "url": "https://stripe.com/jobs/search?gh_jid=6606581",
       "apply_url": "https://stripe.com/jobs/search?gh_jid=6606581",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:55+00:00"
+      "scraped_at": "2026-05-31T10:34:06+00:00"
     },
     {
       "id": "398950dc06f46322",
@@ -5851,7 +5851,7 @@
       "url": "https://stripe.com/jobs/search?gh_jid=7895284",
       "apply_url": "https://stripe.com/jobs/search?gh_jid=7895284",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:55+00:00"
+      "scraped_at": "2026-05-31T10:34:06+00:00"
     },
     {
       "id": "8aad64d9b979daa4",
@@ -5891,7 +5891,7 @@
       "url": "https://stripe.com/jobs/search?gh_jid=7913464",
       "apply_url": "https://stripe.com/jobs/search?gh_jid=7913464",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:55+00:00"
+      "scraped_at": "2026-05-31T10:34:06+00:00"
     },
     {
       "id": "83a3aad980365f08",
@@ -5930,7 +5930,7 @@
       "url": "https://stripe.com/jobs/search?gh_jid=7436086",
       "apply_url": "https://stripe.com/jobs/search?gh_jid=7436086",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:55+00:00"
+      "scraped_at": "2026-05-31T10:34:06+00:00"
     },
     {
       "id": "52de0204f08d6232",
@@ -5970,7 +5970,7 @@
       "url": "https://stripe.com/jobs/search?gh_jid=7520686",
       "apply_url": "https://stripe.com/jobs/search?gh_jid=7520686",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:55+00:00"
+      "scraped_at": "2026-05-31T10:34:06+00:00"
     },
     {
       "id": "ef457e9e85ea460b",
@@ -6012,7 +6012,7 @@
       "url": "https://stripe.com/jobs/search?gh_jid=7896525",
       "apply_url": "https://stripe.com/jobs/search?gh_jid=7896525",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:55+00:00"
+      "scraped_at": "2026-05-31T10:34:06+00:00"
     },
     {
       "id": "2e71285e9ae163d0",
@@ -6051,7 +6051,7 @@
       "url": "https://stripe.com/jobs/search?gh_jid=7587254",
       "apply_url": "https://stripe.com/jobs/search?gh_jid=7587254",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:55+00:00"
+      "scraped_at": "2026-05-31T10:34:06+00:00"
     },
     {
       "id": "6533795a0748c23a",
@@ -6092,7 +6092,7 @@
       "url": "https://stripe.com/jobs/search?gh_jid=7919325",
       "apply_url": "https://stripe.com/jobs/search?gh_jid=7919325",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:55+00:00"
+      "scraped_at": "2026-05-31T10:34:06+00:00"
     },
     {
       "id": "71c69aad104f2f01",
@@ -6131,7 +6131,7 @@
       "url": "https://stripe.com/jobs/search?gh_jid=7554002",
       "apply_url": "https://stripe.com/jobs/search?gh_jid=7554002",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:55+00:00"
+      "scraped_at": "2026-05-31T10:34:06+00:00"
     },
     {
       "id": "a30a12ae670c32f1",
@@ -6169,7 +6169,7 @@
       "url": "https://stripe.com/jobs/search?gh_jid=7950735",
       "apply_url": "https://stripe.com/jobs/search?gh_jid=7950735",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:55+00:00"
+      "scraped_at": "2026-05-31T10:34:06+00:00"
     },
     {
       "id": "36efc70af06ca401",
@@ -6204,7 +6204,7 @@
       "url": "https://stripe.com/jobs/search?gh_jid=7861422",
       "apply_url": "https://stripe.com/jobs/search?gh_jid=7861422",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:55+00:00"
+      "scraped_at": "2026-05-31T10:34:06+00:00"
     },
     {
       "id": "d85344225f0f93da",
@@ -6238,7 +6238,7 @@
       "url": "https://stripe.com/jobs/search?gh_jid=7954118",
       "apply_url": "https://stripe.com/jobs/search?gh_jid=7954118",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:55+00:00"
+      "scraped_at": "2026-05-31T10:34:06+00:00"
     },
     {
       "id": "c32b993d324350f4",
@@ -6278,7 +6278,7 @@
       "url": "https://stripe.com/jobs/search?gh_jid=7430332",
       "apply_url": "https://stripe.com/jobs/search?gh_jid=7430332",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:55+00:00"
+      "scraped_at": "2026-05-31T10:34:06+00:00"
     },
     {
       "id": "3dd98859a93359fb",
@@ -6316,7 +6316,7 @@
       "url": "https://stripe.com/jobs/search?gh_jid=7820898",
       "apply_url": "https://stripe.com/jobs/search?gh_jid=7820898",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:55+00:00"
+      "scraped_at": "2026-05-31T10:34:06+00:00"
     },
     {
       "id": "50512b87eac1c6c4",
@@ -6354,7 +6354,7 @@
       "url": "https://stripe.com/jobs/search?gh_jid=7827230",
       "apply_url": "https://stripe.com/jobs/search?gh_jid=7827230",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:55+00:00"
+      "scraped_at": "2026-05-31T10:34:06+00:00"
     },
     {
       "id": "4d4633e341bab009",
@@ -6396,7 +6396,7 @@
       "url": "https://stripe.com/jobs/search?gh_jid=7230670",
       "apply_url": "https://stripe.com/jobs/search?gh_jid=7230670",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:55+00:00"
+      "scraped_at": "2026-05-31T10:34:06+00:00"
     },
     {
       "id": "da344459767ed2dd",
@@ -6434,7 +6434,7 @@
       "url": "https://stripe.com/jobs/search?gh_jid=6717520",
       "apply_url": "https://stripe.com/jobs/search?gh_jid=6717520",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:55+00:00"
+      "scraped_at": "2026-05-31T10:34:06+00:00"
     },
     {
       "id": "b056dcb15daf6b41",
@@ -6475,7 +6475,7 @@
       "url": "https://stripe.com/jobs/search?gh_jid=7826761",
       "apply_url": "https://stripe.com/jobs/search?gh_jid=7826761",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:55+00:00"
+      "scraped_at": "2026-05-31T10:34:06+00:00"
     },
     {
       "id": "125412bba866d861",
@@ -6513,7 +6513,7 @@
       "url": "https://stripe.com/jobs/search?gh_jid=7882492",
       "apply_url": "https://stripe.com/jobs/search?gh_jid=7882492",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:55+00:00"
+      "scraped_at": "2026-05-31T10:34:06+00:00"
     },
     {
       "id": "ee9ab9fbdf425241",
@@ -6555,7 +6555,7 @@
       "url": "https://stripe.com/jobs/search?gh_jid=7619227",
       "apply_url": "https://stripe.com/jobs/search?gh_jid=7619227",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:55+00:00"
+      "scraped_at": "2026-05-31T10:34:06+00:00"
     },
     {
       "id": "a2a3c6b449cb2b03",
@@ -6601,7 +6601,7 @@
       "url": "https://stripe.com/jobs/search?gh_jid=7784353",
       "apply_url": "https://stripe.com/jobs/search?gh_jid=7784353",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:55+00:00"
+      "scraped_at": "2026-05-31T10:34:06+00:00"
     },
     {
       "id": "12e1be2e4b272824",
@@ -6640,7 +6640,7 @@
       "url": "https://stripe.com/jobs/search?gh_jid=7574857",
       "apply_url": "https://stripe.com/jobs/search?gh_jid=7574857",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:55+00:00"
+      "scraped_at": "2026-05-31T10:34:06+00:00"
     },
     {
       "id": "7acc6fcc047cc9c8",
@@ -6679,7 +6679,7 @@
       "url": "https://stripe.com/jobs/search?gh_jid=7601673",
       "apply_url": "https://stripe.com/jobs/search?gh_jid=7601673",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:55+00:00"
+      "scraped_at": "2026-05-31T10:34:06+00:00"
     },
     {
       "id": "5175d34f0d82646f",
@@ -6717,7 +6717,7 @@
       "url": "https://stripe.com/jobs/search?gh_jid=7903814",
       "apply_url": "https://stripe.com/jobs/search?gh_jid=7903814",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:55+00:00"
+      "scraped_at": "2026-05-31T10:34:06+00:00"
     },
     {
       "id": "da380ebc0881e931",
@@ -6755,7 +6755,7 @@
       "url": "https://stripe.com/jobs/search?gh_jid=7442995",
       "apply_url": "https://stripe.com/jobs/search?gh_jid=7442995",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:55+00:00"
+      "scraped_at": "2026-05-31T10:34:06+00:00"
     },
     {
       "id": "846b9f322fe09e2a",
@@ -6793,7 +6793,7 @@
       "url": "https://stripe.com/jobs/search?gh_jid=7676921",
       "apply_url": "https://stripe.com/jobs/search?gh_jid=7676921",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:34:55+00:00"
+      "scraped_at": "2026-05-31T10:34:06+00:00"
     },
     {
       "id": "0924380b57f7ff9c",
@@ -6834,7 +6834,7 @@
       "url": "https://job-boards.greenhouse.io/monzo/jobs/7343996",
       "apply_url": "https://job-boards.greenhouse.io/monzo/jobs/7343996",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:41+00:00"
+      "scraped_at": "2026-05-31T10:37:12+00:00"
     },
     {
       "id": "b7d1eb3e4acbd2d8",
@@ -6878,7 +6878,7 @@
       "url": "https://job-boards.greenhouse.io/monzo/jobs/6635595",
       "apply_url": "https://job-boards.greenhouse.io/monzo/jobs/6635595",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:41+00:00"
+      "scraped_at": "2026-05-31T10:37:12+00:00"
     },
     {
       "id": "ecfbc48fa6b0a10a",
@@ -6919,7 +6919,7 @@
       "url": "https://job-boards.greenhouse.io/monzo/jobs/7912647",
       "apply_url": "https://job-boards.greenhouse.io/monzo/jobs/7912647",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:41+00:00"
+      "scraped_at": "2026-05-31T10:37:12+00:00"
     },
     {
       "id": "46916c7777091e5a",
@@ -6958,7 +6958,7 @@
       "url": "https://job-boards.greenhouse.io/monzo/jobs/7777548",
       "apply_url": "https://job-boards.greenhouse.io/monzo/jobs/7777548",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:41+00:00"
+      "scraped_at": "2026-05-31T10:37:12+00:00"
     },
     {
       "id": "b8a5b9310c090516",
@@ -6996,7 +6996,7 @@
       "url": "https://job-boards.greenhouse.io/monzo/jobs/7904675",
       "apply_url": "https://job-boards.greenhouse.io/monzo/jobs/7904675",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:41+00:00"
+      "scraped_at": "2026-05-31T10:37:12+00:00"
     },
     {
       "id": "d60ccc6c749a6453",
@@ -7038,7 +7038,7 @@
       "url": "https://job-boards.greenhouse.io/monzo/jobs/7768140",
       "apply_url": "https://job-boards.greenhouse.io/monzo/jobs/7768140",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:41+00:00"
+      "scraped_at": "2026-05-31T10:37:12+00:00"
     },
     {
       "id": "e71ccc1b16305e14",
@@ -7082,7 +7082,7 @@
       "url": "https://job-boards.greenhouse.io/monzo/jobs/7118972",
       "apply_url": "https://job-boards.greenhouse.io/monzo/jobs/7118972",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:41+00:00"
+      "scraped_at": "2026-05-31T10:37:12+00:00"
     },
     {
       "id": "0545160823aa5905",
@@ -7124,7 +7124,7 @@
       "url": "https://job-boards.greenhouse.io/monzo/jobs/7065636",
       "apply_url": "https://job-boards.greenhouse.io/monzo/jobs/7065636",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:41+00:00"
+      "scraped_at": "2026-05-31T10:37:12+00:00"
     },
     {
       "id": "c8bfe70f9ca37ad1",
@@ -7166,7 +7166,7 @@
       "url": "https://job-boards.greenhouse.io/monzo/jobs/6758449",
       "apply_url": "https://job-boards.greenhouse.io/monzo/jobs/6758449",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:41+00:00"
+      "scraped_at": "2026-05-31T10:37:12+00:00"
     },
     {
       "id": "5c0443578af6ef1f",
@@ -7208,7 +7208,7 @@
       "url": "https://job-boards.greenhouse.io/algolia/jobs/6006012004",
       "apply_url": "https://job-boards.greenhouse.io/algolia/jobs/6006012004",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:53+00:00"
+      "scraped_at": "2026-05-31T10:37:23+00:00"
     },
     {
       "id": "bda47a33d85513a5",
@@ -7246,7 +7246,7 @@
       "url": "https://job-boards.greenhouse.io/algolia/jobs/5729016004",
       "apply_url": "https://job-boards.greenhouse.io/algolia/jobs/5729016004",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:53+00:00"
+      "scraped_at": "2026-05-31T10:37:23+00:00"
     },
     {
       "id": "38a2346258dc65a0",
@@ -7288,7 +7288,7 @@
       "url": "https://job-boards.greenhouse.io/algolia/jobs/5872133004",
       "apply_url": "https://job-boards.greenhouse.io/algolia/jobs/5872133004",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:53+00:00"
+      "scraped_at": "2026-05-31T10:37:23+00:00"
     },
     {
       "id": "609a34682e544809",
@@ -7332,7 +7332,7 @@
       "url": "https://job-boards.greenhouse.io/algolia/jobs/5166189004",
       "apply_url": "https://job-boards.greenhouse.io/algolia/jobs/5166189004",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:53+00:00"
+      "scraped_at": "2026-05-31T10:37:23+00:00"
     },
     {
       "id": "a1273a07b0619655",
@@ -7363,7 +7363,7 @@
       "url": "https://jobs.smartrecruiters.com/BoschGroup/REF285532E",
       "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/REF285532E",
       "source_adapter": "smartrecruiters",
-      "scraped_at": "2026-05-30T09:38:07+00:00"
+      "scraped_at": "2026-05-31T10:37:37+00:00"
     },
     {
       "id": "934f9c4103b8a13e",
@@ -7394,7 +7394,7 @@
       "url": "https://jobs.smartrecruiters.com/BoschGroup/REF284548D",
       "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/REF284548D",
       "source_adapter": "smartrecruiters",
-      "scraped_at": "2026-05-30T09:38:09+00:00"
+      "scraped_at": "2026-05-31T10:37:39+00:00"
     },
     {
       "id": "427feeb3b4f9e5f3",
@@ -7423,7 +7423,7 @@
       "url": "https://jobs.smartrecruiters.com/BoschGroup/REF287528T",
       "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/REF287528T",
       "source_adapter": "smartrecruiters",
-      "scraped_at": "2026-05-30T09:37:59+00:00"
+      "scraped_at": "2026-05-31T10:37:29+00:00"
     },
     {
       "id": "6f1d3fd4ab13c573",
@@ -7454,7 +7454,7 @@
       "url": "https://jobs.smartrecruiters.com/BoschGroup/REF285142H",
       "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/REF285142H",
       "source_adapter": "smartrecruiters",
-      "scraped_at": "2026-05-30T09:38:08+00:00"
+      "scraped_at": "2026-05-31T10:37:38+00:00"
     },
     {
       "id": "ed09392e6fed4028",
@@ -7483,7 +7483,7 @@
       "url": "https://jobs.smartrecruiters.com/BoschGroup/REF283189Y",
       "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/REF283189Y",
       "source_adapter": "smartrecruiters",
-      "scraped_at": "2026-05-30T09:38:12+00:00"
+      "scraped_at": "2026-05-31T10:37:42+00:00"
     },
     {
       "id": "0641e63321b183ed",
@@ -7514,7 +7514,7 @@
       "url": "https://jobs.smartrecruiters.com/BoschGroup/REF286437D",
       "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/REF286437D",
       "source_adapter": "smartrecruiters",
-      "scraped_at": "2026-05-30T09:38:04+00:00"
+      "scraped_at": "2026-05-31T10:37:34+00:00"
     },
     {
       "id": "b298e2bff2ed7fb1",
@@ -7543,7 +7543,7 @@
       "url": "https://jobs.smartrecruiters.com/BoschGroup/REF253340C",
       "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/REF253340C",
       "source_adapter": "smartrecruiters",
-      "scraped_at": "2026-05-30T09:38:20+00:00"
+      "scraped_at": "2026-05-31T10:37:50+00:00"
     },
     {
       "id": "c2cceb3d4160a82b",
@@ -7572,7 +7572,7 @@
       "url": "https://jobs.smartrecruiters.com/BoschGroup/REF286817Z",
       "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/REF286817Z",
       "source_adapter": "smartrecruiters",
-      "scraped_at": "2026-05-30T09:38:03+00:00"
+      "scraped_at": "2026-05-31T10:37:33+00:00"
     },
     {
       "id": "2a30eb7cbdb64c1c",
@@ -7603,7 +7603,7 @@
       "url": "https://jobs.smartrecruiters.com/BoschGroup/REF277934A",
       "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/REF277934A",
       "source_adapter": "smartrecruiters",
-      "scraped_at": "2026-05-30T09:38:07+00:00"
+      "scraped_at": "2026-05-31T10:37:37+00:00"
     },
     {
       "id": "b717adc44d60a75e",
@@ -7634,7 +7634,7 @@
       "url": "https://jobs.smartrecruiters.com/BoschGroup/REF285605X",
       "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/REF285605X",
       "source_adapter": "smartrecruiters",
-      "scraped_at": "2026-05-30T09:38:07+00:00"
+      "scraped_at": "2026-05-31T10:37:37+00:00"
     },
     {
       "id": "3d0ec6e480ec094b",
@@ -7665,7 +7665,7 @@
       "url": "https://jobs.smartrecruiters.com/BoschGroup/REF286483L",
       "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/REF286483L",
       "source_adapter": "smartrecruiters",
-      "scraped_at": "2026-05-30T09:38:03+00:00"
+      "scraped_at": "2026-05-31T10:37:33+00:00"
     },
     {
       "id": "ec01fb7ef8d1ec46",
@@ -7696,7 +7696,7 @@
       "url": "https://jobs.smartrecruiters.com/BoschGroup/REF285325L",
       "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/REF285325L",
       "source_adapter": "smartrecruiters",
-      "scraped_at": "2026-05-30T09:38:08+00:00"
+      "scraped_at": "2026-05-31T10:37:38+00:00"
     },
     {
       "id": "428ef8e4a23080df",
@@ -7727,7 +7727,7 @@
       "url": "https://jobs.smartrecruiters.com/BoschGroup/REF286486J",
       "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/REF286486J",
       "source_adapter": "smartrecruiters",
-      "scraped_at": "2026-05-30T09:38:03+00:00"
+      "scraped_at": "2026-05-31T10:37:33+00:00"
     },
     {
       "id": "fec775f0a2a57800",
@@ -7756,7 +7756,7 @@
       "url": "https://jobs.smartrecruiters.com/BoschGroup/REF283886S",
       "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/REF283886S",
       "source_adapter": "smartrecruiters",
-      "scraped_at": "2026-05-30T09:38:11+00:00"
+      "scraped_at": "2026-05-31T10:37:40+00:00"
     },
     {
       "id": "8f8ee2fec766594d",
@@ -7785,7 +7785,7 @@
       "url": "https://jobs.smartrecruiters.com/BoschGroup/REF285928O",
       "apply_url": "https://jobs.smartrecruiters.com/BoschGroup/REF285928O",
       "source_adapter": "smartrecruiters",
-      "scraped_at": "2026-05-30T09:38:04+00:00"
+      "scraped_at": "2026-05-31T10:37:34+00:00"
     },
     {
       "id": "c813cace0a9f8144",
@@ -7824,7 +7824,7 @@
       "url": "https://job-boards.greenhouse.io/celonis/jobs/7662738003?gh_jid=7662738003",
       "apply_url": "https://job-boards.greenhouse.io/celonis/jobs/7662738003?gh_jid=7662738003",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:56+00:00"
+      "scraped_at": "2026-05-31T10:37:26+00:00"
     },
     {
       "id": "b7e4e4b4ae672b4c",
@@ -7863,7 +7863,7 @@
       "url": "https://job-boards.greenhouse.io/celonis/jobs/7609987003?gh_jid=7609987003",
       "apply_url": "https://job-boards.greenhouse.io/celonis/jobs/7609987003?gh_jid=7609987003",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:56+00:00"
+      "scraped_at": "2026-05-31T10:37:26+00:00"
     },
     {
       "id": "7e86091bf3f7a854",
@@ -7902,7 +7902,7 @@
       "url": "https://job-boards.greenhouse.io/celonis/jobs/7662718003?gh_jid=7662718003",
       "apply_url": "https://job-boards.greenhouse.io/celonis/jobs/7662718003?gh_jid=7662718003",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:56+00:00"
+      "scraped_at": "2026-05-31T10:37:26+00:00"
     },
     {
       "id": "d0bc4fc2bc7dc621",
@@ -7937,7 +7937,7 @@
       "url": "https://job-boards.greenhouse.io/celonis/jobs/7669112003?gh_jid=7669112003",
       "apply_url": "https://job-boards.greenhouse.io/celonis/jobs/7669112003?gh_jid=7669112003",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:56+00:00"
+      "scraped_at": "2026-05-31T10:37:26+00:00"
     },
     {
       "id": "c864ba44a77ec52e",
@@ -7966,9 +7966,9 @@
         "Span",
         "Underline",
         "text-decoration",
+        "Agentic Ai",
         "Architecture",
         "Modernization",
-        "Agentic Ai",
         "Style",
         "Innovation"
       ],
@@ -7976,7 +7976,7 @@
       "url": "https://job-boards.greenhouse.io/celonis/jobs/7610416003?gh_jid=7610416003",
       "apply_url": "https://job-boards.greenhouse.io/celonis/jobs/7610416003?gh_jid=7610416003",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:56+00:00"
+      "scraped_at": "2026-05-31T10:37:26+00:00"
     },
     {
       "id": "12a6f7a7b98f296e",
@@ -8005,9 +8005,9 @@
         "Span",
         "Underline",
         "text-decoration",
+        "Agentic Ai",
         "Architecture",
         "Modernization",
-        "Agentic Ai",
         "Style",
         "Innovation"
       ],
@@ -8015,7 +8015,7 @@
       "url": "https://job-boards.greenhouse.io/celonis/jobs/7610415003?gh_jid=7610415003",
       "apply_url": "https://job-boards.greenhouse.io/celonis/jobs/7610415003?gh_jid=7610415003",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:56+00:00"
+      "scraped_at": "2026-05-31T10:37:26+00:00"
     },
     {
       "id": "85ceebdcf46f7934",
@@ -8054,7 +8054,7 @@
       "url": "https://job-boards.greenhouse.io/celonis/jobs/7739944003?gh_jid=7739944003",
       "apply_url": "https://job-boards.greenhouse.io/celonis/jobs/7739944003?gh_jid=7739944003",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:56+00:00"
+      "scraped_at": "2026-05-31T10:37:26+00:00"
     },
     {
       "id": "0311ea06ee583ba6",
@@ -8093,7 +8093,7 @@
       "url": "https://job-boards.greenhouse.io/celonis/jobs/7730729003?gh_jid=7730729003",
       "apply_url": "https://job-boards.greenhouse.io/celonis/jobs/7730729003?gh_jid=7730729003",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:56+00:00"
+      "scraped_at": "2026-05-31T10:37:26+00:00"
     },
     {
       "id": "2467d876d94d71b6",
@@ -8129,13 +8129,55 @@
         "Python",
         "RAG",
         "scikit-learn",
-        "Scale"
+        "Supply Chain"
       ],
       "description": "<div class=\"content-intro\"><p>Celonis is the global leader in Process Intelligence and the pioneer of Process Mining technology. As one of the world’s fastest-growing enterprise SaaS companies, we are changemakers pushing the boundaries of what’s possible. We invest heavily in advanced AI capabilities—specifically our Process Intelligence Graph—to turn data insights into immediate business action. We believe there is a massive opportunity to unlock global productivity and sustainability by placing intelligence at the core of every business process. Join our mission to make processes work for people, companies, and the planet.</p></div><p><strong>Role Description</strong></p> <p>As an Applied AI Engineer you are pushing the envelope in solving business-critical problems for our customers. You will be working with our most strategic customers, understanding their objectives and key challenges, and building Celonis solutions using the world’s leading Process Intelligence (PI) platform in combination with the largest AI and ML technology partners, such as Microsoft, OpenAI and Databricks. With Celonis’ Process Intelligence (PI) platform we feed operational context to AI so it understands our customers’ business and enables them to industrialize AI unlocking real ROI on AI deployments and at scale. There is no AI without PI. You will prototype these solutions, demonstrate their value to Executives and ensure successful implementation, adoption and value realization in order to increase the footprint of Celonis at those customers.</p> <p><strong>Key Responsibilities:</strong></p> <ul> <li>AI Discovery &amp; Solutioning: Understand customers AI strategy and business critical challenges. As Celonis product &amp; domain expert, find the best problem-solution fit and translate customer requirements into innovative solutions that move the needle</li> <li>Hackathons &amp; Prototyping: Think out of the box, have a „can-do“ attitude and don’t shy away from complex problems. Leverage cutting edge AI technologies to rapidly build creative prototypes in customer hackathons solving business critical problems</li> <li>Agentic Process Transformation: Support our customers in achieving real ROI out of AI deployments at scale enabling a fundamental shift in business operations from traditional, rule-based automation to the use of autonomous AI agents empowered by our Celonis Process Intelligence Platform</li> <li>Proof projects: End-to-end execution of business-critical Proof-of-Value projects, incl. architecture and deliver secure, scalable LLM/agent systems with RAG, tools, and guardrails; integrating with enterprise data, identity, and compliance frameworks.</li> <li>Ensure Successful Project Outcome: Applied AI Engineers stay involved with projects until agreed value &amp; adoption thresholds are reached</li> <li>Specialize in Domains or Industries: To scale knowledge across the organization Applied AI Engineers specialize in domains (e.g. supply chain) and industries</li> </ul> <p><strong>Requirements:</strong></p> <ul> <li>6+ years of experience leading technical pre-sales, including defining AI roadmaps, building compelling ROI/TCO business cases and prototyping of machine learning and generative AI solutions.</li> <li>Understanding of generative AI techniques like RAG, few shot learning, prompt engineering, multi-agent orchestration, multimodal understanding, or fine-tuning that are used to build high-impact use cases like intelligent chatbots and automated text processors.</li> <li>Understanding of business processes across sectors (such as<strong> Supply Chain or Finance)</strong> with the ability to translate high-level business needs into specific AI use cases.</li> <li>Good knowledge of <strong>Python</strong> and common ML libraries (such as LangChain, pandas, pydantic, sklearn, PyTorch) as well as data engineering tools and technologies.</li> <li>Strong presentation skills to both internal and external stakeholders (including executives), whether whiteboarding sessions or formal readouts and demos.</li> <li>Bachelor’s Degree required, Masters Degree in computer science, engineering, mathematics or related fields, or equivalent work experience preferred.</li> </ul> <p><strong>Nice to have:</strong></p> <ul> <li>Hands-on experience building agentic systems using LLM orchestration, RAG, function calling, and prompt engineering, while ensuring safety through rigorous evaluations and guardrails.</li> <li>Working knowledge of tools in the LLM ecosystem such as LangChain, LlamaIndex, or other OSS packages.</li> <li>Experience in deploying and monitoring models at scale across major cloud platforms (AWS Bedrock, Azure AI, GCP Vertex)</li> <li>Fluency in Swedish or Danish&nbsp;</li> </ul><div class=\"content-conclusion\"><p><strong>What Celonis can offer you:</strong></p> <ul class=\"p-rich_text_list p-rich_text_list__bullet p-rich_text_list--nested\" data-stringify-type=\"unordered-list\" data-list-tree=\"true\" data-indent=\"0\" d",
       "url": "https://job-boards.greenhouse.io/celonis/jobs/7750227003?gh_jid=7750227003",
       "apply_url": "https://job-boards.greenhouse.io/celonis/jobs/7750227003?gh_jid=7750227003",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:56+00:00"
+      "scraped_at": "2026-05-31T10:37:26+00:00"
+    },
+    {
+      "id": "6a06d36e496b11bc",
+      "company": "Celonis",
+      "tier": "A",
+      "title": "Vice President, Engineering, Core Platform & Infrastructure",
+      "position_category": "Systems/Infra",
+      "employment_type": "Internship",
+      "cities": [
+        "Munich"
+      ],
+      "city_countries": [
+        "Germany"
+      ],
+      "country": "Germany",
+      "location_raw": "Munich, Germany",
+      "remote": false,
+      "posted_at": "2026-05-30",
+      "deadline": "",
+      "start_date": "",
+      "duration_value": null,
+      "duration_unit": "",
+      "duration_weeks": null,
+      "keywords": [
+        "AWS",
+        "Azure",
+        "GCP",
+        "Kubernetes",
+        "Redis",
+        "Infrastructure",
+        "Foundational",
+        "Identity",
+        "Backend",
+        "Automated",
+        "Architecture",
+        "Strict"
+      ],
+      "description": "<div class=\"content-intro\"><p>Celonis is the global leader in Process Intelligence and the pioneer of Process Mining technology. As one of the world’s fastest-growing enterprise SaaS companies, we are changemakers pushing the boundaries of what’s possible. We invest heavily in advanced AI capabilities—specifically our Process Intelligence Graph—to turn data insights into immediate business action. We believe there is a massive opportunity to unlock global productivity and sustainability by placing intelligence at the core of every business process. Join our mission to make processes work for people, companies, and the planet.</p></div><p><strong>The Role:</strong></p> <p>We are looking for a senior executive in Germany, Munich, to lead our Global Core Platform and Infrastructure function. The VP of Core Platform &amp; Infrastructure is a high-impact engineering executive responsible for the foundational technical layers that power the entire Celonis ecosystem. You will lead the engineering teams that build and operate the \"Metadata Platform,\" the \"Platform Core Services\" (PCS), and the \"Platform Infrastructure\" (PI). Your mission is to architect and provide a robust, secure, and scalable technical foundation that allows every Celonaut in the engineering organization to deliver enterprise-ready capabilities with maximum autonomy and minimum friction.</p> <p><strong>The work you’ll do:</strong></p> <p>As an organization, we are united through trust as one inclusive, diverse team, and we are passionate about helping our colleagues and clients succeed.</p> <p><strong>Strategic Technical Leadership &amp; Architecture</strong></p> <ul> <li><strong>Platform Evolution:</strong> Drive the \"Bedrock\" infrastructure strategy and architecture across AWS, Azure, and GCP, overseeing the Kubernetes platform, Traffic routing (Cilium), and IaC automation (Celoplane/Argo CD).</li> <li><strong>Foundational Excellence:</strong> Lead the PCS engineering organization to build and deliver standards-based Identity Management, Provisioning, and Licensing systems that enhance the overall resilience, security, and future-readiness of the Celonis platform backend.</li> <li><strong>Data Infrastructure Stewardship:</strong> Manage the technical lifecycle and architecture of the Metadata Platform, engineering secure, high-availability data layers through services like PacMan, RabbitMQ (messaging), and Redis (caching).</li> <li><strong>Internal Developer Experience (DevEx):</strong> Continuously evolve our internal tooling and foundational services, empowering internal engineering squads to autonomously deliver scalable capabilities via robust self-service APIs and automated pipelines.</li> <li><strong>Global Market Expansion Infrastructure:</strong> Act as the primary technical driver for automated market expansion into new realms via the Orbit platform, ensuring a highly available, trusted foundation for enterprise scaling.</li> </ul> <p><strong>Engineering Strategy &amp; Execution</strong></p> <ul> <li><strong>Platform Delivery Strategy:</strong> Lead the engineering lifecycle for internal tools and core services, driving a culture of technical excellence by defining strict SLAs, developer-centric documentation, and highly reliable self-service architectures for all Celonauts.</li> <li><strong>Cross-Functional Technical Orchestration:</strong> Act as the primary technical interface with other Engineering leaders to prioritize foundational \"Enterprise-Ready\" backend features—such as advanced licensing models and complex identity governance—ensuring they are built and delivered as proactive enablers.</li> <li><strong>Standardization &amp; Modernization:</strong> Define and execute the technical roadmap for the deployment of secure, scalable, and standards-based identity and authentication architectures, deprecating and replacing legacy backend mechanisms across the platform.</li> </ul> <p><strong>The qualifications you need:</strong></p> <ul> <li><strong>Proven Executive Experience:</strong> 10+ years in software engineering leadership, specifically managing large-scale cloud-native platforms, infrastructure engineering, and shared service organizations.</li> <li><strong>Technical Depth:</strong> Deep, hands-on architectural expertise in Kubernetes, multi-cloud environments (AWS, Azure, GCP), and modern identity standards (OIDC/SAML/OAuth).</li> <li><strong>Infrastructure Specialist:</strong> Significant engineering experience with Infrastructure-as-Code (IaC), automated routing/connectivity (Cilium), and global realm automation at an enterprise scale.</li> <li><strong>Platform Engineering Mindset:</strong> A strong focus on building robust Internal Developer Platforms (IDP), balancing the technical scaling needs of internal developer squads with strict enterprise architecture and security requirements.</li> <li><strong>Data Services Proficiency:</strong> Solid technical understanding of managing and scaling distributed data services, inc",
+      "url": "https://job-boards.greenhouse.io/celonis/jobs/7754989003?gh_jid=7754989003",
+      "apply_url": "https://job-boards.greenhouse.io/celonis/jobs/7754989003?gh_jid=7754989003",
+      "source_adapter": "greenhouse",
+      "scraped_at": "2026-05-31T10:37:26+00:00"
     },
     {
       "id": "29c365dc72db6b32",
@@ -8176,7 +8218,7 @@
       "url": "https://job-boards.greenhouse.io/celonis/jobs/7690716003?gh_jid=7690716003",
       "apply_url": "https://job-boards.greenhouse.io/celonis/jobs/7690716003?gh_jid=7690716003",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:56+00:00"
+      "scraped_at": "2026-05-31T10:37:26+00:00"
     },
     {
       "id": "2dec667f8241cf05",
@@ -8217,7 +8259,7 @@
       "url": "https://job-boards.greenhouse.io/celonis/jobs/7681944003?gh_jid=7681944003",
       "apply_url": "https://job-boards.greenhouse.io/celonis/jobs/7681944003?gh_jid=7681944003",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:56+00:00"
+      "scraped_at": "2026-05-31T10:37:26+00:00"
     },
     {
       "id": "4a1d7f2bb98cb822",
@@ -8259,7 +8301,7 @@
       "url": "https://job-boards.greenhouse.io/celonis/jobs/7702268003?gh_jid=7702268003",
       "apply_url": "https://job-boards.greenhouse.io/celonis/jobs/7702268003?gh_jid=7702268003",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:56+00:00"
+      "scraped_at": "2026-05-31T10:37:26+00:00"
     },
     {
       "id": "336bdae480bf480a",
@@ -8295,13 +8337,13 @@
         "text-decoration",
         "Style",
         "Retrieval",
-        "Pipelines"
+        "P Nbsp"
       ],
       "description": "<div class=\"content-intro\"><p>Celonis is the global leader in Process Intelligence and the pioneer of Process Mining technology. As one of the world’s fastest-growing enterprise SaaS companies, we are changemakers pushing the boundaries of what’s possible. We invest heavily in advanced AI capabilities—specifically our Process Intelligence Graph—to turn data insights into immediate business action. We believe there is a massive opportunity to unlock global productivity and sustainability by placing intelligence at the core of every business process. Join our mission to make processes work for people, companies, and the planet.</p></div><p><strong>The Team:</strong></p> <p>The Brand Research &amp; Strategy team believes brand leadership is a powerful competitive advantage. We drive business performance through research, insights, analytics, intelligence, brand management, and strategy. We act as a strategic hub, collaborating closely with experts across Customer Experience (CX), Digital Experience (DX), Employee Experience (EX), and Go-to-Market (GTM) teams. Our goal is to lead with brand by turning data into human insight - creating the truths that drive presence, build affinity, and anchor trust.</p> <p>&nbsp;</p> <p><strong>The Role:</strong><span style=\"font-weight: 400;\"><br></span></p> <p>This role supports the prototyping of applied AI pilot projects within Celonis Brand Team.&nbsp;These pilots are part of a wider strategy focused on three core outcomes:</p> <ul> <li><strong>Governance: </strong>ensuring AI operates within brand and legal guardrails</li> <li><strong>Enablement: </strong>increasing creative and GTM speed while maintaining quality</li> <li><strong>Visibility:</strong> ensuring Celonis appears accurately and consistently in AI-mediated environments such as generative search and AI assistants</li> </ul> <p>Taken together, this strategy positions Brand not only as a control function, but as an AI enablement layer for GTM - helping teams move faster while protecting consistency, trust, and compliance.</p> <p>As a Working Student, you will help prototype the technical foundations of these AI systems. This includes conversational AI workflows, knowledge retrieval, data collection pipelines, and web integrations. You will work with brand, design, marketing, , research, and engineering stakeholders to experiment with AI-driven knowledge systems and agent-based tools for marketing.&nbsp;</p> <p>&nbsp;</p> <p><strong>The work you’ll do:</strong></p> <ul> <li>Support the development of AI avatars</li> <li>Experiment with retrieval-augmented generation (RAG) using proprietary knowledge</li> <li>Assist with the integration of voice and avatar platforms</li> <li>Support web embedding and API integrations</li> <li>Help build data pipelines for the Brand Intelligence Dashboard</li> <li>Test AI outputs and improve prompts, retrieval quality, and workflow design</li> <li>Contribute to documentation and collaboration with research partners</li> <li>Enabling brand operations and infrastructure, for AI applications.</li> </ul> <p><strong>The qualifications you need:</strong></p> <ul> <li>Enrolled student in Computer Science, Artificial Intelligence, Data Science, HCI, or a related field</li> <li>Strong interest in LLMs, conversational AI, and applied AI workflows, RAG or vector databases</li> <li>Experience with Python or JavaScript</li> <li>Comfort working with APIs and AI tools</li> <li>Strong curiosity, initiative, and problem-solving mindset</li> <li>Munich based and able to work on-site at our headquarters</li> <li>Ready to support the team for 16–20 hours per week</li> </ul> <p><strong>&nbsp;</strong></p><div class=\"content-conclusion\"><p><strong>What Celonis can offer you:</strong></p> <ul class=\"p-rich_text_list p-rich_text_list__bullet p-rich_text_list--nested\" data-stringify-type=\"unordered-list\" data-list-tree=\"true\" data-indent=\"0\" data-border=\"0\"> <li><span style=\"text-decoration: underline;\">Pioneer Innovation:</span> Work with the global leader in Process Mining and the Process Intelligence Graph to shape the future of AI-driven business operations.</li> <li><span style=\"text-decoration: underline;\">Ownership from Day 1:</span> Every full-time \"Celonaut\" is an owner, receiving Restricted Stock Units (RSUs) and merit-based refresh grants.</li> <li><span style=\"text-decoration: underline;\">Unrivaled Family Support:</span> Benefit from our inclusive parental leave policy—24 weeks of fully paid leave for primary carers and 12 weeks for supporting carers, available from your first day of employment.</li> <li><span style=\"text-decoration: underline;\">Work-Life Integration:</span> Enjoy Unlimited PTO (in applicable regions) and generous PTO globally, as well as a flexible hybrid work model that balances remote focus with vibrant office collaboration.</li> <li><span style=\"text-decoration: underline;\">Continuous Growth:</span> Elevate your skills through our 70-20-10 learning framework, mentorship pro",
       "url": "https://job-boards.greenhouse.io/celonis/jobs/7713599003?gh_jid=7713599003",
       "apply_url": "https://job-boards.greenhouse.io/celonis/jobs/7713599003?gh_jid=7713599003",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:56+00:00"
+      "scraped_at": "2026-05-31T10:37:26+00:00"
     },
     {
       "id": "3ec5cbf59ec6eda1",
@@ -8343,7 +8385,7 @@
       "url": "https://job-boards.greenhouse.io/contentful/jobs/7859228",
       "apply_url": "https://job-boards.greenhouse.io/contentful/jobs/7859228",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:53+00:00"
+      "scraped_at": "2026-05-31T10:37:24+00:00"
     },
     {
       "id": "1c2138133b760ca6",
@@ -8381,7 +8423,7 @@
       "url": "https://job-boards.greenhouse.io/contentful/jobs/6671440",
       "apply_url": "https://job-boards.greenhouse.io/contentful/jobs/6671440",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:53+00:00"
+      "scraped_at": "2026-05-31T10:37:24+00:00"
     },
     {
       "id": "ffc779f8bea98791",
@@ -8419,7 +8461,7 @@
       "url": "https://job-boards.greenhouse.io/contentful/jobs/6696223",
       "apply_url": "https://job-boards.greenhouse.io/contentful/jobs/6696223",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:53+00:00"
+      "scraped_at": "2026-05-31T10:37:24+00:00"
     },
     {
       "id": "c9fee53094039043",
@@ -8457,7 +8499,7 @@
       "url": "https://job-boards.greenhouse.io/contentful/jobs/5852946",
       "apply_url": "https://job-boards.greenhouse.io/contentful/jobs/5852946",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:53+00:00"
+      "scraped_at": "2026-05-31T10:37:24+00:00"
     },
     {
       "id": "3cea3764e7bedea0",
@@ -8499,7 +8541,7 @@
       "url": "https://job-boards.greenhouse.io/contentful/jobs/7905720",
       "apply_url": "https://job-boards.greenhouse.io/contentful/jobs/7905720",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:53+00:00"
+      "scraped_at": "2026-05-31T10:37:24+00:00"
     },
     {
       "id": "9f13e3bc04e8bacd",
@@ -8541,7 +8583,7 @@
       "url": "https://job-boards.greenhouse.io/contentful/jobs/7557586",
       "apply_url": "https://job-boards.greenhouse.io/contentful/jobs/7557586",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:53+00:00"
+      "scraped_at": "2026-05-31T10:37:24+00:00"
     },
     {
       "id": "7aab69d92d1bfa86",
@@ -8583,7 +8625,7 @@
       "url": "https://job-boards.greenhouse.io/contentful/jobs/7553930",
       "apply_url": "https://job-boards.greenhouse.io/contentful/jobs/7553930",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:53+00:00"
+      "scraped_at": "2026-05-31T10:37:24+00:00"
     },
     {
       "id": "7382bec84604400b",
@@ -8625,7 +8667,7 @@
       "url": "https://job-boards.greenhouse.io/contentful/jobs/7557597",
       "apply_url": "https://job-boards.greenhouse.io/contentful/jobs/7557597",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:53+00:00"
+      "scraped_at": "2026-05-31T10:37:24+00:00"
     },
     {
       "id": "4d10851299f73bff",
@@ -8667,7 +8709,7 @@
       "url": "https://job-boards.greenhouse.io/doctolib/jobs/5861501003",
       "apply_url": "https://job-boards.greenhouse.io/doctolib/jobs/5861501003",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:52+00:00"
+      "scraped_at": "2026-05-31T10:37:23+00:00"
     },
     {
       "id": "c2f47561ddb62462",
@@ -8709,7 +8751,7 @@
       "url": "https://job-boards.greenhouse.io/doctolib/jobs/6524738003",
       "apply_url": "https://job-boards.greenhouse.io/doctolib/jobs/6524738003",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:52+00:00"
+      "scraped_at": "2026-05-31T10:37:23+00:00"
     },
     {
       "id": "503cfeef6cc700cb",
@@ -8749,7 +8791,7 @@
       "url": "https://job-boards.greenhouse.io/doctolib/jobs/7634096003",
       "apply_url": "https://job-boards.greenhouse.io/doctolib/jobs/7634096003",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:52+00:00"
+      "scraped_at": "2026-05-31T10:37:23+00:00"
     },
     {
       "id": "938aef5b14e15793",
@@ -8791,7 +8833,7 @@
       "url": "https://job-boards.greenhouse.io/doctolib/jobs/7742621003",
       "apply_url": "https://job-boards.greenhouse.io/doctolib/jobs/7742621003",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:52+00:00"
+      "scraped_at": "2026-05-31T10:37:23+00:00"
     },
     {
       "id": "0fd76a48db32160f",
@@ -8833,7 +8875,7 @@
       "url": "https://job-boards.greenhouse.io/doctolib/jobs/6681347003",
       "apply_url": "https://job-boards.greenhouse.io/doctolib/jobs/6681347003",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:52+00:00"
+      "scraped_at": "2026-05-31T10:37:23+00:00"
     },
     {
       "id": "fc0448be41f8a355",
@@ -8875,7 +8917,7 @@
       "url": "https://job-boards.greenhouse.io/doctolib/jobs/7634045003",
       "apply_url": "https://job-boards.greenhouse.io/doctolib/jobs/7634045003",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:52+00:00"
+      "scraped_at": "2026-05-31T10:37:23+00:00"
     },
     {
       "id": "df5c45f4bca55ee4",
@@ -8917,7 +8959,7 @@
       "url": "https://job-boards.greenhouse.io/doctolib/jobs/7634018003",
       "apply_url": "https://job-boards.greenhouse.io/doctolib/jobs/7634018003",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:52+00:00"
+      "scraped_at": "2026-05-31T10:37:23+00:00"
     },
     {
       "id": "7d10a84a016cd8b3",
@@ -8959,7 +9001,7 @@
       "url": "https://job-boards.greenhouse.io/doctolib/jobs/7739119003",
       "apply_url": "https://job-boards.greenhouse.io/doctolib/jobs/7739119003",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:52+00:00"
+      "scraped_at": "2026-05-31T10:37:23+00:00"
     },
     {
       "id": "f6faf60d4cfd0c18",
@@ -9001,7 +9043,7 @@
       "url": "https://job-boards.greenhouse.io/doctolib/jobs/7708090003",
       "apply_url": "https://job-boards.greenhouse.io/doctolib/jobs/7708090003",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:52+00:00"
+      "scraped_at": "2026-05-31T10:37:23+00:00"
     },
     {
       "id": "c6c9ac2cc2af862f",
@@ -9043,7 +9085,7 @@
       "url": "https://job-boards.greenhouse.io/doctolib/jobs/7750905003",
       "apply_url": "https://job-boards.greenhouse.io/doctolib/jobs/7750905003",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:52+00:00"
+      "scraped_at": "2026-05-31T10:37:23+00:00"
     },
     {
       "id": "84233dbc6174ca74",
@@ -9083,7 +9125,7 @@
       "url": "https://job-boards.greenhouse.io/doctolib/jobs/7453044003",
       "apply_url": "https://job-boards.greenhouse.io/doctolib/jobs/7453044003",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:52+00:00"
+      "scraped_at": "2026-05-31T10:37:23+00:00"
     },
     {
       "id": "c517b03eb43c9399",
@@ -9123,7 +9165,7 @@
       "url": "https://job-boards.greenhouse.io/gocardless/jobs/7916619",
       "apply_url": "https://job-boards.greenhouse.io/gocardless/jobs/7916619",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:42+00:00"
+      "scraped_at": "2026-05-31T10:37:13+00:00"
     },
     {
       "id": "3f95f8b0cf51a76b",
@@ -9164,7 +9206,7 @@
       "url": "https://job-boards.greenhouse.io/gocardless/jobs/7699256",
       "apply_url": "https://job-boards.greenhouse.io/gocardless/jobs/7699256",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:42+00:00"
+      "scraped_at": "2026-05-31T10:37:13+00:00"
     },
     {
       "id": "a64603a2473ca954",
@@ -9205,7 +9247,7 @@
       "url": "https://job-boards.greenhouse.io/gocardless/jobs/7699254",
       "apply_url": "https://job-boards.greenhouse.io/gocardless/jobs/7699254",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:42+00:00"
+      "scraped_at": "2026-05-31T10:37:13+00:00"
     },
     {
       "id": "8234680e807dd0b6",
@@ -9247,7 +9289,7 @@
       "url": "https://job-boards.greenhouse.io/gocardless/jobs/7699286",
       "apply_url": "https://job-boards.greenhouse.io/gocardless/jobs/7699286",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:42+00:00"
+      "scraped_at": "2026-05-31T10:37:13+00:00"
     },
     {
       "id": "7d7f2380dd6f4c89",
@@ -9289,7 +9331,7 @@
       "url": "https://job-boards.greenhouse.io/gocardless/jobs/7938467",
       "apply_url": "https://job-boards.greenhouse.io/gocardless/jobs/7938467",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:42+00:00"
+      "scraped_at": "2026-05-31T10:37:13+00:00"
     },
     {
       "id": "da63d9b857713b16",
@@ -9331,7 +9373,7 @@
       "url": "https://job-boards.greenhouse.io/gocardless/jobs/7515332",
       "apply_url": "https://job-boards.greenhouse.io/gocardless/jobs/7515332",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:42+00:00"
+      "scraped_at": "2026-05-31T10:37:13+00:00"
     },
     {
       "id": "cf3f688d49caff79",
@@ -9373,7 +9415,7 @@
       "url": "https://job-boards.greenhouse.io/gocardless/jobs/6252940",
       "apply_url": "https://job-boards.greenhouse.io/gocardless/jobs/6252940",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:42+00:00"
+      "scraped_at": "2026-05-31T10:37:13+00:00"
     },
     {
       "id": "e0f6c44e1f3bffbd",
@@ -9415,7 +9457,7 @@
       "url": "https://job-boards.greenhouse.io/gocardless/jobs/7436395",
       "apply_url": "https://job-boards.greenhouse.io/gocardless/jobs/7436395",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:42+00:00"
+      "scraped_at": "2026-05-31T10:37:13+00:00"
     },
     {
       "id": "0e6a398ff63b0348",
@@ -9457,7 +9499,7 @@
       "url": "https://job-boards.greenhouse.io/gocardless/jobs/7942125",
       "apply_url": "https://job-boards.greenhouse.io/gocardless/jobs/7942125",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:42+00:00"
+      "scraped_at": "2026-05-31T10:37:13+00:00"
     },
     {
       "id": "bd8db216ad698bf2",
@@ -9495,7 +9537,7 @@
       "url": "https://job-boards.greenhouse.io/gocardless/jobs/7627201",
       "apply_url": "https://job-boards.greenhouse.io/gocardless/jobs/7627201",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:42+00:00"
+      "scraped_at": "2026-05-31T10:37:13+00:00"
     },
     {
       "id": "6060e031bf7319ba",
@@ -9537,7 +9579,7 @@
       "url": "https://job-boards.greenhouse.io/gocardless/jobs/7310810",
       "apply_url": "https://job-boards.greenhouse.io/gocardless/jobs/7310810",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:42+00:00"
+      "scraped_at": "2026-05-31T10:37:13+00:00"
     },
     {
       "id": "9fff91d693640d9b",
@@ -9576,7 +9618,7 @@
       "url": "https://job-boards.greenhouse.io/gocardless/jobs/7556592",
       "apply_url": "https://job-boards.greenhouse.io/gocardless/jobs/7556592",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:42+00:00"
+      "scraped_at": "2026-05-31T10:37:13+00:00"
     },
     {
       "id": "8eb51983c00fb12b",
@@ -9618,7 +9660,7 @@
       "url": "https://boards.greenhouse.io/manychat/jobs/7664531002?gh_jid=7664531002",
       "apply_url": "https://boards.greenhouse.io/manychat/jobs/7664531002?gh_jid=7664531002",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:36:41+00:00"
+      "scraped_at": "2026-05-31T10:36:19+00:00"
     },
     {
       "id": "6a3dc1d0e9049e73",
@@ -9647,7 +9689,7 @@
       "url": "https://boards.greenhouse.io/manychat/jobs/8514789002?gh_jid=8514789002",
       "apply_url": "https://boards.greenhouse.io/manychat/jobs/8514789002?gh_jid=8514789002",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:36:41+00:00"
+      "scraped_at": "2026-05-31T10:36:19+00:00"
     },
     {
       "id": "d65f390e10a54988",
@@ -9686,7 +9728,7 @@
       "url": "https://job-boards.greenhouse.io/mirakl/jobs/5831199004",
       "apply_url": "https://job-boards.greenhouse.io/mirakl/jobs/5831199004",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:36:41+00:00"
+      "scraped_at": "2026-05-31T10:36:20+00:00"
     },
     {
       "id": "f4dc90c3cc0fa2cf",
@@ -9722,7 +9764,7 @@
       "url": "https://job-boards.greenhouse.io/mirakl/jobs/5140266004",
       "apply_url": "https://job-boards.greenhouse.io/mirakl/jobs/5140266004",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:36:41+00:00"
+      "scraped_at": "2026-05-31T10:36:20+00:00"
     },
     {
       "id": "124dd50fe716681a",
@@ -9761,7 +9803,7 @@
       "url": "https://job-boards.greenhouse.io/mirakl/jobs/6007667004",
       "apply_url": "https://job-boards.greenhouse.io/mirakl/jobs/6007667004",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:36:41+00:00"
+      "scraped_at": "2026-05-31T10:36:20+00:00"
     },
     {
       "id": "a9249e233ce05443",
@@ -9797,7 +9839,7 @@
       "url": "https://job-boards.greenhouse.io/mirakl/jobs/5971977004",
       "apply_url": "https://job-boards.greenhouse.io/mirakl/jobs/5971977004",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:36:41+00:00"
+      "scraped_at": "2026-05-31T10:36:20+00:00"
     },
     {
       "id": "c8de5ef9da66c24e",
@@ -9833,7 +9875,7 @@
       "url": "https://job-boards.greenhouse.io/mirakl/jobs/5971979004",
       "apply_url": "https://job-boards.greenhouse.io/mirakl/jobs/5971979004",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:36:41+00:00"
+      "scraped_at": "2026-05-31T10:36:20+00:00"
     },
     {
       "id": "a00ba08ec02209d5",
@@ -9872,7 +9914,7 @@
       "url": "https://job-boards.greenhouse.io/mirakl/jobs/5977919004",
       "apply_url": "https://job-boards.greenhouse.io/mirakl/jobs/5977919004",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:36:41+00:00"
+      "scraped_at": "2026-05-31T10:36:20+00:00"
     },
     {
       "id": "853c03c1f3bb1a2a",
@@ -9916,7 +9958,7 @@
       "url": "https://n26.com/en-eu/careers/positions/7656921?gh_jid=7656921",
       "apply_url": "https://n26.com/en-eu/careers/positions/7656921?gh_jid=7656921",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:36:39+00:00"
+      "scraped_at": "2026-05-31T10:36:18+00:00"
     },
     {
       "id": "bf390ed1021e68e4",
@@ -9958,7 +10000,7 @@
       "url": "https://n26.com/en-eu/careers/positions/7960138?gh_jid=7960138",
       "apply_url": "https://n26.com/en-eu/careers/positions/7960138?gh_jid=7960138",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:36:39+00:00"
+      "scraped_at": "2026-05-31T10:36:18+00:00"
     },
     {
       "id": "e051e6e51360439e",
@@ -9999,7 +10041,7 @@
       "url": "https://n26.com/en-eu/careers/positions/7883343?gh_jid=7883343",
       "apply_url": "https://n26.com/en-eu/careers/positions/7883343?gh_jid=7883343",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:36:39+00:00"
+      "scraped_at": "2026-05-31T10:36:18+00:00"
     },
     {
       "id": "320d176c3a6b6041",
@@ -10039,7 +10081,7 @@
       "url": "https://n26.com/en-eu/careers/positions/7912271?gh_jid=7912271",
       "apply_url": "https://n26.com/en-eu/careers/positions/7912271?gh_jid=7912271",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:36:39+00:00"
+      "scraped_at": "2026-05-31T10:36:18+00:00"
     },
     {
       "id": "0edc381a8fc75fc1",
@@ -10080,7 +10122,7 @@
       "url": "https://n26.com/en-eu/careers/positions/7953649?gh_jid=7953649",
       "apply_url": "https://n26.com/en-eu/careers/positions/7953649?gh_jid=7953649",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:36:39+00:00"
+      "scraped_at": "2026-05-31T10:36:18+00:00"
     },
     {
       "id": "5ba3585c5536e99a",
@@ -10121,7 +10163,7 @@
       "url": "https://n26.com/en-eu/careers/positions/7951197?gh_jid=7951197",
       "apply_url": "https://n26.com/en-eu/careers/positions/7951197?gh_jid=7951197",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:36:39+00:00"
+      "scraped_at": "2026-05-31T10:36:18+00:00"
     },
     {
       "id": "d2a97dec5ee922b8",
@@ -10163,7 +10205,7 @@
       "url": "https://n26.com/en-eu/careers/positions/7553744?gh_jid=7553744",
       "apply_url": "https://n26.com/en-eu/careers/positions/7553744?gh_jid=7553744",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:36:39+00:00"
+      "scraped_at": "2026-05-31T10:36:18+00:00"
     },
     {
       "id": "49f56897e478e8f0",
@@ -10205,7 +10247,7 @@
       "url": "https://n26.com/en-eu/careers/positions/7548343?gh_jid=7548343",
       "apply_url": "https://n26.com/en-eu/careers/positions/7548343?gh_jid=7548343",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:36:39+00:00"
+      "scraped_at": "2026-05-31T10:36:18+00:00"
     },
     {
       "id": "cecb5a7072e790d5",
@@ -10247,7 +10289,7 @@
       "url": "https://n26.com/en-eu/careers/positions/7736314?gh_jid=7736314",
       "apply_url": "https://n26.com/en-eu/careers/positions/7736314?gh_jid=7736314",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:36:39+00:00"
+      "scraped_at": "2026-05-31T10:36:18+00:00"
     },
     {
       "id": "ac1eb30c9ca8e187",
@@ -10289,7 +10331,7 @@
       "url": "https://n26.com/en-eu/careers/positions/7735448?gh_jid=7735448",
       "apply_url": "https://n26.com/en-eu/careers/positions/7735448?gh_jid=7735448",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:36:39+00:00"
+      "scraped_at": "2026-05-31T10:36:18+00:00"
     },
     {
       "id": "d5ce62ce92dbde9e",
@@ -10318,7 +10360,7 @@
       "url": "https://jobs.lever.co/qonto/4869e9a9-001e-4775-a986-458679c1e9ef",
       "apply_url": "https://jobs.lever.co/qonto/4869e9a9-001e-4775-a986-458679c1e9ef/apply",
       "source_adapter": "lever",
-      "scraped_at": "2026-05-30T09:37:44+00:00"
+      "scraped_at": "2026-05-31T10:37:15+00:00"
     },
     {
       "id": "51f14f576fb2b189",
@@ -10356,7 +10398,7 @@
       "url": "https://sumup.com/careers/positions/8285272002?gh_jid=8285272002",
       "apply_url": "https://sumup.com/careers/positions/8285272002?gh_jid=8285272002",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:54+00:00"
+      "scraped_at": "2026-05-31T10:37:24+00:00"
     },
     {
       "id": "7a9931261672eada",
@@ -10398,7 +10440,7 @@
       "url": "https://sumup.com/careers/positions/8547742002?gh_jid=8547742002",
       "apply_url": "https://sumup.com/careers/positions/8547742002?gh_jid=8547742002",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:54+00:00"
+      "scraped_at": "2026-05-31T10:37:24+00:00"
     },
     {
       "id": "d4049b5c37e82754",
@@ -10436,7 +10478,7 @@
       "url": "https://sumup.com/careers/positions/8331798002?gh_jid=8331798002",
       "apply_url": "https://sumup.com/careers/positions/8331798002?gh_jid=8331798002",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:54+00:00"
+      "scraped_at": "2026-05-31T10:37:24+00:00"
     },
     {
       "id": "05a3268a5a003dd2",
@@ -10474,7 +10516,7 @@
       "url": "https://sumup.com/careers/positions/8317342002?gh_jid=8317342002",
       "apply_url": "https://sumup.com/careers/positions/8317342002?gh_jid=8317342002",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:54+00:00"
+      "scraped_at": "2026-05-31T10:37:24+00:00"
     },
     {
       "id": "62f91976816640f1",
@@ -10512,7 +10554,7 @@
       "url": "https://sumup.com/careers/positions/8082062002?gh_jid=8082062002",
       "apply_url": "https://sumup.com/careers/positions/8082062002?gh_jid=8082062002",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:54+00:00"
+      "scraped_at": "2026-05-31T10:37:24+00:00"
     },
     {
       "id": "8d0164f856d6c6d2",
@@ -10550,7 +10592,7 @@
       "url": "https://sumup.com/careers/positions/8082023002?gh_jid=8082023002",
       "apply_url": "https://sumup.com/careers/positions/8082023002?gh_jid=8082023002",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:54+00:00"
+      "scraped_at": "2026-05-31T10:37:24+00:00"
     },
     {
       "id": "a3229e8fc1c6fb10",
@@ -10588,7 +10630,7 @@
       "url": "https://sumup.com/careers/positions/8081942002?gh_jid=8081942002",
       "apply_url": "https://sumup.com/careers/positions/8081942002?gh_jid=8081942002",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:54+00:00"
+      "scraped_at": "2026-05-31T10:37:24+00:00"
     },
     {
       "id": "c4c493785c5c1350",
@@ -10626,7 +10668,7 @@
       "url": "https://sumup.com/careers/positions/8360512002?gh_jid=8360512002",
       "apply_url": "https://sumup.com/careers/positions/8360512002?gh_jid=8360512002",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:54+00:00"
+      "scraped_at": "2026-05-31T10:37:24+00:00"
     },
     {
       "id": "108d5a4ddae3907a",
@@ -10664,7 +10706,7 @@
       "url": "https://sumup.com/careers/positions/8081983002?gh_jid=8081983002",
       "apply_url": "https://sumup.com/careers/positions/8081983002?gh_jid=8081983002",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:54+00:00"
+      "scraped_at": "2026-05-31T10:37:24+00:00"
     },
     {
       "id": "c3b4764f76cc7976",
@@ -10706,7 +10748,7 @@
       "url": "https://sumup.com/careers/positions/8497866002?gh_jid=8497866002",
       "apply_url": "https://sumup.com/careers/positions/8497866002?gh_jid=8497866002",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:54+00:00"
+      "scraped_at": "2026-05-31T10:37:24+00:00"
     },
     {
       "id": "da2aeaa3b49b17e3",
@@ -10748,7 +10790,7 @@
       "url": "https://sumup.com/careers/positions/8388972002?gh_jid=8388972002",
       "apply_url": "https://sumup.com/careers/positions/8388972002?gh_jid=8388972002",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:54+00:00"
+      "scraped_at": "2026-05-31T10:37:24+00:00"
     },
     {
       "id": "7fd36f3ca1ee989d",
@@ -10786,7 +10828,7 @@
       "url": "https://sumup.com/careers/positions/8344500002?gh_jid=8344500002",
       "apply_url": "https://sumup.com/careers/positions/8344500002?gh_jid=8344500002",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:54+00:00"
+      "scraped_at": "2026-05-31T10:37:24+00:00"
     },
     {
       "id": "2637df26744de48c",
@@ -10824,7 +10866,7 @@
       "url": "https://sumup.com/careers/positions/8181794002?gh_jid=8181794002",
       "apply_url": "https://sumup.com/careers/positions/8181794002?gh_jid=8181794002",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:54+00:00"
+      "scraped_at": "2026-05-31T10:37:24+00:00"
     },
     {
       "id": "9ba4b4bcca536678",
@@ -10862,7 +10904,7 @@
       "url": "https://sumup.com/careers/positions/8314056002?gh_jid=8314056002",
       "apply_url": "https://sumup.com/careers/positions/8314056002?gh_jid=8314056002",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:54+00:00"
+      "scraped_at": "2026-05-31T10:37:24+00:00"
     },
     {
       "id": "833c02d1a1c23211",
@@ -10904,7 +10946,7 @@
       "url": "https://sumup.com/careers/positions/8437657002?gh_jid=8437657002",
       "apply_url": "https://sumup.com/careers/positions/8437657002?gh_jid=8437657002",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:54+00:00"
+      "scraped_at": "2026-05-31T10:37:24+00:00"
     },
     {
       "id": "aa4de14c9d7c9e99",
@@ -10944,7 +10986,7 @@
       "url": "https://sumup.com/careers/positions/8458918002?gh_jid=8458918002",
       "apply_url": "https://sumup.com/careers/positions/8458918002?gh_jid=8458918002",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:54+00:00"
+      "scraped_at": "2026-05-31T10:37:24+00:00"
     },
     {
       "id": "17a51325f2535167",
@@ -10982,7 +11024,7 @@
       "url": "https://sumup.com/careers/positions/8466284002?gh_jid=8466284002",
       "apply_url": "https://sumup.com/careers/positions/8466284002?gh_jid=8466284002",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:54+00:00"
+      "scraped_at": "2026-05-31T10:37:24+00:00"
     },
     {
       "id": "ae30dc1708371533",
@@ -11020,7 +11062,7 @@
       "url": "https://sumup.com/careers/positions/8532892002?gh_jid=8532892002",
       "apply_url": "https://sumup.com/careers/positions/8532892002?gh_jid=8532892002",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:54+00:00"
+      "scraped_at": "2026-05-31T10:37:24+00:00"
     },
     {
       "id": "f81b9a8c3b118489",
@@ -11062,7 +11104,7 @@
       "url": "https://sumup.com/careers/positions/8426778002?gh_jid=8426778002",
       "apply_url": "https://sumup.com/careers/positions/8426778002?gh_jid=8426778002",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:54+00:00"
+      "scraped_at": "2026-05-31T10:37:24+00:00"
     },
     {
       "id": "547145111997eba1",
@@ -11110,7 +11152,7 @@
       "url": "https://sumup.com/careers/positions/8481527002?gh_jid=8481527002",
       "apply_url": "https://sumup.com/careers/positions/8481527002?gh_jid=8481527002",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:54+00:00"
+      "scraped_at": "2026-05-31T10:37:24+00:00"
     },
     {
       "id": "42256fda3f3fd755",
@@ -11148,7 +11190,7 @@
       "url": "https://sumup.com/careers/positions/8416174002?gh_jid=8416174002",
       "apply_url": "https://sumup.com/careers/positions/8416174002?gh_jid=8416174002",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:54+00:00"
+      "scraped_at": "2026-05-31T10:37:24+00:00"
     },
     {
       "id": "03e83fc126c758c6",
@@ -11186,7 +11228,7 @@
       "url": "https://sumup.com/careers/positions/8458573002?gh_jid=8458573002",
       "apply_url": "https://sumup.com/careers/positions/8458573002?gh_jid=8458573002",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:54+00:00"
+      "scraped_at": "2026-05-31T10:37:24+00:00"
     },
     {
       "id": "dad25adb716e56f4",
@@ -11224,7 +11266,7 @@
       "url": "https://sumup.com/careers/positions/8509669002?gh_jid=8509669002",
       "apply_url": "https://sumup.com/careers/positions/8509669002?gh_jid=8509669002",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:54+00:00"
+      "scraped_at": "2026-05-31T10:37:24+00:00"
     },
     {
       "id": "ac36f864e75f5115",
@@ -11263,7 +11305,7 @@
       "url": "https://sumup.com/careers/positions/8448674002?gh_jid=8448674002",
       "apply_url": "https://sumup.com/careers/positions/8448674002?gh_jid=8448674002",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:54+00:00"
+      "scraped_at": "2026-05-31T10:37:24+00:00"
     },
     {
       "id": "2f0e8023f1310d3d",
@@ -11301,7 +11343,7 @@
       "url": "https://sumup.com/careers/positions/8529486002?gh_jid=8529486002",
       "apply_url": "https://sumup.com/careers/positions/8529486002?gh_jid=8529486002",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:54+00:00"
+      "scraped_at": "2026-05-31T10:37:24+00:00"
     },
     {
       "id": "8dab32715d1ef4aa",
@@ -11340,7 +11382,7 @@
       "url": "https://sumup.com/careers/positions/8512242002?gh_jid=8512242002",
       "apply_url": "https://sumup.com/careers/positions/8512242002?gh_jid=8512242002",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:54+00:00"
+      "scraped_at": "2026-05-31T10:37:24+00:00"
     },
     {
       "id": "34e560e1cccb2bc1",
@@ -11378,7 +11420,7 @@
       "url": "https://sumup.com/careers/positions/8534643002?gh_jid=8534643002",
       "apply_url": "https://sumup.com/careers/positions/8534643002?gh_jid=8534643002",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:54+00:00"
+      "scraped_at": "2026-05-31T10:37:24+00:00"
     },
     {
       "id": "d36acffad544cc20",
@@ -11416,7 +11458,7 @@
       "url": "https://sumup.com/careers/positions/8535776002?gh_jid=8535776002",
       "apply_url": "https://sumup.com/careers/positions/8535776002?gh_jid=8535776002",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:54+00:00"
+      "scraped_at": "2026-05-31T10:37:24+00:00"
     },
     {
       "id": "714699d78301043c",
@@ -11454,7 +11496,7 @@
       "url": "https://sumup.com/careers/positions/8327408002?gh_jid=8327408002",
       "apply_url": "https://sumup.com/careers/positions/8327408002?gh_jid=8327408002",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:54+00:00"
+      "scraped_at": "2026-05-31T10:37:24+00:00"
     },
     {
       "id": "e9e373e973719afc",
@@ -11492,7 +11534,7 @@
       "url": "https://sumup.com/careers/positions/8097368002?gh_jid=8097368002",
       "apply_url": "https://sumup.com/careers/positions/8097368002?gh_jid=8097368002",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:54+00:00"
+      "scraped_at": "2026-05-31T10:37:24+00:00"
     },
     {
       "id": "4a1a3ce6ae324cb8",
@@ -11534,7 +11576,7 @@
       "url": "https://sumup.com/careers/positions/8545005002?gh_jid=8545005002",
       "apply_url": "https://sumup.com/careers/positions/8545005002?gh_jid=8545005002",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:54+00:00"
+      "scraped_at": "2026-05-31T10:37:24+00:00"
     },
     {
       "id": "fca13760a704c4fb",
@@ -11576,7 +11618,7 @@
       "url": "https://sumup.com/careers/positions/8468005002?gh_jid=8468005002",
       "apply_url": "https://sumup.com/careers/positions/8468005002?gh_jid=8468005002",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:54+00:00"
+      "scraped_at": "2026-05-31T10:37:24+00:00"
     },
     {
       "id": "258b5acdadc1a73b",
@@ -11618,7 +11660,7 @@
       "url": "https://sumup.com/careers/positions/8343751002?gh_jid=8343751002",
       "apply_url": "https://sumup.com/careers/positions/8343751002?gh_jid=8343751002",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:54+00:00"
+      "scraped_at": "2026-05-31T10:37:24+00:00"
     },
     {
       "id": "cca5837a98128b41",
@@ -11660,7 +11702,7 @@
       "url": "https://sumup.com/careers/positions/8551285002?gh_jid=8551285002",
       "apply_url": "https://sumup.com/careers/positions/8551285002?gh_jid=8551285002",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:54+00:00"
+      "scraped_at": "2026-05-31T10:37:24+00:00"
     },
     {
       "id": "8644ef407aaae318",
@@ -11698,7 +11740,7 @@
       "url": "https://sumup.com/careers/positions/8547633002?gh_jid=8547633002",
       "apply_url": "https://sumup.com/careers/positions/8547633002?gh_jid=8547633002",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:54+00:00"
+      "scraped_at": "2026-05-31T10:37:24+00:00"
     },
     {
       "id": "39d4dadd0b766785",
@@ -11736,7 +11778,7 @@
       "url": "https://sumup.com/careers/positions/8547634002?gh_jid=8547634002",
       "apply_url": "https://sumup.com/careers/positions/8547634002?gh_jid=8547634002",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:54+00:00"
+      "scraped_at": "2026-05-31T10:37:24+00:00"
     },
     {
       "id": "c28242769e8306a5",
@@ -11774,7 +11816,7 @@
       "url": "https://sumup.com/careers/positions/8558369002?gh_jid=8558369002",
       "apply_url": "https://sumup.com/careers/positions/8558369002?gh_jid=8558369002",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:54+00:00"
+      "scraped_at": "2026-05-31T10:37:24+00:00"
     },
     {
       "id": "7d9a5fbeeb6cde60",
@@ -11816,7 +11858,7 @@
       "url": "https://job-boards.eu.greenhouse.io/wallapop/jobs/4098966101",
       "apply_url": "https://job-boards.eu.greenhouse.io/wallapop/jobs/4098966101",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:36:40+00:00"
+      "scraped_at": "2026-05-31T10:36:19+00:00"
     },
     {
       "id": "4ced86fd495fd4a0",
@@ -11857,7 +11899,7 @@
       "url": "https://job-boards.eu.greenhouse.io/wallapop/jobs/4701711101",
       "apply_url": "https://job-boards.eu.greenhouse.io/wallapop/jobs/4701711101",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:36:40+00:00"
+      "scraped_at": "2026-05-31T10:36:19+00:00"
     },
     {
       "id": "f34b599350e686bd",
@@ -11897,7 +11939,7 @@
       "url": "https://job-boards.eu.greenhouse.io/wallapop/jobs/4521032101",
       "apply_url": "https://job-boards.eu.greenhouse.io/wallapop/jobs/4521032101",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:36:40+00:00"
+      "scraped_at": "2026-05-31T10:36:19+00:00"
     },
     {
       "id": "31eaa4e73ba3e29e",
@@ -11939,7 +11981,7 @@
       "url": "https://job-boards.eu.greenhouse.io/wallapop/jobs/4741205101",
       "apply_url": "https://job-boards.eu.greenhouse.io/wallapop/jobs/4741205101",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:36:40+00:00"
+      "scraped_at": "2026-05-31T10:36:19+00:00"
     },
     {
       "id": "25de6fb8ab0d3f57",
@@ -11978,7 +12020,7 @@
       "url": "https://job-boards.greenhouse.io/wolt/jobs/7841387",
       "apply_url": "https://job-boards.greenhouse.io/wolt/jobs/7841387",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:46+00:00"
+      "scraped_at": "2026-05-31T10:37:16+00:00"
     },
     {
       "id": "0e57965a7f86839c",
@@ -12017,7 +12059,7 @@
       "url": "https://job-boards.greenhouse.io/wolt/jobs/7956265",
       "apply_url": "https://job-boards.greenhouse.io/wolt/jobs/7956265",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:46+00:00"
+      "scraped_at": "2026-05-31T10:37:16+00:00"
     },
     {
       "id": "6a1e966f672f7c67",
@@ -12059,7 +12101,7 @@
       "url": "https://job-boards.greenhouse.io/wolt/jobs/7760031",
       "apply_url": "https://job-boards.greenhouse.io/wolt/jobs/7760031",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:46+00:00"
+      "scraped_at": "2026-05-31T10:37:16+00:00"
     },
     {
       "id": "8e306e27fc9eaf01",
@@ -12101,7 +12143,7 @@
       "url": "https://job-boards.greenhouse.io/wolt/jobs/7836247",
       "apply_url": "https://job-boards.greenhouse.io/wolt/jobs/7836247",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:46+00:00"
+      "scraped_at": "2026-05-31T10:37:16+00:00"
     },
     {
       "id": "1ee9e47af59ee956",
@@ -12145,7 +12187,7 @@
       "url": "https://job-boards.greenhouse.io/wolt/jobs/7334819",
       "apply_url": "https://job-boards.greenhouse.io/wolt/jobs/7334819",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:46+00:00"
+      "scraped_at": "2026-05-31T10:37:16+00:00"
     },
     {
       "id": "16136ae5f81d8a5d",
@@ -12189,7 +12231,7 @@
       "url": "https://job-boards.greenhouse.io/wolt/jobs/7825474",
       "apply_url": "https://job-boards.greenhouse.io/wolt/jobs/7825474",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:46+00:00"
+      "scraped_at": "2026-05-31T10:37:16+00:00"
     },
     {
       "id": "36370bac2460b8c4",
@@ -12235,7 +12277,7 @@
       "url": "https://job-boards.greenhouse.io/wolt/jobs/7550522",
       "apply_url": "https://job-boards.greenhouse.io/wolt/jobs/7550522",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:46+00:00"
+      "scraped_at": "2026-05-31T10:37:16+00:00"
     },
     {
       "id": "9c99a97d84421958",
@@ -12276,7 +12318,7 @@
       "url": "https://job-boards.greenhouse.io/wolt/jobs/7758312",
       "apply_url": "https://job-boards.greenhouse.io/wolt/jobs/7758312",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:46+00:00"
+      "scraped_at": "2026-05-31T10:37:16+00:00"
     },
     {
       "id": "d18d2e139cab9c1d",
@@ -12320,7 +12362,7 @@
       "url": "https://job-boards.greenhouse.io/wolt/jobs/7949982",
       "apply_url": "https://job-boards.greenhouse.io/wolt/jobs/7949982",
       "source_adapter": "greenhouse",
-      "scraped_at": "2026-05-30T09:37:46+00:00"
+      "scraped_at": "2026-05-31T10:37:16+00:00"
     },
     {
       "id": "311cdc73c2f90d88",
@@ -12349,7 +12391,7 @@
       "url": "https://careers.ibm.com/en_US/careers/JobDetail?jobId=107327&source=WEB_Search_NA",
       "apply_url": "https://careers.ibm.com/en_US/careers/JobDetail?jobId=107327&source=WEB_Search_NA",
       "source_adapter": "custom_playwright",
-      "scraped_at": "2026-05-30T09:37:14+00:00"
+      "scraped_at": "2026-05-31T10:36:48+00:00"
     }
   ],
   "stats": [
@@ -12358,8 +12400,8 @@
       "tier": "S+",
       "ok": true,
       "duration_s": 0.6,
-      "raw": 716,
-      "dropped_not_intern": 716,
+      "raw": 715,
+      "dropped_not_intern": 715,
       "dropped_no_eu_location": 0,
       "dropped_not_tech": 0,
       "kept": 0
@@ -12369,10 +12411,10 @@
       "tier": "S+",
       "ok": true,
       "duration_s": 1.7,
-      "raw": 376,
-      "dropped_not_intern": 159,
-      "dropped_no_eu_location": 181,
-      "dropped_not_tech": 12,
+      "raw": 370,
+      "dropped_not_intern": 155,
+      "dropped_no_eu_location": 180,
+      "dropped_not_tech": 11,
       "kept": 24
     },
     {
@@ -12390,7 +12432,7 @@
       "company": "Meta",
       "tier": "S+",
       "ok": true,
-      "duration_s": 8.0,
+      "duration_s": 8.8,
       "raw": 0,
       "dropped_not_intern": 0,
       "dropped_no_eu_location": 0,
@@ -12423,7 +12465,7 @@
       "company": "Citadel",
       "tier": "S+",
       "ok": true,
-      "duration_s": 8.9,
+      "duration_s": 9.0,
       "raw": 0,
       "dropped_not_intern": 0,
       "dropped_no_eu_location": 0,
@@ -12451,7 +12493,7 @@
       "company": "Databricks",
       "tier": "S+",
       "ok": true,
-      "duration_s": 1.9,
+      "duration_s": 2.0,
       "raw": 756,
       "dropped_not_intern": 355,
       "dropped_no_eu_location": 321,
@@ -12473,7 +12515,7 @@
       "company": "Amazon Web Services",
       "tier": "S",
       "ok": true,
-      "duration_s": 0.4,
+      "duration_s": 0.8,
       "raw": 7,
       "dropped_not_intern": 0,
       "dropped_no_eu_location": 1,
@@ -12496,8 +12538,8 @@
       "tier": "S",
       "ok": true,
       "duration_s": 1.3,
-      "raw": 475,
-      "dropped_not_intern": 204,
+      "raw": 474,
+      "dropped_not_intern": 203,
       "dropped_no_eu_location": 218,
       "dropped_not_tech": 17,
       "kept": 36
@@ -12506,7 +12548,7 @@
       "company": "Snowflake",
       "tier": "S",
       "ok": true,
-      "duration_s": 4.6,
+      "duration_s": 4.5,
       "raw": 0,
       "dropped_not_intern": 0,
       "dropped_no_eu_location": 0,
@@ -12528,7 +12570,7 @@
       "company": "Datadog",
       "tier": "S",
       "ok": true,
-      "duration_s": 0.7,
+      "duration_s": 0.9,
       "raw": 424,
       "dropped_not_intern": 201,
       "dropped_no_eu_location": 180,
@@ -12551,9 +12593,9 @@
       "tier": "S",
       "ok": true,
       "duration_s": 0.5,
-      "raw": 159,
+      "raw": 158,
       "dropped_not_intern": 58,
-      "dropped_no_eu_location": 74,
+      "dropped_no_eu_location": 73,
       "dropped_not_tech": 18,
       "kept": 9
     },
@@ -12567,7 +12609,7 @@
       "company": "Spotify",
       "tier": "S",
       "ok": true,
-      "duration_s": 9.7,
+      "duration_s": 9.3,
       "raw": 1,
       "dropped_not_intern": 0,
       "dropped_no_eu_location": 1,
@@ -12602,8 +12644,8 @@
       "ok": true,
       "duration_s": 0.4,
       "raw": 236,
-      "dropped_not_intern": 189,
-      "dropped_no_eu_location": 39,
+      "dropped_not_intern": 190,
+      "dropped_no_eu_location": 38,
       "dropped_not_tech": 7,
       "kept": 1
     },
@@ -12611,7 +12653,7 @@
       "company": "Adobe",
       "tier": "S",
       "ok": true,
-      "duration_s": 1.6,
+      "duration_s": 1.4,
       "raw": 40,
       "dropped_not_intern": 20,
       "dropped_no_eu_location": 17,
@@ -12622,7 +12664,7 @@
       "company": "ASML",
       "tier": "S",
       "ok": true,
-      "duration_s": 8.2,
+      "duration_s": 8.1,
       "raw": 0,
       "dropped_not_intern": 0,
       "dropped_no_eu_location": 0,
@@ -12633,18 +12675,18 @@
       "company": "SAP",
       "tier": "A+",
       "ok": true,
-      "duration_s": 11.7,
-      "raw": 20,
-      "dropped_not_intern": 5,
-      "dropped_no_eu_location": 13,
-      "dropped_not_tech": 2,
+      "duration_s": 40.0,
+      "raw": 0,
+      "dropped_not_intern": 0,
+      "dropped_no_eu_location": 0,
+      "dropped_not_tech": 0,
       "kept": 0
     },
     {
       "company": "Cisco",
       "tier": "A+",
       "ok": true,
-      "duration_s": 10.4,
+      "duration_s": 9.9,
       "raw": 1,
       "dropped_not_intern": 0,
       "dropped_no_eu_location": 1,
@@ -12672,13 +12714,13 @@
       "company": "Hugging Face",
       "ok": false,
       "error": "Hugging Face: Lever slug 'huggingface' not found (404)",
-      "duration_s": 0.3
+      "duration_s": 0.4
     },
     {
       "company": "Oracle",
       "tier": "A+",
       "ok": true,
-      "duration_s": 11.7,
+      "duration_s": 11.6,
       "raw": 0,
       "dropped_not_intern": 0,
       "dropped_no_eu_location": 0,
@@ -12706,7 +12748,7 @@
       "company": "Adyen",
       "tier": "A+",
       "ok": true,
-      "duration_s": 0.5,
+      "duration_s": 0.4,
       "raw": 0,
       "dropped_not_intern": 0,
       "dropped_no_eu_location": 0,
@@ -12734,7 +12776,7 @@
       "company": "Booking.com",
       "tier": "A+",
       "ok": true,
-      "duration_s": 10.1,
+      "duration_s": 10.4,
       "raw": 0,
       "dropped_not_intern": 0,
       "dropped_no_eu_location": 0,
@@ -12849,7 +12891,7 @@
       "company": "Manychat",
       "tier": "A",
       "ok": true,
-      "duration_s": 0.2,
+      "duration_s": 0.1,
       "raw": 18,
       "dropped_not_intern": 9,
       "dropped_no_eu_location": 7,
@@ -12877,10 +12919,10 @@
       "company": "Ericsson",
       "tier": "A",
       "ok": true,
-      "duration_s": 15.5,
-      "raw": 2,
+      "duration_s": 10.2,
+      "raw": 1,
       "dropped_not_intern": 0,
-      "dropped_no_eu_location": 1,
+      "dropped_no_eu_location": 0,
       "dropped_not_tech": 1,
       "kept": 0
     },
@@ -12888,7 +12930,7 @@
       "company": "Zoom",
       "tier": "A",
       "ok": true,
-      "duration_s": 1.3,
+      "duration_s": 1.6,
       "raw": 40,
       "dropped_not_intern": 14,
       "dropped_no_eu_location": 24,
@@ -12899,7 +12941,7 @@
       "company": "Zalando",
       "tier": "A",
       "ok": true,
-      "duration_s": 9.8,
+      "duration_s": 10.0,
       "raw": 0,
       "dropped_not_intern": 0,
       "dropped_no_eu_location": 0,
@@ -12910,7 +12952,7 @@
       "company": "HP",
       "tier": "B",
       "ok": true,
-      "duration_s": 1.7,
+      "duration_s": 1.8,
       "raw": 40,
       "dropped_not_intern": 20,
       "dropped_no_eu_location": 20,
@@ -12921,7 +12963,7 @@
       "company": "IBM",
       "tier": "B",
       "ok": true,
-      "duration_s": 4.6,
+      "duration_s": 4.7,
       "raw": 32,
       "dropped_not_intern": 0,
       "dropped_no_eu_location": 25,
@@ -12943,7 +12985,7 @@
       "company": "eBay",
       "ok": false,
       "error": "eBay: Workday 422 on page 0",
-      "duration_s": 0.3
+      "duration_s": 0.2
     },
     {
       "company": "Lime",
@@ -12955,13 +12997,13 @@
       "company": "Bolt",
       "ok": false,
       "error": "Bolt: GH board 'bolt' not found (404)",
-      "duration_s": 2.3
+      "duration_s": 0.1
     },
     {
       "company": "Mistral AI",
       "tier": "S+",
       "ok": true,
-      "duration_s": 9.3,
+      "duration_s": 9.1,
       "raw": 0,
       "dropped_not_intern": 0,
       "dropped_no_eu_location": 0,
@@ -13008,8 +13050,8 @@
       "tier": "A+",
       "ok": true,
       "duration_s": 0.1,
-      "raw": 129,
-      "dropped_not_intern": 124,
+      "raw": 131,
+      "dropped_not_intern": 126,
       "dropped_no_eu_location": 5,
       "dropped_not_tech": 0,
       "kept": 0
@@ -13029,7 +13071,7 @@
       "company": "Trade Republic",
       "tier": "A+",
       "ok": true,
-      "duration_s": 0.3,
+      "duration_s": 0.1,
       "raw": 1,
       "dropped_not_intern": 0,
       "dropped_no_eu_location": 0,
@@ -13074,7 +13116,7 @@
       "company": "Qonto",
       "tier": "A",
       "ok": true,
-      "duration_s": 1.3,
+      "duration_s": 0.9,
       "raw": 32,
       "dropped_not_intern": 29,
       "dropped_no_eu_location": 0,
@@ -13086,8 +13128,8 @@
       "tier": "B",
       "ok": true,
       "duration_s": 0.1,
-      "raw": 5,
-      "dropped_not_intern": 3,
+      "raw": 6,
+      "dropped_not_intern": 4,
       "dropped_no_eu_location": 0,
       "dropped_not_tech": 2,
       "kept": 0
@@ -13096,7 +13138,7 @@
       "company": "Pennylane",
       "tier": "B",
       "ok": true,
-      "duration_s": 1.1,
+      "duration_s": 0.8,
       "raw": 19,
       "dropped_not_intern": 19,
       "dropped_no_eu_location": 0,
@@ -13107,7 +13149,7 @@
       "company": "BlaBlaCar",
       "tier": "A",
       "ok": true,
-      "duration_s": 0.8,
+      "duration_s": 0.7,
       "raw": 22,
       "dropped_not_intern": 16,
       "dropped_no_eu_location": 0,
@@ -13118,9 +13160,9 @@
       "company": "Wolt",
       "tier": "A",
       "ok": true,
-      "duration_s": 1.2,
-      "raw": 288,
-      "dropped_not_intern": 146,
+      "duration_s": 1.1,
+      "raw": 289,
+      "dropped_not_intern": 147,
       "dropped_no_eu_location": 28,
       "dropped_not_tech": 105,
       "kept": 9
@@ -13130,8 +13172,8 @@
       "tier": "A",
       "ok": true,
       "duration_s": 4.9,
-      "raw": 1054,
-      "dropped_not_intern": 1019,
+      "raw": 1053,
+      "dropped_not_intern": 1018,
       "dropped_no_eu_location": 19,
       "dropped_not_tech": 16,
       "kept": 0
@@ -13159,8 +13201,8 @@
       "tier": "A",
       "ok": true,
       "duration_s": 0.9,
-      "raw": 221,
-      "dropped_not_intern": 98,
+      "raw": 222,
+      "dropped_not_intern": 99,
       "dropped_no_eu_location": 0,
       "dropped_not_tech": 112,
       "kept": 11
@@ -13211,9 +13253,9 @@
       "duration_s": 0.8,
       "raw": 182,
       "dropped_not_intern": 93,
-      "dropped_no_eu_location": 32,
+      "dropped_no_eu_location": 31,
       "dropped_not_tech": 44,
-      "kept": 13
+      "kept": 14
     },
     {
       "company": "1Password",
@@ -13231,7 +13273,7 @@
       "company": "Bending Spoons",
       "ok": false,
       "error": "Bending Spoons: Lever slug 'bendingspoons' not found (404)",
-      "duration_s": 0.3
+      "duration_s": 0.4
     },
     {
       "company": "King",
@@ -13259,21 +13301,21 @@
       "company": "Sonos",
       "ok": false,
       "error": "Sonos: Workday endpoint 404 https://sonos.wd1.myworkdayjobs.com/wday/cxs/sonos/SonosJobOpportunities/jobs",
-      "duration_s": 0.3
+      "duration_s": 0.2
     },
     {
       "company": "Siemens",
       "ok": false,
       "error": "Siemens: Workday 401 on page 0",
-      "duration_s": 0.6
+      "duration_s": 0.5
     },
     {
       "company": "Bosch",
       "tier": "A",
       "ok": true,
-      "duration_s": 22.4,
-      "raw": 4590,
-      "dropped_not_intern": 3710,
+      "duration_s": 22.0,
+      "raw": 4587,
+      "dropped_not_intern": 3707,
       "dropped_no_eu_location": 620,
       "dropped_not_tech": 245,
       "kept": 15
@@ -13282,7 +13324,7 @@
       "company": "Infineon",
       "ok": false,
       "error": "Infineon: Workday 422 on page 0",
-      "duration_s": 0.5
+      "duration_s": 0.4
     },
     {
       "company": "STMicroelectronics",
